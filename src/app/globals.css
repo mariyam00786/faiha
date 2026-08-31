@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-brand-bg: #F7F6F2;
+  --color-brand-text: #38322B;
+  --color-brand-border: #E5E0D8;
+  --color-brand-dark: #38322B;
+  
+  --font-serif: var(--font-playfair), serif;
+  --font-sans: var(--font-inter), sans-serif;
+}
+
+:root {
+  --background: #F7F6F2;
+  --foreground: #38322B;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+/* Hide scrollbar for clean aesthetic */
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+.divider-y {
+  @apply w-full h-[1px] bg-brand-border;
+}
+
+.section-label {
+  @apply text-xs tracking-[0.2em] uppercase font-sans text-brand-text/60 mb-6;
+}
