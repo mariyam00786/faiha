@@ -62,29 +62,15 @@ export const contentsData: ContentCategory[] = [
     gallery: [],
     projects: [
       {
-        title: "Exterior Design 1",
-        description: "Write about the first exterior design here.",
-        images: ["/gallery/EXTERIOR/1 (3).png"]
-      },
-      {
-        title: "Exterior Design 2",
-        description: "Write about the second exterior design here.",
-        images: ["/gallery/EXTERIOR/2 (3).png"]
-      },
-      {
-        title: "Exterior Design 3",
-        description: "Write about the third exterior design here.",
-        images: ["/gallery/EXTERIOR/3 (2).png"]
-      },
-      {
-        title: "Exterior Design 4",
-        description: "Write about the fourth exterior design here.",
-        images: ["/gallery/EXTERIOR/4 (1).png"]
-      },
-      {
-        title: "Exterior Design 5",
-        description: "Write about the fifth exterior design here.",
-        images: ["/gallery/EXTERIOR/5 (1).png"]
+        title: "Modern Exterior Design",
+        description: "A comprehensive look at a stunning modern exterior design featuring contemporary materials and elegant landscaping.",
+        images: [
+          "/gallery/EXTERIOR/1 (3).png",
+          "/gallery/EXTERIOR/2 (3).png",
+          "/gallery/EXTERIOR/3 (2).png",
+          "/gallery/EXTERIOR/4 (1).png",
+          "/gallery/EXTERIOR/5 (1).png"
+        ]
       }
     ]
   },
