@@ -7,7 +7,7 @@ export function Footer() {
   const marqueeText = Array(10).fill(`${siteData.personal.name} · `).join("");
 
   return (
-    <footer id="contact" className="bg-[#38322B] text-[#F7F6F2] overflow-hidden">
+    <footer id="contact" className="bg-[#592727] text-[#FBF9F6] overflow-hidden">
       
       <div className="px-6 md:px-12 lg:px-24 pt-24 pb-16 flex flex-col md:flex-row justify-between gap-16">
         

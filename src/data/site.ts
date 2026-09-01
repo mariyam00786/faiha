@@ -123,11 +123,11 @@ export const siteData = {
     }
   ],
   moments: [
-    "/images/moments/moment-1.jpg",
-    "/images/moments/moment-2.jpg",
-    "/images/moments/moment-3.jpg",
-    "/images/moments/moment-4.jpg",
-    "/images/moments/moment-5.jpg"
+    "/images/moments/moment-1.png",
+    "/images/moments/moment-2.png",
+    "/images/moments/moment-3.png",
+    "/images/moments/moment-4.png",
+    "/images/moments/moment-5.png"
   ],
   album: [
     "/images/album/photo-1.jpg",
