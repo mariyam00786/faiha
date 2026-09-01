@@ -21,7 +21,7 @@ export function ProfileIntro() {
         {/* Left Side: Image */}
         <div className="md:col-span-5 relative w-full aspect-[4/5] z-10 bg-brand-border shadow-lg group">
           <Image
-            src="/images/profile-intro.jpg"
+            src="/images/profile-hero.png"
             alt="Faiha Faisal"
             fill
             unoptimized
