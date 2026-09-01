@@ -8,7 +8,7 @@ export function Hero() {
     <section className="h-screen w-full relative overflow-hidden">
 
       {/* Main Text Area - Positioned towards the center-bottom */}
-      <div className="absolute left-0 right-0 bottom-[25%] md:bottom-[30%] flex flex-col items-center justify-center w-full">
+      <div className="absolute left-0 right-0 top-1/2 -translate-y-1/2 md:top-auto md:bottom-[30%] md:translate-y-0 flex flex-col items-center justify-center w-full">
         
         {/* Background blurred "PORTFOLIO" text */}
         <motion.div 
