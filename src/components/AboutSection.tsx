@@ -15,7 +15,7 @@ export function AboutSection() {
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-24">
         
         {/* Left Column: Bio */}
-        <div className="lg:col-span-7">
+        <div className="lg:col-span-7 order-2 lg:order-1">
           <div className="prose prose-lg prose-p:text-brand-text/80 prose-p:leading-[1.8] prose-p:font-sans prose-p:text-[15px] prose-p:mb-8">
             {siteData.about.bio.split('\n\n').map((paragraph, i) => (
               <p key={i}>{paragraph}</p>
@@ -25,9 +25,9 @@ export function AboutSection() {
         </div>
 
         {/* Right Column: Details */}
-        <div className="lg:col-span-5 flex flex-col gap-12">
+        <div className="lg:col-span-5 flex flex-col gap-12 order-1 lg:order-2">
           
-          <div className="aspect-[4/5] w-full max-w-sm bg-[#E5E0D8] relative overflow-hidden">
+          <div className="aspect-[4/5] w-full max-w-sm mx-auto lg:mx-0 bg-[#E5E0D8] relative overflow-hidden">
             <Image
               src={siteData.personal.profileImage}
               alt={siteData.personal.name}

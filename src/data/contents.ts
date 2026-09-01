@@ -207,6 +207,16 @@ export const contentsData: ContentCategory[] = [
     gallery: [],
     projects: [
       {
+        title: "Modern Bedroom Setup",
+        description: "A refined and modern bedroom space, featuring a custom wardrobe design and an integrated wall station.",
+        images: [
+          "/gallery/BEDROOM/1 (15).png",
+          "/gallery/BEDROOM/3 (12).png",
+          "/gallery/BEDROOM/wall with kttl.jpg.jpeg",
+          "/gallery/BEDROOM/WARDROBE.jpg.jpeg"
+        ]
+      },
+      {
         title: "Bedroom Design 1",
         description: "Write about the first bedroom design here.",
         images: [
