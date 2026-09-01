@@ -18,7 +18,7 @@ export function Hero() {
           transition={{ duration: 1.5, ease: "easeOut" }}
         >
           <h1 
-            className="text-[18vw] sm:text-[16vw] md:text-[14.5vw] font-black text-[#6B3737] opacity-65 blur-[5px] md:blur-[10px] tracking-tight uppercase leading-none whitespace-nowrap"
+            className="text-[18vw] sm:text-[16vw] md:text-[14.5vw] font-black text-[#6B3737] opacity-60 blur-[2px] md:blur-[8px] tracking-tight uppercase leading-none whitespace-nowrap"
             style={{ transform: "scaleY(1.3)" }}
           >
             PORTFOLIO
