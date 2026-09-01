@@ -1,5 +1,6 @@
 import { FloatingNav } from "@/components/FloatingNav";
 import { Hero } from "@/components/Hero";
+import { ProfileIntro } from "@/components/ProfileIntro";
 import { TableOfContents } from "@/components/TableOfContents";
 import { ContentSections } from "@/components/ContentSections";
 import { ProjectGrid } from "@/components/ProjectGrid";
@@ -13,6 +14,7 @@ export default function Home() {
     <main className="min-h-screen">
       <FloatingNav />
       <Hero />
+      <ProfileIntro />
       <TableOfContents />
       <ContentSections />
       <ProjectGrid />
