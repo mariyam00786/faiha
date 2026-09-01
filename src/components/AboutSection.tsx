@@ -32,6 +32,7 @@ export function AboutSection() {
               src={siteData.personal.profileImage}
               alt={siteData.personal.name}
               fill
+              unoptimized
               className="object-cover"
               sizes="(max-width: 768px) 100vw, 384px"
             />

@@ -48,6 +48,7 @@ export function TableOfContents() {
                       src={item.image}
                       alt={item.title}
                       fill
+                      unoptimized
                       className="object-cover grayscale hover:grayscale-0 transition-all duration-500"
                     />
                   ) : (
