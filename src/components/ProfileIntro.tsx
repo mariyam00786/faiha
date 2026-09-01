@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { siteData } from "@/data/site";
 
 export function ProfileIntro() {
   return (
@@ -11,39 +12,40 @@ export function ProfileIntro() {
          <div className="w-[1px] h-full bg-brand-dark absolute left-3/4" />
       </div>
 
-      <div className="relative w-full max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-end md:justify-between gap-12 md:gap-0">
+      <div className="relative w-full max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-12 lg:gap-20 items-center">
         
-        {/* Left Side: Image & PROFILE text */}
-        <div className="relative w-full md:w-1/2 flex justify-center md:justify-start">
-          
-          {/* PROFILE Text Overlapping */}
-          <div className="absolute -top-16 md:-top-24 left-0 md:-left-16 z-20 pointer-events-none select-none">
-            <h2 className="font-serif text-7xl sm:text-8xl md:text-[10rem] leading-[0.85] text-brand-dark flex flex-col">
-              <span className="tracking-[0.1em] font-normal">PRO</span>
-              <span className="tracking-[0.1em] font-light ml-8 md:ml-16 italic opacity-90">FILE</span>
-            </h2>
-          </div>
-
-          {/* The Image */}
-          <div className="relative w-[85%] sm:w-[70%] md:w-[75%] lg:w-[65%] aspect-[3/4] mt-24 md:mt-12 z-10 shadow-2xl bg-brand-border">
-            <Image
-              src="/images/profile-intro.jpg"
-              alt="Faiha Faisal"
-              fill
-              unoptimized
-              className="object-cover grayscale-[20%]"
-            />
-          </div>
+        {/* Left Side: Image */}
+        <div className="md:col-span-5 relative w-full aspect-[4/5] z-10 bg-[#E5E0D8]">
+          <Image
+            src="/images/profile-intro.jpg"
+            alt="Faiha Faisal"
+            fill
+            unoptimized
+            className="object-cover grayscale-[15%]"
+          />
         </div>
 
-        {/* Right Side: Name */}
-        <div className="relative w-full md:w-1/2 flex flex-col justify-end items-end md:pb-12 z-10">
-          <div className="text-right">
-            <h3 className="font-serif text-6xl md:text-7xl lg:text-8xl text-brand-dark leading-none">Faiha</h3>
-            <p className="font-sans text-sm md:text-lg tracking-[0.4em] uppercase text-brand-dark/80 mt-4 md:mt-6 font-light">
-              FAISAL
-            </p>
+        {/* Right Side: Text Content */}
+        <div className="md:col-span-7 flex flex-col justify-center z-10">
+          
+          <h2 className="font-sans font-bold text-4xl md:text-5xl lg:text-6xl text-brand-dark leading-snug uppercase tracking-wide mb-16">
+            FAIHA<br/>FAISAL
+          </h2>
+
+          <h3 className="font-sans font-bold text-xl md:text-2xl text-brand-dark uppercase tracking-widest mb-6">
+            HELLO!
+          </h3>
+          
+          <div className="prose prose-p:font-sans prose-p:italic prose-p:text-brand-dark/90 prose-p:leading-[1.8] text-[14px] md:text-[15px] max-w-2xl mb-12">
+            {siteData.about.bio.split('\n\n').map((paragraph, i) => (
+              <p key={i}>{paragraph}</p>
+            ))}
           </div>
+
+          <p className="font-sans italic text-brand-dark/70 text-sm">
+            {siteData.personal.email}
+          </p>
+
         </div>
 
       </div>
