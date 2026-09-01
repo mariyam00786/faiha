@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { siteData } from "@/data/site";
+import { Typewriter } from "./Typewriter";
 
 export function ProfileIntro() {
   return (
@@ -35,10 +36,13 @@ export function ProfileIntro() {
             FAIHA<br/>FAISAL
           </h2>
 
-          <h3 className="font-sans font-bold text-xl md:text-2xl text-brand-text uppercase tracking-widest mb-6 flex items-center gap-4">
-            HELLO!
-            <div className="h-[2px] w-12 bg-brand-text/40"></div>
-          </h3>
+          <div className="font-sans text-xl md:text-2xl text-brand-dark mb-6 flex flex-col md:flex-row md:items-center gap-2 md:gap-4">
+            <span className="font-bold uppercase tracking-widest text-brand-text">HELLO!</span>
+            <span className="hidden md:block w-8 h-[2px] bg-brand-text/40"></span>
+            <span className="font-serif italic text-brand-dark h-8 flex items-center">
+              I&apos;m <span className="ml-[6px]"><Typewriter /></span>
+            </span>
+          </div>
           
           <div className="prose prose-p:font-sans prose-p:italic prose-p:text-brand-dark/90 prose-p:leading-[1.8] text-[14px] md:text-[15px] max-w-2xl mb-12">
             {siteData.about.bio.split('\n\n').map((paragraph, i) => (
