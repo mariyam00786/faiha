@@ -33,7 +33,7 @@ export function ProfileIntro() {
         <div className="md:col-span-7 flex flex-col justify-center z-10 pl-0 md:pl-8 lg:pl-16">
           
           <h2 className="font-sans font-bold text-4xl md:text-5xl lg:text-6xl text-brand-dark leading-snug uppercase tracking-wide mb-12">
-            FAIHA<br/>FAISAL
+            FAIHA FAISAL
           </h2>
 
           <div className="font-sans text-xl md:text-2xl text-brand-dark mb-6 flex flex-col md:flex-row md:items-center gap-2 md:gap-4">
