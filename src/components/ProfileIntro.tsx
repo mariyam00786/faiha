@@ -26,12 +26,6 @@ export function ProfileIntro() {
             unoptimized
             className="object-cover transition-transform duration-700 group-hover:scale-105"
           />
-          
-          {/* NEW FEATURE: Floating Glass Badge */}
-          <div className="absolute bottom-6 -right-6 md:-right-12 bg-white/70 backdrop-blur-md border border-white/40 p-4 md:p-6 shadow-xl z-20 transform transition-transform duration-500 hover:-translate-y-2">
-            <p className="font-sans text-[10px] md:text-xs tracking-widest uppercase text-brand-dark/60 mb-1">Location</p>
-            <p className="font-serif italic text-lg md:text-xl text-brand-dark">Kerala, India</p>
-          </div>
         </div>
 
         {/* Right Side: Text Content */}
