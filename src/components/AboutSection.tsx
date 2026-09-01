@@ -2,6 +2,7 @@
 
 import { siteData } from "@/data/site";
 import { Fragment } from "react";
+import Image from "next/image";
 
 export function AboutSection() {
   return (
@@ -26,11 +27,13 @@ export function AboutSection() {
         {/* Right Column: Details */}
         <div className="lg:col-span-5 flex flex-col gap-12">
           
-          <div className="aspect-[4/3] w-full max-w-sm bg-[#E5E0D8] relative overflow-hidden">
-            <img 
+          <div className="aspect-[4/5] w-full max-w-sm bg-[#E5E0D8] relative overflow-hidden">
+            <Image
               src={siteData.personal.profileImage}
               alt={siteData.personal.name}
-              className="w-full h-full object-cover"
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 384px"
             />
           </div>
 
