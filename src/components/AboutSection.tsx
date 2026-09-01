@@ -27,11 +27,11 @@ export function AboutSection() {
         <div className="lg:col-span-5 flex flex-col gap-12">
           
           <div className="aspect-[4/3] w-full max-w-sm bg-[#E5E0D8] relative overflow-hidden">
-            <div className="absolute inset-0 flex items-center justify-center">
-              <span className="text-[10px] uppercase tracking-widest text-brand-text/40 font-sans text-center break-all p-4">
-                {siteData.personal.profileImage}
-              </span>
-            </div>
+            <img 
+              src={siteData.personal.profileImage}
+              alt={siteData.personal.name}
+              className="w-full h-full object-cover"
+            />
           </div>
 
           <div>

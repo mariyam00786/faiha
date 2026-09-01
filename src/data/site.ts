@@ -7,7 +7,7 @@ export const siteData = {
     phone: "+91 9544466908",
     linkedin: "http://linkedin.com/in/faiha-faisal",
     location: "Kerala, India",
-    profileImage: "/images/profile.jpg",
+    profileImage: "/images/profile.png",
   },
   resumeLink: "/FAIHA_FAISAL_Resume.pdf", 
   about: {
