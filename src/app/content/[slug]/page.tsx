@@ -71,6 +71,7 @@ export default async function ContentGalleryPage({ params }: { params: Promise<{
                         src={img}
                         alt={`${project.title} image ${imgIdx + 1}`}
                         fill
+                        quality={100}
                         className="object-cover transition-transform duration-700 group-hover:scale-105"
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       />
@@ -92,6 +93,7 @@ export default async function ContentGalleryPage({ params }: { params: Promise<{
                     src={img}
                     alt={`${content.title} detailed shot ${index + 1}`}
                     fill
+                    quality={100}
                     className="object-cover transition-transform duration-700 group-hover:scale-105"
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   />

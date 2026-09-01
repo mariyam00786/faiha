@@ -119,6 +119,7 @@ export function SelectedMoments() {
                     src={moment}
                     alt={`Selected Moment ${i + 1}`}
                     fill
+                    quality={100}
                     className="object-cover"
                   />
                 </motion.div>

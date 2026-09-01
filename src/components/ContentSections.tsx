@@ -33,6 +33,7 @@ export function ContentSections() {
                 src={item.image}
                 alt={item.title}
                 fill
+                quality={100}
                 className="object-cover transition-transform duration-700 ease-out group-hover:scale-105 group-hover:grayscale-0 grayscale"
               />
             </motion.div>
