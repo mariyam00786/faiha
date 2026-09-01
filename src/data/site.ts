@@ -135,5 +135,27 @@ export const siteData = {
     "/images/album/photo-3.jpg",
     "/images/album/photo-4.jpg",
     "/images/album/photo-5.jpg"
+  ],
+  process: [
+    {
+      title: "Discovery & Strategy",
+      description: "Understanding your vision, requirements, and spatial constraints to form a solid foundation.",
+      icon: "MapPin"
+    },
+    {
+      title: "Concept Design",
+      description: "Developing mood boards, spatial layouts, and initial 3D concepts to visualize the space.",
+      icon: "Layers"
+    },
+    {
+      title: "Detailed Design",
+      description: "Refining materials, lighting, and custom furniture with detailed technical drawings.",
+      icon: "PenTool"
+    },
+    {
+      title: "Execution & Styling",
+      description: "Coordinating with contractors and adding final styling touches to bring the vision to life.",
+      icon: "CheckSquare"
+    }
   ]
 };
