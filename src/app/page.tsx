@@ -16,8 +16,8 @@ export default function Home() {
       <Hero />
       <ProfileIntro />
       <TableOfContents />
-      <ContentSections />
       <ProjectGrid />
+      <ContentSections />
       <SelectedMoments />
       <AboutSection />
       <ToolsCanvas />

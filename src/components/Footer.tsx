@@ -42,7 +42,7 @@ export function Footer() {
               <li><a href="/#about" className="hover:text-[#F7F6F2] transition-colors">About</a></li>
               <li><a href="/#work" className="hover:text-[#F7F6F2] transition-colors">Projects</a></li>
               <li><a href="/resume" className="hover:text-[#F7F6F2] transition-colors">Resume</a></li>
-              <li><a href={siteData.resumeLink} target="_blank" rel="noreferrer" className="hover:text-[#F7F6F2] transition-colors">Portfolio PDF</a></li>
+              <li><a href={siteData.portfolioPdfLink || "/FAIHA_FAISAL_Portfolio.pdf"} target="_blank" rel="noreferrer" className="hover:text-[#F7F6F2] transition-colors">Portfolio PDF</a></li>
             </ul>
           </div>
         </div>

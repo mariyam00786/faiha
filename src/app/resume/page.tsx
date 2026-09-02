@@ -11,14 +11,24 @@ export default function ResumePage() {
       <article className="pt-32 md:pt-48 pb-24 px-6 md:px-12 lg:px-24 max-w-5xl mx-auto">
         <header className="mb-16 md:mb-24 flex flex-col md:flex-row justify-between items-start md:items-end gap-8 border-b border-brand-border pb-12">
           <h1 className="font-serif italic text-4xl md:text-6xl lg:text-7xl">Resume</h1>
-          <a 
-            href={siteData.resumeLink} 
-            target="_blank" 
-            rel="noreferrer"
-            className="inline-flex items-center gap-2 text-[11px] uppercase tracking-widest border border-brand-border px-6 py-3 rounded-full hover:bg-brand-text/5 transition-colors"
-          >
-            Download PDF <ArrowDownToLine className="w-4 h-4" />
-          </a>
+          <div className="flex flex-wrap items-center gap-3">
+            <a 
+              href={siteData.portfolioPdfLink || "/FAIHA_FAISAL_Portfolio.pdf"} 
+              target="_blank" 
+              rel="noreferrer"
+              className="inline-flex items-center gap-2 text-[11px] uppercase tracking-widest bg-[#25211e] text-[#FAF8F5] px-6 py-3 rounded-full hover:bg-[#3d3631] transition-colors shadow-sm"
+            >
+              Portfolio PDF <ArrowDownToLine className="w-4 h-4" />
+            </a>
+            <a 
+              href={siteData.resumeLink} 
+              target="_blank" 
+              rel="noreferrer"
+              className="inline-flex items-center gap-2 text-[11px] uppercase tracking-widest border border-brand-border px-6 py-3 rounded-full hover:bg-brand-text/5 transition-colors"
+            >
+              Resume CV <ArrowDownToLine className="w-4 h-4" />
+            </a>
+          </div>
         </header>
 
         <div className="grid grid-cols-1 md:grid-cols-12 gap-16 md:gap-24">

@@ -45,31 +45,46 @@ export function ProfileIntro() {
           </div>
           
           <div className="prose prose-p:font-sans prose-p:italic prose-p:text-brand-dark/90 prose-p:leading-[1.8] text-[14px] md:text-[15px] max-w-2xl mb-12">
-            {siteData.about.bio.split('\n\n').map((paragraph, i) => (
+            {siteData.about.bio.split('\n\n').slice(0, 2).map((paragraph, i) => (
               <p key={i}>{paragraph}</p>
             ))}
           </div>
 
-          <div className="flex flex-col sm:flex-row sm:items-center gap-8">
+          <div className="flex flex-col sm:flex-row sm:items-center gap-6">
             <p className="font-sans italic text-brand-dark/70 text-sm">
               {siteData.personal.email}
             </p>
             
-            {/* NEW FEATURE: Animated Resume Button */}
-            <a 
-              href={siteData.resumeLink} 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="group/btn flex items-center gap-4 px-8 py-3 border border-brand-dark/20 hover:border-brand-dark transition-colors duration-300 relative overflow-hidden"
-            >
-              <div className="absolute inset-0 bg-brand-dark transform -translate-x-full transition-transform duration-300 ease-out group-hover/btn:translate-x-0" />
-              <span className="font-sans text-xs tracking-widest uppercase text-brand-dark group-hover/btn:text-white relative z-10 transition-colors duration-300">
-                View Resume
-              </span>
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-brand-dark group-hover/btn:text-white relative z-10 transition-transform duration-300 group-hover/btn:translate-x-1">
-                <path d="M5 12h14M12 5l7 7-7 7"/>
-              </svg>
-            </a>
+            <div className="flex flex-wrap items-center gap-4">
+              <a 
+                href={siteData.portfolioPdfLink || "/FAIHA_FAISAL_Portfolio.pdf"} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="group/btn flex items-center gap-3 px-6 py-3 bg-[#25211E] text-[#FAF8F5] border border-[#25211E] hover:bg-[#3d3631] transition-colors duration-300 shadow-sm"
+              >
+                <span className="font-sans text-xs tracking-widest uppercase font-medium">
+                  Portfolio PDF
+                </span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="transition-transform duration-300 group-hover/btn:translate-x-1">
+                  <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+              </a>
+
+              <a 
+                href={siteData.resumeLink} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="group/btn flex items-center gap-3 px-6 py-3 border border-brand-dark/20 hover:border-brand-dark transition-colors duration-300 relative overflow-hidden"
+              >
+                <div className="absolute inset-0 bg-brand-dark transform -translate-x-full transition-transform duration-300 ease-out group-hover/btn:translate-x-0" />
+                <span className="font-sans text-xs tracking-widest uppercase text-brand-dark group-hover/btn:text-white relative z-10 transition-colors duration-300">
+                  Resume
+                </span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-brand-dark group-hover/btn:text-white relative z-10 transition-transform duration-300 group-hover/btn:translate-x-1">
+                  <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+              </a>
+            </div>
           </div>
 
         </div>

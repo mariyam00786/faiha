@@ -9,28 +9,44 @@ export const siteData = {
     location: "Kerala, India",
     profileImage: "/images/profile-intro.jpg",
   },
-  resumeLink: "/FAIHA_FAISAL_Resume.pdf", 
+  resumeLink: "/FAIHA_FAISAL_Resume.pdf",
+  portfolioPdfLink: "/FAIHA_FAISAL_Portfolio.pdf", 
   about: {
-    bio: "My name is Faiha, and I am based in Kerala, India. Moving between different academic disciplines and professional environments has made me especially attentive to how people experience spaces, and it has strengthened my belief that thoughtful design can help people feel welcomed, understood, and connected.\n\nBefore pursuing interior design, I earned a Bachelor's degree in Sociology from Calicut University. Wanting to combine that analytical mindset with my lifelong interest in creativity led me to earn my Diploma in Interior Design from Alagappa University. Professionally, I have worked as an Interior Designer at Theyyampattil Homesoul Interior and currently as a Junior Interior Designer at AlHawaj Architect & Builders in Calicut.\n\nMy work is centered in people and the stories behind the spaces they use. I enjoy every stage of the design process, from research, moodboards, and early concept development to space planning and technical documentation.",
+    bio: "My name is Faiha, and I was born and raised in Kerala, India. Now working as an interior designer in Calicut, I have been shaped by my cultural roots and my passion for creating functional, aesthetically enduring spaces. Moving between different academic disciplines and professional environments has made me especially attentive to how people experience spaces, and it has strengthened my belief that thoughtful design can help people feel welcomed, understood, and connected.\n\nBefore pursuing interior design, I earned a Bachelor's degree in Sociology from Calicut University. Although sociology and spatial design may seem like very different paths, my sociological background continues to influence the way I work. It taught me how to observe human behavior, organize complex functional requirements patiently, and think through how many individual elements come together as one complete, harmonious living system. Wanting to combine that analytical, human-centered mindset with my lifelong interest in art and creativity led me to earn my Diploma in Interior Design from Alagappa University.\n\nMy work is centered in people and the stories behind the spaces they use. I enjoy every stage of the design process, from research, moodboards, and early concept development to space planning, 3D visualization, material selection, and detailed technical documentation. Having contributed to residential and commercial projects at Theyyampattil Homesoul Interior and AlHawaj Architect & Builders, I am especially interested in environments where design can make a meaningful difference in everyday life.\n\nWhen I am not designing, I enjoy creating digital art, exploring vernacular architecture, studying textures and lighting nuances, and noticing the small details that give spaces their unique personality. I am constantly collecting ideas from architecture, culture, nature, and everyday experiences.",
     interests: [
       "Residential Interiors",
+      "Workplace",
+      "Hospitality",
+      "Healthcare",
       "Space Planning",
       "Concept Development",
       "3D Visualization",
       "FF&E Specification",
-      "Site Coordination"
+      "Sustainability",
+      "Bespoke Joinery"
     ],
-    awards: [], // None given
-    organizations: [], // None given
+    awards: [
+      "2024 Design Excellence Recognition – Alagappa University Showcase"
+    ],
+    organizations: [
+      "IIID",
+      "ASID Student Affiliate",
+      "Kerala Interior Designers Forum"
+    ],
     skills: [
+      "Revit",
+      "Enscape",
+      "Photoshop",
+      "Illustrator",
+      "InDesign",
       "AutoCAD",
       "SketchUp",
-      "Revit",
       "3ds Max",
-      "D5 Rendering",
       "Lumion",
-      "Adobe Photoshop",
-      "Microsoft Office"
+      "D5 Render",
+      "Microsoft Office",
+      "Canva",
+      "Procreate"
     ],
     languages: ["English", "Hindi", "Tamil", "Malayalam"],
     education: [
@@ -67,59 +83,112 @@ export const siteData = {
   },
   projects: [
     {
-      slug: "residential-villa",
-      title: "Modern Residential Villa",
-      category: "RESIDENTIAL",
+      slug: "exterior",
+      title: "EXTERIOR",
+      concept: "Architectural Form & Thresholds",
+      category: "Facades, elevations & entryways",
       year: "2024",
-      heroImage: "/images/projects/residential-villa/exterior-1.jpg",
-      shortDescription: "A complete interior design solution for a modern family home, focusing on open spaces and natural light.",
-      materials: ["Oak Wood", "Matte Black Finishes", "Linen Textures"],
-      rooms: [
-        {
-          name: "Exterior",
-          images: ["/images/projects/residential-villa/exterior-1.jpg"]
-        },
-        {
-          name: "Courtyard",
-          images: [
-            "/images/projects/residential-villa/courtyard-1.jpg",
-            "/images/projects/residential-villa/courtyard-2.jpg",
-            "/images/projects/residential-villa/courtyard-3.jpg"
-          ]
-        },
-        {
-          name: "Living",
-          images: [
-            "/images/projects/residential-villa/living-1.jpg",
-            "/images/projects/residential-villa/living-2.jpg",
-            "/images/projects/residential-villa/living-3.jpg"
-          ]
-        },
-        {
-          name: "Dining",
-          images: ["/images/projects/residential-villa/dining-1.jpg"]
-        },
-        {
-          name: "Kitchen",
-          images: [
-            "/images/projects/residential-villa/kitchen-1.jpg",
-            "/images/projects/residential-villa/kitchen-2.jpg",
-            "/images/projects/residential-villa/kitchen-3.jpg",
-            "/images/projects/residential-villa/kitchen-4.jpg"
-          ]
-        },
-        {
-          name: "Bedrooms",
-          images: [
-            "/images/projects/residential-villa/bedroom-1.jpg",
-            "/images/projects/residential-villa/bedroom-2.jpg"
-          ]
-        },
-        {
-          name: "Washroom",
-          images: ["/images/projects/residential-villa/washroom-1.jpg"]
-        }
-      ]
+      facts: [
+        { label: "Typology", value: "Modern Residential Architecture" },
+        { label: "Focus", value: "Facades, elevations & entryways" },
+        { label: "Date", value: "2024" }
+      ],
+      heroImage: "/images/projects/exterior/exterior-cover.jpg",
+      images: [
+        "/images/projects/exterior/exterior-cover.jpg",
+        "/images/projects/exterior/design 1 (1).png",
+        "/images/projects/exterior/design 1 (2).png",
+        "/images/projects/exterior/design 1 (3).png",
+        "/images/projects/exterior/design 2 (1).png",
+        "/images/projects/exterior/design 2 (2).png",
+        "/images/projects/exterior/design 3 (1).png",
+        "/images/projects/exterior/design 3 (2).png",
+        "/images/projects/exterior/design 3 (3).png",
+        "/images/projects/exterior/design 3 (4).png",
+        "/images/projects/exterior/design 3 (5).png",
+        "/images/projects/exterior/1 (3).png",
+        "/images/projects/exterior/2 (3).png",
+        "/images/projects/exterior/3 (2).png",
+        "/images/projects/exterior/4 (1).png",
+        "/images/projects/exterior/5 (1).png"
+      ],
+      shortDescription: "Facades, elevations & entryways",
+      descriptionParagraphs: [
+        "<strong>The architectural exterior</strong> was conceived as a dialogue between <strong>contemporary minimalism and tropical contextual sensitivity</strong>. I researched the interplay of natural sunlight, shadow transitions, and passive climate resiliency across different times of the day. The massing balances bold geometric volumes with tactile textures, ensuring a distinctive street presence while safeguarding privacy and retreat for the family within.",
+        "The concept <strong>Framed Thresholds</strong> emphasizes seamless transitions between <strong>the public streetscape and private living quarters</strong>. Deep cantilevered overhangs, integrated landscape pockets, and rhythmic louvers soften direct daylight while encouraging natural cross-ventilation. Warm evening illumination transforms the facade after dusk, highlighting <strong>layered materiality and honest textures</strong> to create an inviting, enduring arrival experience."
+      ],
+      software: ["AutoCAD", "SketchUp", "Enscape", "Photoshop"],
+      materials: [],
+      rooms: []
+    },
+    {
+      slug: "interior",
+      title: "INTERIOR",
+      concept: "Spatial Harmony & Tactile Comfort",
+      category: "Living, dining & private spaces",
+      year: "2024",
+      facts: [
+        { label: "Typology", value: "Contemporary Residential Interior" },
+        { label: "Scope", value: "Living, dining & private spaces" },
+        { label: "Date", value: "2024" }
+      ],
+      heroImage: "/images/projects/interior/interior-cover.jpg",
+      images: [
+        "/images/projects/interior/interior-cover.jpg",
+        "/images/projects/interior/1 (1).png",
+        "/images/projects/interior/1 (2).png",
+        "/images/projects/interior/1 (3).png",
+        "/images/projects/interior/2 (1).png",
+        "/images/projects/interior/2 (2).png",
+        "/images/projects/interior/2 (3).png",
+        "/images/projects/interior/3 (1).png",
+        "/images/projects/interior/3 (2).png",
+        "/images/projects/interior/3 (3).png",
+        "/images/projects/interior/design 1 (2).png",
+        "/images/projects/interior/design 1 (3).png",
+        "/images/projects/interior/design 2 (1).png",
+        "/images/projects/interior/design 2 (2).png",
+        "/images/projects/interior/design 4 (3).png",
+        "/images/projects/interior/design 4 (4).png",
+        "/images/projects/interior/1 (11).png",
+        "/images/projects/interior/1 (15).png",
+        "/images/projects/interior/2 (11).png",
+        "/images/projects/interior/3 (9).png",
+        "/images/projects/interior/3 (12).png"
+      ],
+      shortDescription: "Living, dining & private spaces",
+      descriptionParagraphs: [
+        "<strong>The interior spaces</strong> were shaped by the belief that <strong>a home should be a calming sanctuary that supports daily routines and quiet moments</strong>. I analyzed circulation flows, sightlines, and natural light penetration across the living, dining, and private family rooms. Each zone is thoughtfully proportioned to foster intuitive social connection while providing intimate pockets for solitude and relaxation.",
+        "The concept <strong>Tactile Warmth</strong> orchestrates a composition of <strong>subtle earth tones, bespoke joinery, and rich materiality</strong>. Fluted timber paneling, soft neutral upholstery, and concealed cove lighting bring gentle visual rhythm and emotional grounding. Fluid transitions between the open-concept living area and the dining space ensure that <strong>functional utility and refined elegance</strong> effortlessly coexist."
+      ],
+      software: ["AutoCAD", "SketchUp", "3ds Max", "Photoshop", "Enscape"],
+      materials: [],
+      rooms: []
+    },
+    {
+      slug: "working-drawings",
+      title: "WORKING DRAWINGS",
+      concept: "Technical Precision & Constructability",
+      category: "Plans, sections & technical layouts",
+      year: "2024",
+      facts: [
+        { label: "Scope", value: "Construction Documentation & Detailing" },
+        { label: "Components", value: "Plans, sections & custom joinery" },
+        { label: "Date", value: "2024" }
+      ],
+      heroImage: "/images/projects/working-drawings/WARDROBE.jpg.jpeg",
+      images: [
+        "/images/projects/working-drawings/WARDROBE.jpg.jpeg",
+        "/images/projects/working-drawings/wall with kttl.jpg.jpeg"
+      ],
+      shortDescription: "Plans, sections & technical layouts",
+      descriptionParagraphs: [
+        "<strong>Technical documentation</strong> serves as the indispensable bridge between <strong>conceptual design and flawless on-site execution</strong>. I developed comprehensive drawing packages including detailed floor plans, cross-sections, internal elevations, and electrical layouts. Every sheet adheres to rigorous drafting standards, ensuring seamless coordination between architects, contractors, and specialized fabricators.",
+        "The focus on <strong>Joinery & Millwork Detailing</strong> emphasizes <strong>precise material dimensions, structural joinery, and ergonomic specifications</strong>. From custom built-in wardrobes to integrated media units and service conduits, every millimeter is clearly resolved to eliminate ambiguities during fabrication, ensuring <strong>uncompromising quality, longevity, and buildability</strong>."
+      ],
+      software: ["AutoCAD", "Revit", "Photoshop"],
+      materials: [],
+      rooms: []
     }
   ],
   moments: [
