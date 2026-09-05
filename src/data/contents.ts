@@ -193,13 +193,23 @@ export const contentsData: ContentCategory[] = [
     gallery: [],
     projects: [
       {
+        title: "Master Suite & Bespoke Millwork",
+        description: "A serene master bedroom sanctuary featuring integrated headboard wall paneling, soft ambient illumination, and custom full-height wardrobe joinery with comprehensive technical drawings.",
+        images: [
+          "/gallery/BEDROOM/11.png",
+          "/gallery/BEDROOM/22.png",
+          "/gallery/BEDROOM/KATTL WITH SIDE TABLE.jpg.jpeg",
+          "/gallery/BEDROOM/WARDROBE DETAIL.jpg.jpeg",
+          "/gallery/BEDROOM/wall with kttl.jpg.jpeg",
+          "/gallery/BEDROOM/WARDROBE.jpg.jpeg"
+        ]
+      },
+      {
         title: "Modern Bedroom Setup",
         description: "A refined and modern bedroom space, featuring a custom wardrobe design and an integrated wall station.",
         images: [
           "/gallery/BEDROOM/1 (15).png",
-          "/gallery/BEDROOM/3 (12).png",
-          "/gallery/BEDROOM/wall with kttl.jpg.jpeg",
-          "/gallery/BEDROOM/WARDROBE.jpg.jpeg"
+          "/gallery/BEDROOM/3 (12).png"
         ]
       },
       {

@@ -154,7 +154,9 @@ export const siteData = {
         "/images/projects/interior/1 (15).png",
         "/images/projects/interior/2 (11).png",
         "/images/projects/interior/3 (9).png",
-        "/images/projects/interior/3 (12).png"
+        "/images/projects/interior/3 (12).png",
+        "/images/projects/interior/11.png",
+        "/images/projects/interior/22.png"
       ],
       shortDescription: "Living, dining & private spaces",
       descriptionParagraphs: [
@@ -172,19 +174,30 @@ export const siteData = {
       category: "Plans, sections & technical layouts",
       year: "2024",
       facts: [
-        { label: "Scope", value: "Construction Documentation & Detailing" },
-        { label: "Components", value: "Plans, sections & custom joinery" },
+        { label: "Project", value: "Al-Hawaj Residence" },
+        { label: "Scope", value: "Complete Architectural Documentation & Joinery" },
+        { label: "Components", value: "Floor plans, electrical, plumbing, ceiling, flooring & millwork" },
         { label: "Date", value: "2024" }
       ],
-      heroImage: "/images/projects/working-drawings/WARDROBE.jpg.jpeg",
+      heroImage: "/images/projects/working-drawings/drawing-1.png",
       images: [
+        "/images/projects/working-drawings/drawing-1.png",
+        "/images/projects/working-drawings/drawing-2.png",
+        "/images/projects/working-drawings/drawing-3.png",
+        "/images/projects/working-drawings/drawing-4.png",
+        "/images/projects/working-drawings/drawing-5.png",
+        "/images/projects/working-drawings/drawing-6.png",
+        "/images/projects/working-drawings/drawing-7.png",
+        "/images/projects/working-drawings/drawing-8.png",
         "/images/projects/working-drawings/WARDROBE.jpg.jpeg",
-        "/images/projects/working-drawings/wall with kttl.jpg.jpeg"
+        "/images/projects/working-drawings/WARDROBE DETAIL.jpg.jpeg",
+        "/images/projects/working-drawings/wall with kttl.jpg.jpeg",
+        "/images/projects/working-drawings/KATTL WITH SIDE TABLE.jpg.jpeg"
       ],
       shortDescription: "Plans, sections & technical layouts",
       descriptionParagraphs: [
-        "<strong>Technical documentation</strong> serves as the indispensable bridge between <strong>conceptual design and flawless on-site execution</strong>. I developed comprehensive drawing packages including detailed floor plans, cross-sections, internal elevations, and electrical layouts. Every sheet adheres to rigorous drafting standards, ensuring seamless coordination between architects, contractors, and specialized fabricators.",
-        "The focus on <strong>Joinery & Millwork Detailing</strong> emphasizes <strong>precise material dimensions, structural joinery, and ergonomic specifications</strong>. From custom built-in wardrobes to integrated media units and service conduits, every millimeter is clearly resolved to eliminate ambiguities during fabrication, ensuring <strong>uncompromising quality, longevity, and buildability</strong>."
+        "<strong>Technical documentation</strong> serves as the indispensable bridge between <strong>conceptual design and flawless on-site execution</strong>. I developed comprehensive AutoCAD drawing packages for the Al-Hawaj Residence, including ground and first-floor working plans, detailed electrical layouts, plumbing schematics, reflected ceiling plans, and flooring tile patterns. Every sheet adheres to rigorous drafting conventions with standardized title blocks, wall section tags, and accurate dimensions.",
+        "The focus on <strong>Joinery & Millwork Detailing</strong> resolves <strong>precise material dimensions, structural joinery, and ergonomic specifications</strong>. From custom built-in master wardrobes and internal drawer configurations to integrated bed headboard wall paneling and bedside tables, every millimeter is clearly drafted to eliminate ambiguities during fabrication, ensuring <strong>uncompromising quality, longevity, and buildability</strong>."
       ],
       software: ["AutoCAD", "Revit", "Photoshop"],
       materials: [],

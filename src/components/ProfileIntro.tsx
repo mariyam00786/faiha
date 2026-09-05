@@ -4,7 +4,7 @@ import { Typewriter } from "./Typewriter";
 
 export function ProfileIntro() {
   return (
-    <section className="relative w-full min-h-screen flex items-center justify-center py-24 px-6 md:px-12 lg:px-24 overflow-hidden border-b border-brand-dark/10">
+    <section className="relative w-full min-h-[calc(100vh-5rem)] lg:min-h-screen flex items-center justify-center py-12 md:py-16 lg:py-20 px-6 md:px-12 lg:px-24 overflow-hidden border-b border-brand-dark/10 scroll-mt-20">
       
       {/* Decorative architectural background lines to match theme */}
       <div className="absolute inset-0 pointer-events-none opacity-[0.03]">
@@ -16,10 +16,10 @@ export function ProfileIntro() {
       {/* Subtle color warmth */}
       <div className="absolute top-1/2 right-0 -translate-y-1/2 w-[50vw] h-[80vh] bg-brand-border/30 rounded-full blur-[120px] pointer-events-none -z-10" />
 
-      <div className="relative w-full max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-12 lg:gap-20 items-center">
+      <div className="relative w-full max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-16 items-center">
         
         {/* Left Side: Image */}
-        <div className="md:col-span-5 relative w-full aspect-[4/5] z-10 bg-brand-border shadow-lg group">
+        <div className="md:col-span-5 relative w-full max-w-[320px] md:max-w-[360px] lg:max-w-[400px] aspect-[4/5] mx-auto z-10 bg-brand-border shadow-lg group">
           <Image
             src="/images/profile-hero.png"
             alt="Faiha Faisal"
@@ -30,13 +30,13 @@ export function ProfileIntro() {
         </div>
 
         {/* Right Side: Text Content */}
-        <div className="md:col-span-7 flex flex-col justify-center z-10 pl-0 md:pl-8 lg:pl-16">
+        <div className="md:col-span-7 flex flex-col justify-center z-10 pl-0 md:pl-6 lg:pl-12">
           
-          <h2 className="font-sans font-bold text-4xl md:text-5xl lg:text-6xl text-brand-dark leading-snug uppercase tracking-wide mb-12">
+          <h2 className="font-sans font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-brand-dark leading-snug uppercase tracking-wide mb-6 md:mb-8">
             FAIHA FAISAL
           </h2>
 
-          <div className="font-sans text-xl md:text-2xl text-brand-dark mb-6 flex flex-col md:flex-row md:items-center gap-2 md:gap-4">
+          <div className="font-sans text-lg md:text-xl text-brand-dark mb-4 md:mb-5 flex flex-col md:flex-row md:items-center gap-2 md:gap-4">
             <span className="font-bold uppercase tracking-widest text-brand-text">HELLO!</span>
             <span className="hidden md:block w-8 h-[2px] bg-brand-text/40"></span>
             <span className="font-serif italic text-brand-dark h-8 flex items-center">
@@ -44,7 +44,7 @@ export function ProfileIntro() {
             </span>
           </div>
           
-          <div className="prose prose-p:font-sans prose-p:italic prose-p:text-brand-dark/90 prose-p:leading-[1.8] text-[14px] md:text-[15px] max-w-2xl mb-12">
+          <div className="prose prose-p:font-sans prose-p:italic prose-p:text-brand-dark/90 prose-p:leading-[1.75] text-[13.5px] md:text-[14.5px] max-w-2xl mb-8 md:mb-10">
             {siteData.about.bio.split('\n\n').slice(0, 2).map((paragraph, i) => (
               <p key={i}>{paragraph}</p>
             ))}

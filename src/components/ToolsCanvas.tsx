@@ -9,13 +9,20 @@ import { siteData } from "@/data/site";
 function SoftwareIcon({ name }: { name: string }) {
   const getStyle = (name: string) => {
     switch(name.toLowerCase()) {
-      case 'adobe photoshop': return { bg: '#31A8FF', text: '#001E36', label: 'Ps' };
+      case 'adobe photoshop':
+      case 'photoshop': return { bg: '#31A8FF', text: '#001E36', label: 'Ps' };
       case 'autocad': return { bg: '#E42824', text: '#FFFFFF', label: 'A' };
       case 'sketchup': return { bg: '#005F9E', text: '#FFFFFF', label: 'Su' };
       case 'revit': return { bg: '#0696D7', text: '#FFFFFF', label: 'R' };
       case '3ds max': return { bg: '#37B34A', text: '#FFFFFF', label: '3M' };
-      case 'd5 rendering': return { bg: '#1A1A1A', text: '#FFFFFF', label: 'D5' };
+      case 'd5 rendering':
+      case 'd5 render': return { bg: '#1A1A1A', text: '#FFFFFF', label: 'D5' };
       case 'lumion': return { bg: '#FF6B00', text: '#FFFFFF', label: 'L' };
+      case 'enscape': return { bg: '#E25510', text: '#FFFFFF', label: 'En' };
+      case 'illustrator': return { bg: '#FF9A00', text: '#330000', label: 'Ai' };
+      case 'indesign': return { bg: '#FF3366', text: '#49021F', label: 'Id' };
+      case 'canva': return { bg: '#00C4CC', text: '#FFFFFF', label: 'Cv' };
+      case 'procreate': return { bg: '#1E1E1E', text: '#FFFFFF', label: 'Pr' };
       case 'microsoft office': return { bg: '#D83B01', text: '#FFFFFF', label: 'O' };
       default: return { bg: '#38322B', text: '#FFFFFF', label: name.substring(0, 2) };
     }
@@ -66,7 +73,9 @@ export function ToolsCanvas() {
   };
 
   return (
-    <section className="py-24 px-6 md:px-12 lg:px-24">
+    <section id="tools" className="py-20 md:py-24 px-6 md:px-12 lg:px-20 max-w-7xl mx-auto">
+      <div className="w-full h-[1px] bg-brand-border/70 mb-12 md:mb-16" />
+
       <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
         <div>
           <h2 className="font-serif italic text-3xl md:text-4xl text-brand-text mb-2">My Tools & Software</h2>

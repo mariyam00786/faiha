@@ -1,7 +1,8 @@
 import { siteData } from "@/data/site";
 import { FloatingNav } from "@/components/FloatingNav";
 import { Footer } from "@/components/Footer";
-import { ArrowDownToLine } from "lucide-react";
+import { ArrowDownToLine, ExternalLink } from "lucide-react";
+import Image from "next/image";
 
 export default function ResumePage() {
   return (
@@ -31,7 +32,7 @@ export default function ResumePage() {
           </div>
         </header>
 
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-16 md:gap-24">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-16 md:gap-24 mb-20">
           
           {/* Experience Section */}
           <section className="md:col-span-12 lg:col-span-7">
@@ -83,6 +84,36 @@ export default function ResumePage() {
           </section>
 
         </div>
+
+        {/* Document Preview Section */}
+        <section className="pt-16 border-t border-brand-border">
+          <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-8">
+            <div>
+              <h2 className="section-label mb-1">ORIGINAL DOCUMENT</h2>
+              <h3 className="font-serif italic text-2xl md:text-3xl text-brand-dark">Curriculum Vitae</h3>
+            </div>
+            <a 
+              href={siteData.resumeLink} 
+              target="_blank" 
+              rel="noreferrer"
+              className="inline-flex items-center gap-2 text-[11px] uppercase tracking-widest text-brand-dark border border-brand-dark/30 hover:border-brand-dark px-5 py-2.5 transition-colors bg-white/60"
+            >
+              Open Full PDF <ExternalLink className="w-3.5 h-3.5" />
+            </a>
+          </div>
+
+          <div className="relative w-full max-w-3xl mx-auto bg-white border border-brand-border/60 shadow-lg overflow-hidden rounded-[2px]">
+            <Image
+              src="/images/resume-document.png"
+              alt="Faiha Faisal Resume"
+              width={1653}
+              height={2223}
+              className="w-full h-auto object-contain block"
+              priority
+            />
+          </div>
+        </section>
+
       </article>
 
       <Footer />

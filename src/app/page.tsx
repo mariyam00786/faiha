@@ -1,8 +1,6 @@
 import { FloatingNav } from "@/components/FloatingNav";
 import { Hero } from "@/components/Hero";
 import { ProfileIntro } from "@/components/ProfileIntro";
-import { TableOfContents } from "@/components/TableOfContents";
-import { ContentSections } from "@/components/ContentSections";
 import { ProjectGrid } from "@/components/ProjectGrid";
 import { SelectedMoments } from "@/components/SelectedMoments";
 import { AboutSection } from "@/components/AboutSection";
@@ -15,9 +13,7 @@ export default function Home() {
       <FloatingNav />
       <Hero />
       <ProfileIntro />
-      <TableOfContents />
       <ProjectGrid />
-      <ContentSections />
       <SelectedMoments />
       <AboutSection />
       <ToolsCanvas />
