@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Inter, Great_Vibes } from "next/font/google";
+import { Playfair_Display, Inter, Great_Vibes, Bodoni_Moda } from "next/font/google";
 import "./globals.css";
 
 const playfair = Playfair_Display({
@@ -19,6 +19,12 @@ const greatVibes = Great_Vibes({
   subsets: ["latin"],
 });
 
+const bodoni = Bodoni_Moda({
+  variable: "--font-bodoni",
+  subsets: ["latin"],
+  style: ["normal", "italic"],
+});
+
 export const metadata: Metadata = {
   title: "Faiha Faisal | Junior Interior Designer",
   description: "Portfolio of Faiha Faisal, Junior Interior Designer based in Kerala, India.",
@@ -32,7 +38,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body
-        className={`${playfair.variable} ${inter.variable} ${greatVibes.variable} font-sans antialiased bg-[#FBF9F6] text-[#592727] selection:bg-[#592727] selection:text-[#FBF9F6]`}
+        className={`${playfair.variable} ${inter.variable} ${greatVibes.variable} ${bodoni.variable} font-sans antialiased bg-[#FBF9F6] text-[#592727] selection:bg-[#592727] selection:text-[#FBF9F6]`}
       >
         <div 
           className="fixed inset-0 z-0 pointer-events-none opacity-[0.35] mix-blend-multiply"

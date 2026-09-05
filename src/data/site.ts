@@ -212,11 +212,11 @@ export const siteData = {
     "/images/moments/moment-5.png"
   ],
   album: [
-    "/images/album/photo-1.jpg",
-    "/images/album/photo-2.jpg",
-    "/images/album/photo-3.jpg",
-    "/images/album/photo-4.jpg",
-    "/images/album/photo-5.jpg"
+    "/images/moments/moment-1.png",
+    "/images/moments/moment-2.png",
+    "/images/moments/moment-3.png",
+    "/images/moments/moment-4.png",
+    "/images/moments/moment-5.png"
   ],
   process: [
     {

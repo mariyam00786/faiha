@@ -7,6 +7,7 @@
   --color-brand-dark: #6B3737;
   
   --font-serif: var(--font-playfair), serif;
+  --font-bodoni: var(--font-bodoni), var(--font-playfair), serif;
   --font-sans: var(--font-inter), sans-serif;
   --font-script: var(--font-script), cursive;
 }
@@ -39,4 +40,29 @@ body {
 
 .section-label {
   @apply text-xs tracking-[0.2em] uppercase font-sans text-brand-text/60 mb-6;
+}
+
+@keyframes marqueeScroll {
+  0% { transform: translate3d(0, 0, 0); }
+  100% { transform: translate3d(-50%, 0, 0); }
+}
+
+.marquee-track {
+  display: inline-flex;
+  width: max-content;
+  will-change: transform;
+  animation: marqueeScroll 42s linear infinite;
+}
+
+.marquee-wrap:hover .marquee-track {
+  animation-play-state: paused;
+}
+
+@keyframes dotPulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(0.8); }
+}
+
+.dot-pulse {
+  animation: dotPulse 2.4s ease-in-out infinite;
 }
