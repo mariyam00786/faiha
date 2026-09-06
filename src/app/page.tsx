@@ -1,6 +1,5 @@
 import { FloatingNav } from "@/components/FloatingNav";
-import { Hero } from "@/components/Hero";
-import { ProfileIntro } from "@/components/ProfileIntro";
+import { HomeIntro } from "@/components/HomeIntro";
 import { ProjectGrid } from "@/components/ProjectGrid";
 import { SelectedMoments } from "@/components/SelectedMoments";
 import { AboutSection } from "@/components/AboutSection";
@@ -9,10 +8,9 @@ import { Footer } from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
+    <main>
       <FloatingNav />
-      <Hero />
-      <ProfileIntro />
+      <HomeIntro />
       <ProjectGrid />
       <SelectedMoments />
       <AboutSection />

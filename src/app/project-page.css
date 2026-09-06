@@ -1,8 +1,8 @@
 .projectDetailPage{grid-template-columns:32% 68%;align-items:stretch;gap:0;max-width:1320px;margin:0 auto;padding:20px 20px 40px;display:grid}
 .projectDetailText{flex-direction:column;align-self:start;padding-right:60px;display:flex}
 .projectTitleBar{text-align:center;border-bottom:1px solid #2c272324;max-width:1320px;margin:0 auto;padding:24px 20px 12px}
-.projectConcept{letter-spacing:.04em;color:#a2968b;margin:3px 0 0;font-family:var(--font-serif);font-size:15px;font-style:italic;font-weight:300}
-.projectTitleBar h1{color:#2c2723;margin:0;font-family:var(--font-serif);font-size:28px;font-weight:300;line-height:1.05}
+.projectConcept{letter-spacing:.04em;color:#a2968b;margin:3px 0 0;font-family:var(--font-cormorant), "Cormorant Garamond", serif;font-size:15px;font-style:italic;font-weight:300}
+.projectTitleBar h1{color:#2c2723;margin:0;font-family:var(--font-cormorant), "Cormorant Garamond", serif;font-size:28px;font-weight:300;line-height:1.05}
 .projectImageSide{width:100%;min-width:0}
 .projectFacts{margin-top:-2px;margin-bottom:14px}
 .projectFacts p{color:#a89e94;margin:0;font-size:11px;line-height:1.4}
@@ -47,7 +47,7 @@
 .projectThumbs button:hover{opacity:.78}
 .projectThumbs button.activeThumb{opacity:1}
 .projectThumbs img{object-fit:cover;width:auto;max-width:140px;height:70px;display:block}
-.thumbNumber{letter-spacing:.04em;color:#f4f1ea;pointer-events:none;background:#1a1817b8;justify-content:center;align-items:center;min-width:18px;height:18px;padding:0 4px;font-family:var(--font-sans);font-size:10px;line-height:1;display:flex;position:absolute;bottom:0;left:0}
+.thumbNumber{letter-spacing:.04em;color:#f4f1ea;pointer-events:none;background:#1a1817b8;justify-content:center;align-items:center;min-width:18px;height:18px;padding:0 4px;font-family:var(--font-instrument), sans-serif;font-size:10px;line-height:1;display:flex;position:absolute;bottom:0;left:0}
 .projectThumbs button.activeThumb .thumbNumber{background:#2c2723}
 .projectGalleryFrame{background:radial-gradient(80% 65% at 50% 45%,#ffffff0b,#0000 70%),#0d0c0b;width:100%;padding:64px 0 96px}
 .clickGalleryHint{letter-spacing:.1em;text-transform:uppercase;color:#8f867c;margin:0 auto 24px;max-width:1320px;padding:0 20px;font-size:11px}

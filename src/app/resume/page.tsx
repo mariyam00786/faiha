@@ -1,122 +1,97 @@
+"use client";
+
+import { useState } from "react";
+import Link from "next/link";
 import { siteData } from "@/data/site";
-import { FloatingNav } from "@/components/FloatingNav";
-import { Footer } from "@/components/Footer";
-import { ArrowDownToLine, ExternalLink } from "lucide-react";
-import Image from "next/image";
+import { ArrowDownToLine } from "lucide-react";
 
 export default function ResumePage() {
+  const [zoomLevel, setZoomLevel] = useState(1);
+
+  const zoomIn = () => {
+    setZoomLevel((prev) => Math.min(prev + 0.25, 2));
+  };
+
+  const zoomOut = () => {
+    setZoomLevel((prev) => Math.max(prev - 0.25, 0.75));
+  };
+
   return (
-    <main className="min-h-screen bg-brand-bg">
-      <FloatingNav />
-      
-      <article className="pt-32 md:pt-48 pb-24 px-6 md:px-12 lg:px-24 max-w-5xl mx-auto">
-        <header className="mb-16 md:mb-24 flex flex-col md:flex-row justify-between items-start md:items-end gap-8 border-b border-brand-border pb-12">
-          <h1 className="font-serif italic text-4xl md:text-6xl lg:text-7xl">Resume</h1>
-          <div className="flex flex-wrap items-center gap-3">
-            <a 
-              href={siteData.portfolioPdfLink || "/FAIHA_FAISAL_Portfolio.pdf"} 
-              target="_blank" 
-              rel="noreferrer"
-              className="inline-flex items-center gap-2 text-[11px] uppercase tracking-widest bg-[#25211e] text-[#FAF8F5] px-6 py-3 rounded-full hover:bg-[#3d3631] transition-colors shadow-sm"
+    <main className="resumeMain">
+      <header className="topNav resumeNav">
+        <div className="siteContainer topNavInner">
+          <Link className="brand" href="/">
+            {siteData.personal.name}
+          </Link>
+          <nav>
+            <Link href="/#projects">Projects</Link>
+            <Link href="/#about">About</Link>
+            <Link href="/resume" className="activeLink">Resume</Link>
+            <a
+              href={siteData.portfolioPdfLink || "/FAIHA_FAISAL_Portfolio.pdf"}
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Portfolio PDF <ArrowDownToLine className="w-4 h-4" />
+              Portfolio PDF
             </a>
-            <a 
-              href={siteData.resumeLink} 
-              target="_blank" 
-              rel="noreferrer"
-              className="inline-flex items-center gap-2 text-[11px] uppercase tracking-widest border border-brand-border px-6 py-3 rounded-full hover:bg-brand-text/5 transition-colors"
-            >
-              Resume CV <ArrowDownToLine className="w-4 h-4" />
-            </a>
-          </div>
-        </header>
+          </nav>
+        </div>
+      </header>
 
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-16 md:gap-24 mb-20">
-          
-          {/* Experience Section */}
-          <section className="md:col-span-12 lg:col-span-7">
-            <h2 className="section-label">EXPERIENCE</h2>
-            <div className="flex flex-col gap-12">
-              {siteData.about.experience.map((exp, i) => (
-                <div key={i} className="group">
-                  <div className="flex flex-col md:flex-row justify-between items-start md:items-baseline mb-2 gap-2">
-                    <h3 className="font-serif italic text-2xl">{exp.title}</h3>
-                    <span className="text-[11px] tracking-widest uppercase text-brand-text/60">{exp.location}</span>
-                  </div>
-                  <h4 className="text-sm font-semibold mb-4 text-brand-text/80 uppercase tracking-wide">{exp.company}</h4>
-                  <p className="text-[15px] leading-relaxed text-brand-text/70">{exp.description}</p>
-                </div>
-              ))}
-            </div>
-          </section>
-
-          {/* Education & Skills Section */}
-          <section className="md:col-span-12 lg:col-span-5 flex flex-col gap-16">
-            
-            <div>
-              <h2 className="section-label">EDUCATION</h2>
-              <div className="flex flex-col gap-8">
-                {siteData.about.education.map((edu, i) => (
-                  <div key={i}>
-                    <h3 className="font-serif italic text-xl mb-1">{edu.degree}</h3>
-                    <p className="text-[13px] text-brand-text/80 leading-relaxed mb-1">{edu.institution}</p>
-                    <span className="text-[11px] tracking-widest uppercase text-brand-text/60">{edu.year}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            <div>
-              <h2 className="section-label">SKILLS</h2>
-              <div className="flex flex-wrap gap-2">
-                {siteData.about.skills.map((skill) => (
-                  <div 
-                    key={skill}
-                    className="px-3 py-1.5 border border-brand-border text-[11px] text-brand-text/70 uppercase tracking-widest font-sans bg-white/50"
-                  >
-                    {skill}
-                  </div>
-                ))}
-              </div>
-            </div>
-
-          </section>
-
+      <div className="resumeFrame">
+        <div className="resumeScroller">
+          <img
+            src="/images/resume-document.png"
+            alt={`Resume of ${siteData.personal.name}`}
+            className="resumePage"
+            draggable={false}
+            style={{
+              height: `${100 * zoomLevel}%`,
+              maxHeight: "none",
+            }}
+          />
         </div>
 
-        {/* Document Preview Section */}
-        <section className="pt-16 border-t border-brand-border">
-          <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-8">
-            <div>
-              <h2 className="section-label mb-1">ORIGINAL DOCUMENT</h2>
-              <h3 className="font-serif italic text-2xl md:text-3xl text-brand-dark">Curriculum Vitae</h3>
-            </div>
-            <a 
-              href={siteData.resumeLink} 
-              target="_blank" 
-              rel="noreferrer"
-              className="inline-flex items-center gap-2 text-[11px] uppercase tracking-widest text-brand-dark border border-brand-dark/30 hover:border-brand-dark px-5 py-2.5 transition-colors bg-white/60"
-            >
-              Open Full PDF <ExternalLink className="w-3.5 h-3.5" />
-            </a>
-          </div>
+        <div className="resumeZoomTools">
+          <button
+            onClick={zoomIn}
+            disabled={zoomLevel >= 2}
+            aria-label="Zoom in"
+            title="Zoom in"
+          >
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+              <circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" strokeWidth="1.6" />
+              <line x1="15.4" y1="15.4" x2="20.5" y2="20.5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+              <line x1="7.6" y1="10.5" x2="13.4" y2="10.5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+              <line x1="10.5" y1="7.6" x2="10.5" y2="13.4" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+            </svg>
+          </button>
 
-          <div className="relative w-full max-w-3xl mx-auto bg-white border border-brand-border/60 shadow-lg overflow-hidden rounded-[2px]">
-            <Image
-              src="/images/resume-document.png"
-              alt="Faiha Faisal Resume"
-              width={1653}
-              height={2223}
-              className="w-full h-auto object-contain block"
-              priority
-            />
-          </div>
-        </section>
+          <button
+            onClick={zoomOut}
+            disabled={zoomLevel <= 0.75}
+            aria-label="Zoom out"
+            title="Zoom out"
+          >
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+              <circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" strokeWidth="1.6" />
+              <line x1="15.4" y1="15.4" x2="20.5" y2="20.5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+              <line x1="7.6" y1="10.5" x2="13.4" y2="10.5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+            </svg>
+          </button>
 
-      </article>
-
-      <Footer />
+          <a
+            href={siteData.resumeLink || "/FAIHA_FAISAL_Resume.pdf"}
+            download
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Download Resume PDF"
+            title="Download PDF"
+          >
+            <ArrowDownToLine className="w-4 h-4" />
+          </a>
+        </div>
+      </div>
     </main>
   );
 }

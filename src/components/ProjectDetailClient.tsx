@@ -138,11 +138,32 @@ export function ProjectDetailClient({ project }: Props) {
           )}
 
           <div className="software">
-            {(project.software || ["AutoCAD", "SketchUp", "Photoshop"]).map((sw, idx) => (
-              <span key={idx} className="softwareChip">
-                {sw}
-              </span>
-            ))}
+            {(project.software || ["AutoCAD", "SketchUp", "Photoshop"]).map((sw, idx) => {
+              const iconMap: Record<string, string> = {
+                "autocad": "/icons/autocad.svg",
+                "sketchup": "/icons/sketchup.svg",
+                "revit": "/icons/revit.svg",
+                "3ds max": "/icons/3dsmax.svg",
+                "enscape": "/icons/enscape.svg",
+                "photoshop": "/icons/photoshop.svg",
+                "illustrator": "/icons/illustrator.svg",
+                "indesign": "/icons/indesign.svg",
+                "canva": "/icons/canva.svg",
+                "procreate": "/icons/procreate.svg",
+                "microsoft office": "/icons/office.svg",
+                "lumion": "/icons/lumion.svg",
+                "blender": "/icons/blender.svg"
+              };
+              const iconSrc = iconMap[sw.toLowerCase()];
+              return (
+                <span key={idx} className="softwareChip">
+                  {iconSrc && (
+                    <img src={iconSrc} alt="" className="softwareChipIcon" />
+                  )}
+                  {sw}
+                </span>
+              );
+            })}
           </div>
         </aside>
 

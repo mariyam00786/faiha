@@ -1,33 +1,30 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Inter, Great_Vibes, Bodoni_Moda } from "next/font/google";
+import { Instrument_Sans, Cormorant_Garamond, Bodoni_Moda } from "next/font/google";
 import "./globals.css";
 
-const playfair = Playfair_Display({
-  variable: "--font-playfair",
+const instrumentSans = Instrument_Sans({
+  variable: "--font-instrument",
   subsets: ["latin"],
+  weight: ["400", "500", "600"],
+});
+
+const cormorantGaramond = Cormorant_Garamond({
+  variable: "--font-cormorant",
+  subsets: ["latin"],
+  weight: ["300", "400", "500"],
   style: ["normal", "italic"],
 });
 
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
-});
-
-const greatVibes = Great_Vibes({
-  variable: "--font-script",
-  weight: "400",
-  subsets: ["latin"],
-});
-
-const bodoni = Bodoni_Moda({
+const bodoniModa = Bodoni_Moda({
   variable: "--font-bodoni",
   subsets: ["latin"],
+  weight: ["400", "500"],
   style: ["normal", "italic"],
 });
 
 export const metadata: Metadata = {
-  title: "Faiha Faisal | Junior Interior Designer",
-  description: "Portfolio of Faiha Faisal, Junior Interior Designer based in Kerala, India.",
+  title: "Faiha Faisal — Interior Architecture & Design",
+  description: "Interior Design Portfolio of Faiha Faisal. Selected works across residential interiors, courtyards, elevations, and technical architectural documentation.",
 };
 
 export default function RootLayout({
@@ -36,19 +33,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en" className="h-full antialiased scroll-smooth">
       <body
-        className={`${playfair.variable} ${inter.variable} ${greatVibes.variable} ${bodoni.variable} font-sans antialiased bg-[#FBF9F6] text-[#592727] selection:bg-[#592727] selection:text-[#FBF9F6]`}
+        className={`${instrumentSans.variable} ${cormorantGaramond.variable} ${bodoniModa.variable} min-h-full flex flex-col bg-[#f8f7f3] text-[#2c2723]`}
       >
-        <div 
-          className="fixed inset-0 z-0 pointer-events-none opacity-[0.35] mix-blend-multiply"
-          style={{
-            backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.2' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E")`
-          }}
-        />
-        <div className="relative z-10">
-          {children}
-        </div>
+        {children}
       </body>
     </html>
   );

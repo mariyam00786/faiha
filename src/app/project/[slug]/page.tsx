@@ -5,9 +5,9 @@ import { Footer } from "@/components/Footer";
 import { ProjectDetailClient } from "@/components/ProjectDetailClient";
 
 interface PageProps {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 }
 
 export function generateStaticParams() {

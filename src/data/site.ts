@@ -1,29 +1,27 @@
 export const siteData = {
   personal: {
     name: "Faiha Faisal",
-    role: "Junior Interior Designer",
+    role: "Interior Designer",
     philosophy: "Thank you for visiting. Each project reflects my belief that thoughtful design can support people, strengthen communities, and bring more care into everyday life. I hope you enjoy exploring my work, and I would love to connect.",
     email: "faihafaisal668@gmail.com",
     phone: "+91 9544466908",
     linkedin: "http://linkedin.com/in/faiha-faisal",
     location: "Kerala, India",
-    profileImage: "/images/profile-intro.jpg",
+    profileImage: "/images/faiha-profile.png",
   },
   resumeLink: "/FAIHA_FAISAL_Resume.pdf",
-  portfolioPdfLink: "/FAIHA_FAISAL_Portfolio.pdf", 
+  portfolioPdfLink: "/FAIHA_FAISAL_Portfolio.pdf",
   about: {
     bio: "My name is Faiha, and I was born and raised in Kerala, India. Now working as an interior designer in Calicut, I have been shaped by my cultural roots and my passion for creating functional, aesthetically enduring spaces. Moving between different academic disciplines and professional environments has made me especially attentive to how people experience spaces, and it has strengthened my belief that thoughtful design can help people feel welcomed, understood, and connected.\n\nBefore pursuing interior design, I earned a Bachelor's degree in Sociology from Calicut University. Although sociology and spatial design may seem like very different paths, my sociological background continues to influence the way I work. It taught me how to observe human behavior, organize complex functional requirements patiently, and think through how many individual elements come together as one complete, harmonious living system. Wanting to combine that analytical, human-centered mindset with my lifelong interest in art and creativity led me to earn my Diploma in Interior Design from Alagappa University.\n\nMy work is centered in people and the stories behind the spaces they use. I enjoy every stage of the design process, from research, moodboards, and early concept development to space planning, 3D visualization, material selection, and detailed technical documentation. Having contributed to residential and commercial projects at Theyyampattil Homesoul Interior and AlHawaj Architect & Builders, I am especially interested in environments where design can make a meaningful difference in everyday life.\n\nWhen I am not designing, I enjoy creating digital art, exploring vernacular architecture, studying textures and lighting nuances, and noticing the small details that give spaces their unique personality. I am constantly collecting ideas from architecture, culture, nature, and everyday experiences.",
     interests: [
-      "Residential Interiors",
+      "Commercial Interiors",
       "Workplace",
       "Hospitality",
       "Healthcare",
-      "Space Planning",
-      "Concept Development",
-      "3D Visualization",
-      "FF&E Specification",
+      "Community Centered Design",
+      "Multi-Family Residential",
       "Sustainability",
-      "Bespoke Joinery"
+      "Interactive Architecture"
     ],
     awards: [
       "2024 Design Excellence Recognition – Alagappa University Showcase"
@@ -43,161 +41,182 @@ export const siteData = {
       "SketchUp",
       "3ds Max",
       "Lumion",
-      "D5 Render",
+      "Blender",
       "Microsoft Office",
       "Canva",
       "Procreate"
     ],
-    languages: ["English", "Hindi", "Tamil", "Malayalam"],
-    education: [
-      {
-        degree: "Diploma in Interior Design",
-        institution: "Alagappa University, Tamil Nadu, India",
-        year: "2024-2025",
-      },
-      {
-        degree: "BA Sociology",
-        institution: "Calicut University, Calicut, Kerala, India",
-        year: "2017-2020",
-      },
-      {
-        degree: "HSE",
-        institution: "Iringannur Higher Secondary School, Kerala, India",
-        year: "2015-2017",
-      },
-    ],
-    experience: [
-      {
-        title: "Junior Interior Designer",
-        company: "AlHawaj Architect & Builders",
-        location: "Calicut, India",
-        description: "Coordinating with multidisciplinary teams to deliver functional, aesthetically refined, and cost-effective design solutions.",
-      },
-      {
-        title: "Interior Designer",
-        company: "THEYYAMPATTIL HOMESOUL INTERIOR",
-        location: "Calicut, India",
-        description: "Developed and presented design concepts, mood boards, layout plans, and furniture schemes. Produced detailed 2D and 3D drawings and managed project schedules.",
-      },
-    ]
   },
   projects: [
     {
+      slug: "courtyard",
+      title: "Courtyard",
+      concept: "Biophilic Retreat & Living Thresholds",
+      category: "Outdoor Living / Transitional Spaces",
+      year: "2024",
+      facts: [
+        { label: "Typology", value: "Biophilic Courtyard & Transitional Spaces" },
+        { label: "Scope", value: "Landscape, Waterbody & Shaded Deck" },
+        { label: "Date", value: "2024" }
+      ],
+      heroImage: "/contents/01.jpg.png",
+      images: [
+        "/contents/01.jpg.png",
+        "/gallery/courtyard/design 1 (1).png",
+        "/gallery/courtyard/design 1 (2).png",
+        "/gallery/courtyard/design 1 (3).png",
+        "/gallery/courtyard/design 2 (1).png",
+        "/gallery/courtyard/design 2 (2).png",
+        "/gallery/courtyard/design 3 (1).png",
+        "/gallery/courtyard/design 3 (2).png",
+        "/gallery/courtyard/design 3 (3).png",
+        "/gallery/courtyard/design 3 (4).png",
+        "/gallery/courtyard/design 3 (5).png"
+      ],
+      shortDescription: "Outdoor living & transitional spaces integrating natural flora with modern architecture.",
+      descriptionParagraphs: [
+        "<strong>The courtyard design</strong> creates an intimate sanctuary at the core of the residence, bridging indoor life with the tranquility of natural foliage, filtered light, and open skies. Inspired by vernacular central courtyards, the spatial layout encourages passive stack cooling and continuous cross-breezes throughout adjacent living quarters.",
+        "The concept <strong>Living Thresholds</strong> investigates the seamless gradient between protected interior lounges and breezy open-air decks. Textured stone pavers, bespoke teak wood benches, and integrated water features foster contemplative quietude, inviting family members to pause, converse, and reconnect with nature."
+      ],
+      software: ["AutoCAD", "SketchUp", "Enscape", "Photoshop"]
+    },
+    {
       slug: "exterior",
-      title: "EXTERIOR",
-      concept: "Architectural Form & Thresholds",
-      category: "Facades, elevations & entryways",
+      title: "Exterior",
+      concept: "Architectural Massing & Tropical Shadows",
+      category: "Facades / Residential Architecture",
       year: "2024",
       facts: [
         { label: "Typology", value: "Modern Residential Architecture" },
         { label: "Focus", value: "Facades, elevations & entryways" },
         { label: "Date", value: "2024" }
       ],
-      heroImage: "/images/projects/exterior/exterior-cover.jpg",
+      heroImage: "/contents/02.jpg.png",
       images: [
-        "/images/projects/exterior/exterior-cover.jpg",
-        "/images/projects/exterior/design 1 (1).png",
-        "/images/projects/exterior/design 1 (2).png",
-        "/images/projects/exterior/design 1 (3).png",
-        "/images/projects/exterior/design 2 (1).png",
-        "/images/projects/exterior/design 2 (2).png",
-        "/images/projects/exterior/design 3 (1).png",
-        "/images/projects/exterior/design 3 (2).png",
-        "/images/projects/exterior/design 3 (3).png",
-        "/images/projects/exterior/design 3 (4).png",
-        "/images/projects/exterior/design 3 (5).png",
-        "/images/projects/exterior/1 (3).png",
-        "/images/projects/exterior/2 (3).png",
-        "/images/projects/exterior/3 (2).png",
-        "/images/projects/exterior/4 (1).png",
-        "/images/projects/exterior/5 (1).png"
+        "/contents/02.jpg.png",
+        "/gallery/EXTERIOR/1 (3).png",
+        "/gallery/EXTERIOR/2 (3).png",
+        "/gallery/EXTERIOR/3 (2).png",
+        "/gallery/EXTERIOR/4 (1).png",
+        "/gallery/EXTERIOR/5 (1).png"
       ],
-      shortDescription: "Facades, elevations & entryways",
+      shortDescription: "Facades, elevations and entryways balancing geometric minimalism with tropical climate sensitivity.",
       descriptionParagraphs: [
-        "<strong>The architectural exterior</strong> was conceived as a dialogue between <strong>contemporary minimalism and tropical contextual sensitivity</strong>. I researched the interplay of natural sunlight, shadow transitions, and passive climate resiliency across different times of the day. The massing balances bold geometric volumes with tactile textures, ensuring a distinctive street presence while safeguarding privacy and retreat for the family within.",
-        "The concept <strong>Framed Thresholds</strong> emphasizes seamless transitions between <strong>the public streetscape and private living quarters</strong>. Deep cantilevered overhangs, integrated landscape pockets, and rhythmic louvers soften direct daylight while encouraging natural cross-ventilation. Warm evening illumination transforms the facade after dusk, highlighting <strong>layered materiality and honest textures</strong> to create an inviting, enduring arrival experience."
+        "<strong>The architectural exterior</strong> was conceived as a dialogue between <strong>contemporary minimalism and tropical contextual sensitivity</strong>. I researched the interplay of natural sunlight, shadow transitions, and passive climate resiliency across different times of the day. The massing balances bold geometric volumes with tactile textures.",
+        "The concept <strong>Framed Thresholds</strong> emphasizes seamless transitions between <strong>the public streetscape and private living quarters</strong>. Deep cantilevered overhangs, integrated landscape pockets, and rhythmic louvers soften direct daylight while encouraging natural cross-ventilation. Warm evening illumination transforms the facade after dusk."
       ],
-      software: ["AutoCAD", "SketchUp", "Enscape", "Photoshop"],
-      materials: [],
-      rooms: []
+      software: ["AutoCAD", "SketchUp", "Enscape", "Photoshop"]
     },
     {
-      slug: "interior",
-      title: "INTERIOR",
-      concept: "Spatial Harmony & Tactile Comfort",
-      category: "Living, dining & private spaces",
+      slug: "kitchen",
+      title: "Kitchen",
+      concept: "Ergonomics & Seamless Joinery",
+      category: "Culinary Spaces / Modular Design",
       year: "2024",
       facts: [
-        { label: "Typology", value: "Contemporary Residential Interior" },
-        { label: "Scope", value: "Living, dining & private spaces" },
+        { label: "Typology", value: "Open-Plan Modern Kitchen" },
+        { label: "Scope", value: "Island layout, cabinetry & task lighting" },
         { label: "Date", value: "2024" }
       ],
-      heroImage: "/images/projects/interior/interior-cover.jpg",
+      heroImage: "/contents/03.jpg.png",
       images: [
-        "/images/projects/interior/interior-cover.jpg",
-        "/images/projects/interior/1 (1).png",
-        "/images/projects/interior/1 (11).png",
-        "/images/projects/interior/1 (15).png",
-        "/images/projects/interior/1 (16).png",
-        "/images/projects/interior/1 (17).png",
-        "/images/projects/interior/1 (18).png",
-        "/images/projects/interior/1 (2).png",
-        "/images/projects/interior/1 (3).png",
-        "/images/projects/interior/11.png",
-        "/images/projects/interior/2 (1).png",
-        "/images/projects/interior/2 (11).png",
-        "/images/projects/interior/2 (15).png",
-        "/images/projects/interior/2 (16).png",
-        "/images/projects/interior/2 (2).png",
-        "/images/projects/interior/2 (3).png",
-        "/images/projects/interior/22.png",
-        "/images/projects/interior/3 (1).png",
-        "/images/projects/interior/3 (12).png",
-        "/images/projects/interior/3 (13).png",
-        "/images/projects/interior/3 (14).png",
-        "/images/projects/interior/3 (15).png",
-        "/images/projects/interior/3 (2).png",
-        "/images/projects/interior/3 (3).png",
-        "/images/projects/interior/3 (9).png",
-        "/images/projects/interior/4 (5).png",
-        "/images/projects/interior/ChatGPT Image Aug 12, 2026, 11_47_06 AM.png",
-        "/images/projects/interior/ChatGPT Image Aug 12, 2026, 11_50_08 AM.png",
-        "/images/projects/interior/ChatGPT Image Aug 12, 2026, 11_52_36 AM.png",
-        "/images/projects/interior/ChatGPT Image Aug 12, 2026, 12_05_49 PM.png",
-        "/images/projects/interior/ChatGPT Image Aug 12, 2026, 12_06_52 PM.png",
-        "/images/projects/interior/b1.png",
-        "/images/projects/interior/b2.png",
-        "/images/projects/interior/b3.png",
-        "/images/projects/interior/br1.png",
-        "/images/projects/interior/br2.png",
-        "/images/projects/interior/br3.png",
-        "/images/projects/interior/br4.png",
-        "/images/projects/interior/design 1 (1).png",
-        "/images/projects/interior/design 1 (2).png",
-        "/images/projects/interior/design 1 (3).png",
-        "/images/projects/interior/design 2 (1).png",
-        "/images/projects/interior/design 2 (2).png",
-        "/images/projects/interior/design 4 (3).png"
+        "/contents/03.jpg.png",
+        "/gallery/kitchen/design 1 (1).png",
+        "/gallery/kitchen/design 1 (2).png",
+        "/gallery/kitchen/design 1 (3).png",
+        "/gallery/kitchen/design 2 (1).png",
+        "/gallery/kitchen/design 2 (2).png",
+        "/gallery/kitchen/design 2 (3).png",
+        "/gallery/kitchen/design 2 (4).png",
+        "/gallery/kitchen/design 3 (1).png",
+        "/gallery/kitchen/design 3 (2).png",
+        "/gallery/kitchen/design 4 (1).png",
+        "/gallery/kitchen/design 4 (2).png"
       ],
-      shortDescription: "Living, dining & private spaces",
+      shortDescription: "Culinary spaces, modular cabinetry, and open-plan entertaining zones.",
       descriptionParagraphs: [
-        "<strong>The interior spaces</strong> were shaped by the belief that <strong>a home should be a calming sanctuary that supports daily routines and quiet moments</strong>. I analyzed circulation flows, sightlines, and natural light penetration across the living, dining, and private family rooms. Each zone is thoughtfully proportioned to foster intuitive social connection while providing intimate pockets for solitude and relaxation.",
-        "The concept <strong>Tactile Warmth</strong> orchestrates a composition of <strong>subtle earth tones, bespoke joinery, and rich materiality</strong>. Fluted timber paneling, soft neutral upholstery, and concealed cove lighting bring gentle visual rhythm and emotional grounding. Fluid transitions between the open-concept living area and the dining space ensure that <strong>functional utility and refined elegance</strong> effortlessly coexist."
+        "<strong>The kitchen environments</strong> were planned around optimal work-triangle dynamics, effortless maintenance, and timeless aesthetic restraint. Deep matte cabinetry finishes are balanced against polished quartz countertops and integrated concealed lighting.",
+        "The concept <strong>Culinary Flow</strong> bridges the culinary station with breakfast counters and open-plan dining. Flush-face joinery, soft-close hardware, and dedicated spice pull-outs ensure functional perfection while maintaining serene visual minimalism."
       ],
-      software: ["AutoCAD", "SketchUp", "3ds Max", "Photoshop", "Enscape"],
-      materials: [],
-      rooms: []
+      software: ["AutoCAD", "SketchUp", "3ds Max", "Enscape", "Photoshop"]
+    },
+    {
+      slug: "living",
+      title: "Living Room",
+      concept: "Spatial Harmony & Tactile Warmth",
+      category: "Residential / Gathering Spaces",
+      year: "2024",
+      facts: [
+        { label: "Typology", value: "Contemporary Residential Living" },
+        { label: "Scope", value: "Living, formal lounge & foyer" },
+        { label: "Date", value: "2024" }
+      ],
+      heroImage: "/contents/04.jpg.png",
+      images: [
+        "/contents/04.jpg.png",
+        "/gallery/living/1 (1).png",
+        "/gallery/living/1 (2).png",
+        "/gallery/living/1 (3).png",
+        "/gallery/living/2 (1).png",
+        "/gallery/living/2 (2).png",
+        "/gallery/living/2 (3).png",
+        "/gallery/living/3 (1).png",
+        "/gallery/living/3 (2).png",
+        "/gallery/living/3 (3).png",
+        "/gallery/living/3 (4).png"
+      ],
+      shortDescription: "Lounge, family and gathering spaces designed for connection and tranquility.",
+      descriptionParagraphs: [
+        "<strong>The living spaces</strong> were shaped by the belief that <strong>a home should be a calming sanctuary that supports daily routines and quiet moments</strong>. I analyzed circulation flows, sightlines, and natural light penetration across the living, dining, and private family rooms.",
+        "The concept <strong>Tactile Warmth</strong> orchestrates a composition of <strong>subtle earth tones, bespoke joinery, and rich materiality</strong>. Fluted timber paneling, soft neutral upholstery, and concealed cove lighting bring gentle visual rhythm and emotional grounding."
+      ],
+      software: ["AutoCAD", "SketchUp", "3ds Max", "Photoshop", "Enscape"]
+    },
+    {
+      slug: "bedroom",
+      title: "Bedroom Suite",
+      concept: "Quiet Sanctuary & Bespoke Millwork",
+      category: "Residential / Private Sanctuary",
+      year: "2024",
+      facts: [
+        { label: "Typology", value: "Master Bedroom & Dressing Suite" },
+        { label: "Scope", value: "Headboard wall, walk-in wardrobe & lighting" },
+        { label: "Date", value: "2024" }
+      ],
+      heroImage: "/contents/07.jpg.png",
+      images: [
+        "/contents/07.jpg.png",
+        "/gallery/BEDROOM/11.png",
+        "/gallery/BEDROOM/22.png",
+        "/gallery/BEDROOM/1 (15).png",
+        "/gallery/BEDROOM/3 (12).png",
+        "/gallery/BEDROOM/1 (1).png",
+        "/gallery/BEDROOM/1 (2).png",
+        "/gallery/BEDROOM/1 (3).png",
+        "/gallery/BEDROOM/2 (1).png",
+        "/gallery/BEDROOM/2 (2).png",
+        "/gallery/BEDROOM/KATTL WITH SIDE TABLE.jpg.jpeg",
+        "/gallery/BEDROOM/WARDROBE DETAIL.jpg.jpeg",
+        "/gallery/BEDROOM/wall with kttl.jpg.jpeg",
+        "/gallery/BEDROOM/WARDROBE.jpg.jpeg"
+      ],
+      shortDescription: "Private rest and wellness spaces detailed with custom millwork and atmospheric lighting.",
+      descriptionParagraphs: [
+        "<strong>The master bedroom suite</strong> was created as a peaceful retreat from the fast-paced outside world. Acoustic fabric panels, fluted wood accents, and warm low-glare perimeter illumination instill an immediate sense of decompression.",
+        "The custom wardrobe and vanity area feature floor-to-ceiling joinery with integrated aluminum handles and concealed dressers. Precise technical clearances ensure unhindered circulation and abundant organized storage."
+      ],
+      software: ["AutoCAD", "SketchUp", "3ds Max", "Enscape"]
     },
     {
       slug: "working-drawings",
-      title: "WORKING DRAWINGS",
+      title: "Working Drawings",
       concept: "Technical Precision & Constructability",
-      category: "Plans, sections & technical layouts",
+      category: "Architectural Documentation / Joinery",
       year: "2024",
       facts: [
         { label: "Project", value: "Al-Hawaj Residence" },
         { label: "Scope", value: "Complete Architectural Documentation & Joinery" },
-        { label: "Components", value: "Floor plans, electrical, plumbing, ceiling, flooring & millwork" },
+        { label: "Components", value: "Floor plans, electrical, plumbing, ceiling & millwork" },
         { label: "Date", value: "2024" }
       ],
       heroImage: "/images/projects/working-drawings/drawing-1.png",
@@ -215,17 +234,22 @@ export const siteData = {
         "/images/projects/working-drawings/wall with kttl.jpg.jpeg",
         "/images/projects/working-drawings/KATTL WITH SIDE TABLE.jpg.jpeg"
       ],
-      shortDescription: "Plans, sections & technical layouts",
+      shortDescription: "Comprehensive 2D working drawing sets, joinery sheets, and millwork specifications.",
       descriptionParagraphs: [
-        "<strong>Technical documentation</strong> serves as the indispensable bridge between <strong>conceptual design and flawless on-site execution</strong>. I developed comprehensive AutoCAD drawing packages for the Al-Hawaj Residence, including ground and first-floor working plans, detailed electrical layouts, plumbing schematics, reflected ceiling plans, and flooring tile patterns. Every sheet adheres to rigorous drafting conventions with standardized title blocks, wall section tags, and accurate dimensions.",
-        "The focus on <strong>Joinery & Millwork Detailing</strong> resolves <strong>precise material dimensions, structural joinery, and ergonomic specifications</strong>. From custom built-in master wardrobes and internal drawer configurations to integrated bed headboard wall paneling and bedside tables, every millimeter is clearly drafted to eliminate ambiguities during fabrication, ensuring <strong>uncompromising quality, longevity, and buildability</strong>."
+        "<strong>Technical documentation</strong> serves as the indispensable bridge between <strong>conceptual design and flawless on-site execution</strong>. I developed comprehensive AutoCAD drawing packages for the Al-Hawaj Residence, including ground and first-floor working plans, detailed electrical layouts, plumbing schematics, reflected ceiling plans, and flooring tile patterns.",
+        "The focus on <strong>Joinery & Millwork Detailing</strong> resolves <strong>precise material dimensions, structural joinery, and ergonomic specifications</strong>. Every millimeter is drafted to eliminate ambiguities during fabrication, ensuring uncompromising buildability."
       ],
-      software: ["AutoCAD", "Revit", "Photoshop"],
-      materials: [],
-      rooms: []
+      software: ["AutoCAD", "Revit", "Photoshop"]
     }
   ],
   moments: [
+    "/contents/01.jpg.png",
+    "/contents/02.jpg.png",
+    "/contents/03.jpg.png",
+    "/contents/04.jpg.png",
+    "/contents/05.jpg.png",
+    "/contents/06.jpg.png",
+    "/contents/07.jpg.png",
     "/images/moments/moment-1.png",
     "/images/moments/moment-2.png",
     "/images/moments/moment-3.png",
@@ -233,11 +257,12 @@ export const siteData = {
     "/images/moments/moment-5.png"
   ],
   album: [
-    "/images/moments/moment-1.png",
-    "/images/moments/moment-2.png",
-    "/images/moments/moment-3.png",
-    "/images/moments/moment-4.png",
-    "/images/moments/moment-5.png"
+    { src: "/images/moments/moment-1.png", alt: "Spatial Concept" },
+    { src: "/images/moments/moment-2.png", alt: "Material Study" },
+    { src: "/images/moments/moment-3.png", alt: "Interior Perspective" },
+    { src: "/images/moments/moment-4.png", alt: "Living Space" },
+    { src: "/images/moments/moment-5.png", alt: "Bespoke Millwork" },
+    { src: "/images/profile-intro.jpg", alt: "Design Process" }
   ],
   process: [
     {
