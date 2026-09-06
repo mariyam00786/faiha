@@ -177,8 +177,8 @@ export function ProjectDetailClient({ project }: Props) {
             >
               {images.map((img, idx) => (
                 <div className="projectCarouselSlide" key={idx}>
-                  <img src={img} alt="" aria-hidden="true" className="slideBackdrop" draggable="false" />
-                  <img src={img} alt={`${project.title} — image ${idx + 1}`} className="slideImage" draggable="false" />
+                  <img src={img} alt="" aria-hidden="true" className="slideBackdrop" draggable="false" loading="lazy" />
+                  <img src={img} alt={`${project.title} — image ${idx + 1}`} className="slideImage" draggable="false" loading="lazy" />
                 </div>
               ))}
             </div>
@@ -203,7 +203,7 @@ export function ProjectDetailClient({ project }: Props) {
                 aria-label={`Go to image ${idx + 1}`}
                 onClick={() => handleThumbClick(idx)}
               >
-                <img src={img} alt="" draggable="false" />
+                <img src={img} alt="" draggable="false" loading="lazy" />
                 <span className="thumbNumber">{idx + 1}</span>
               </button>
             ))}
@@ -227,6 +227,7 @@ export function ProjectDetailClient({ project }: Props) {
               alt={`${project.title} — gallery image ${idx + 1}`} 
               className={gallerySlide === idx ? "isActive" : ""} 
               draggable="false" 
+              loading="lazy"
             />
           ))}
         </div>

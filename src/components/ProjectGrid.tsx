@@ -26,6 +26,7 @@ export function ProjectGrid() {
                 src={project.heroImage} 
                 alt={project.title} 
                 className="object-cover w-full h-full block transition-all duration-[1.4s] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-[1.06] group-hover:saturate-[0.88] group-hover:brightness-[0.96]" 
+                loading="lazy"
               />
             </div>
 
