@@ -186,19 +186,23 @@ export const siteData = {
       heroImage: "/contents/07.jpg.png",
       images: [
         "/contents/07.jpg.png",
+        "/gallery/BEDROOM/br1.png",
+        "/gallery/BEDROOM/br2.png",
+        "/gallery/BEDROOM/br3.png",
+        "/gallery/BEDROOM/br4.png",
         "/gallery/BEDROOM/11.png",
         "/gallery/BEDROOM/22.png",
         "/gallery/BEDROOM/1 (15).png",
+        "/gallery/BEDROOM/1 (16).png",
+        "/gallery/BEDROOM/1 (17).png",
         "/gallery/BEDROOM/3 (12).png",
+        "/gallery/BEDROOM/3 (13).png",
         "/gallery/BEDROOM/1 (1).png",
         "/gallery/BEDROOM/1 (2).png",
         "/gallery/BEDROOM/1 (3).png",
         "/gallery/BEDROOM/2 (1).png",
         "/gallery/BEDROOM/2 (2).png",
-        "/gallery/BEDROOM/KATTL WITH SIDE TABLE.jpg.jpeg",
-        "/gallery/BEDROOM/WARDROBE DETAIL.jpg.jpeg",
-        "/gallery/BEDROOM/wall with kttl.jpg.jpeg",
-        "/gallery/BEDROOM/WARDROBE.jpg.jpeg"
+        "/gallery/BEDROOM/2 (15).png"
       ],
       shortDescription: "Private rest and wellness spaces detailed with custom millwork and atmospheric lighting.",
       descriptionParagraphs: [

@@ -194,14 +194,14 @@ export const contentsData: ContentCategory[] = [
     projects: [
       {
         title: "Master Suite & Bespoke Millwork",
-        description: "A serene master bedroom sanctuary featuring integrated headboard wall paneling, soft ambient illumination, and custom full-height wardrobe joinery with comprehensive technical drawings.",
+        description: "A serene master bedroom sanctuary featuring integrated headboard wall paneling, soft ambient illumination, and custom full-height wardrobe joinery.",
         images: [
+          "/gallery/BEDROOM/br1.png",
+          "/gallery/BEDROOM/br2.png",
+          "/gallery/BEDROOM/br3.png",
+          "/gallery/BEDROOM/br4.png",
           "/gallery/BEDROOM/11.png",
-          "/gallery/BEDROOM/22.png",
-          "/gallery/BEDROOM/KATTL WITH SIDE TABLE.jpg.jpeg",
-          "/gallery/BEDROOM/WARDROBE DETAIL.jpg.jpeg",
-          "/gallery/BEDROOM/wall with kttl.jpg.jpeg",
-          "/gallery/BEDROOM/WARDROBE.jpg.jpeg"
+          "/gallery/BEDROOM/22.png"
         ]
       },
       {
@@ -209,12 +209,15 @@ export const contentsData: ContentCategory[] = [
         description: "A refined and modern bedroom space, featuring a custom wardrobe design and an integrated wall station.",
         images: [
           "/gallery/BEDROOM/1 (15).png",
-          "/gallery/BEDROOM/3 (12).png"
+          "/gallery/BEDROOM/1 (16).png",
+          "/gallery/BEDROOM/1 (17).png",
+          "/gallery/BEDROOM/3 (12).png",
+          "/gallery/BEDROOM/3 (13).png"
         ]
       },
       {
         title: "Bedroom Design 1",
-        description: "Write about the first bedroom design here.",
+        description: "Minimalist warm-toned bedroom with balanced natural lighting and layered textures.",
         images: [
           "/gallery/BEDROOM/1 (1).png",
           "/gallery/BEDROOM/1 (2).png",
@@ -223,10 +226,11 @@ export const contentsData: ContentCategory[] = [
       },
       {
         title: "Bedroom Design 2",
-        description: "Write about the second bedroom design here.",
+        description: "Contemporary bedroom composition highlighting custom joinery and restful palettes.",
         images: [
           "/gallery/BEDROOM/2 (1).png",
-          "/gallery/BEDROOM/2 (2).png"
+          "/gallery/BEDROOM/2 (2).png",
+          "/gallery/BEDROOM/2 (15).png"
         ]
       }
     ]
