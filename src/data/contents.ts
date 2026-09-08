@@ -84,7 +84,7 @@ export const contentsData: ContentCategory[] = [
     projects: [
       {
         title: "Kitchen Design 1",
-        description: "Write about the first kitchen design here.",
+        description: "Nordic minimalist kitchen featuring clean white cabinetry, warm oak accents, quartz countertops, and an open breakfast island.",
         images: [
           "/gallery/kitchen/design 1 (1).png",
           "/gallery/kitchen/design 1 (2).png",
@@ -93,7 +93,7 @@ export const contentsData: ContentCategory[] = [
       },
       {
         title: "Kitchen Design 2",
-        description: "Write about the second kitchen design here.",
+        description: "Modern monolithic island kitchen with dramatic waterfall quartz surfaces, fluted smoked oak joinery, and concealed appliances.",
         images: [
           "/gallery/kitchen/design 2 (1).png",
           "/gallery/kitchen/design 2 (2).png",
@@ -103,7 +103,7 @@ export const contentsData: ContentCategory[] = [
       },
       {
         title: "Kitchen Design 3",
-        description: "Write about the third kitchen design here.",
+        description: "Contemporary parallel kitchen layout designed for culinary efficiency with dedicated prep zones and ambient LED task lighting.",
         images: [
           "/gallery/kitchen/design 3 (1).png",
           "/gallery/kitchen/design 3 (2).png",
@@ -112,7 +112,7 @@ export const contentsData: ContentCategory[] = [
       },
       {
         title: "Kitchen Design 4",
-        description: "Write about the fourth kitchen design here.",
+        description: "High-performance compact modular kitchen optimizing vertical storage with Blum Aventos bi-fold hardware and seamless ergonomics.",
         images: [
           "/gallery/kitchen/design 4 (1).png",
           "/gallery/kitchen/design 4 (2).png",
@@ -132,7 +132,7 @@ export const contentsData: ContentCategory[] = [
     projects: [
       {
         title: "Living Design 1",
-        description: "Write about the first living room design here.",
+        description: "Double-height formal living lounge featuring warm fluted oak paneling, integrated media joinery, and circadian cove illumination.",
         images: [
           "/gallery/living/1 (1).png",
           "/gallery/living/1 (2).png",
@@ -141,7 +141,7 @@ export const contentsData: ContentCategory[] = [
       },
       {
         title: "Living Design 2",
-        description: "Write about the second living room design here.",
+        description: "Intimate family living retreat centered around acoustic wood battens, bespoke low-profile media credenza, and tactile linen upholstery.",
         images: [
           "/gallery/living/2 (1).png",
           "/gallery/living/2 (2).png",
@@ -150,7 +150,7 @@ export const contentsData: ContentCategory[] = [
       },
       {
         title: "Living Design 3",
-        description: "Write about the third living room design here.",
+        description: "Contemporary open-plan lounge connecting with adjacent dining zones, featuring curated display shelving and ambient directional sconces.",
         images: [
           "/gallery/living/3 (1).png",
           "/gallery/living/3 (2).png",
@@ -181,7 +181,10 @@ export const contentsData: ContentCategory[] = [
     gallery: [
       "/gallery/WASHROOM/1 (12).png",
       "/gallery/WASHROOM/2 (12).png",
-      "/gallery/WASHROOM/3 (10).png"
+      "/gallery/WASHROOM/3 (10).png",
+      "/gallery/WASHROOM/b1.png",
+      "/gallery/WASHROOM/b2.png",
+      "/gallery/WASHROOM/b3.png"
     ]
   },
   {
@@ -193,44 +196,48 @@ export const contentsData: ContentCategory[] = [
     gallery: [],
     projects: [
       {
-        title: "Master Suite & Bespoke Millwork",
-        description: "A serene master bedroom sanctuary featuring integrated headboard wall paneling, soft ambient illumination, and custom full-height wardrobe joinery.",
+        title: "Bedroom Design — View 01",
+        description: "Minimalist warm-toned bedroom sanctuary featuring balanced natural lighting, integrated wall accents, and calming symmetry.",
         images: [
-          "/gallery/BEDROOM/br1.png",
-          "/gallery/BEDROOM/br2.png",
-          "/gallery/BEDROOM/br3.png",
-          "/gallery/BEDROOM/br4.png",
-          "/gallery/BEDROOM/11.png",
-          "/gallery/BEDROOM/22.png"
+          "/gallery/BEDROOM/view 1 (1).png",
+          "/gallery/BEDROOM/view 1 (2).png",
+          "/gallery/BEDROOM/view 1 (3).png"
         ]
       },
       {
-        title: "Modern Bedroom Setup",
-        description: "A refined and modern bedroom space, featuring a custom wardrobe design and an integrated wall station.",
+        title: "Bedroom Suite — View 02 (Master Sanctuary)",
+        description: "A serene master bedroom suite featuring integrated headboard wall paneling, soft ambient illumination, and custom full-height wardrobe joinery.",
         images: [
-          "/gallery/BEDROOM/1 (15).png",
-          "/gallery/BEDROOM/1 (16).png",
-          "/gallery/BEDROOM/1 (17).png",
-          "/gallery/BEDROOM/3 (12).png",
-          "/gallery/BEDROOM/3 (13).png"
+          "/gallery/BEDROOM/view 2 (1).png",
+          "/gallery/BEDROOM/view 2 (2).png",
+          "/gallery/BEDROOM/view 2 (3).png",
+          "/gallery/BEDROOM/view 2 (4).png",
+          "/gallery/BEDROOM/view 2 (5).png"
         ]
       },
       {
-        title: "Bedroom Design 1",
-        description: "Minimalist warm-toned bedroom with balanced natural lighting and layered textures.",
+        title: "Bedroom Design — View 03",
+        description: "Warm earth-toned bedroom composition with acoustic wood battens, soft tactile fabrics, and circadian nightstand lighting.",
         images: [
-          "/gallery/BEDROOM/1 (1).png",
-          "/gallery/BEDROOM/1 (2).png",
-          "/gallery/BEDROOM/1 (3).png"
+          "/gallery/BEDROOM/view 3 (1).png",
+          "/gallery/BEDROOM/view 3 (2).png",
+          "/gallery/BEDROOM/view 3 (3).png"
         ]
       },
       {
-        title: "Bedroom Design 2",
-        description: "Contemporary bedroom composition highlighting custom joinery and restful palettes.",
+        title: "Bedroom Design — View 04",
+        description: "Contemporary bedroom composition highlighting custom millwork, soft textures, and restful neutral palettes.",
         images: [
-          "/gallery/BEDROOM/2 (1).png",
-          "/gallery/BEDROOM/2 (2).png",
-          "/gallery/BEDROOM/2 (15).png"
+          "/gallery/BEDROOM/view 4 (1).png",
+          "/gallery/BEDROOM/view 4 (2).png"
+        ]
+      },
+      {
+        title: "Bedroom Design — View 05",
+        description: "Space-efficient built-in wardrobe cabinetry, bespoke vanity desk station, and modern ergonomic zoning.",
+        images: [
+          "/gallery/BEDROOM/view 5 (1).png",
+          "/gallery/BEDROOM/view 5 (2).png"
         ]
       }
     ]

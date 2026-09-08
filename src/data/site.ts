@@ -12,7 +12,7 @@ export const siteData = {
   resumeLink: "/FAIHA_FAISAL_Resume.pdf",
   portfolioPdfLink: "/FAIHA_FAISAL_Portfolio.pdf",
   about: {
-    bio: "My name is Faiha, and I was born and raised in Kerala, India. Now working as an interior designer in Calicut, I have been shaped by my cultural roots and my passion for creating functional, aesthetically enduring spaces. Moving between different academic disciplines and professional environments has made me especially attentive to how people experience spaces, and it has strengthened my belief that thoughtful design can help people feel welcomed, understood, and connected.\n\nBefore pursuing interior design, I earned a Bachelor's degree in Sociology from Calicut University. Although sociology and spatial design may seem like very different paths, my sociological background continues to influence the way I work. It taught me how to observe human behavior, organize complex functional requirements patiently, and think through how many individual elements come together as one complete, harmonious living system. Wanting to combine that analytical, human-centered mindset with my lifelong interest in art and creativity led me to earn my Diploma in Interior Design from Alagappa University.\n\nMy work is centered in people and the stories behind the spaces they use. I enjoy every stage of the design process, from research, moodboards, and early concept development to space planning, 3D visualization, material selection, and detailed technical documentation. Having contributed to residential and commercial projects at Theyyampattil Homesoul Interior and AlHawaj Architect & Builders, I am especially interested in environments where design can make a meaningful difference in everyday life.\n\nWhen I am not designing, I enjoy creating digital art, exploring vernacular architecture, studying textures and lighting nuances, and noticing the small details that give spaces their unique personality. I am constantly collecting ideas from architecture, culture, nature, and everyday experiences.",
+    bio: "My name is Faiha, and I was born and raised in Kerala, India. Now working as an interior designer in Calicut, I have been shaped by my cultural roots and my passion for creating functional, aesthetically enduring spaces. Working across diverse design environments has made me especially attentive to how people experience spaces, and it has strengthened my belief that thoughtful design can help people feel welcomed, understood, and connected.\n\nWith a Diploma in Interior Design from Alagappa University and an academic background from Calicut University, I bring a human-centered, detail-oriented approach to every project. I focus on understanding how people interact with their surroundings—organizing complex functional requirements seamlessly and harmonizing materials, lighting, and layout into complete, balanced living spaces.\n\nMy work is centered in people and the stories behind the spaces they use. I enjoy every stage of the design process, from research, moodboards, and early concept development to space planning, 3D visualization, material selection, and detailed technical documentation. Having contributed to residential and commercial projects at Theyyampattil Homesoul Interior and AlHawaj Architect & Builders, I am especially interested in environments where design can make a meaningful difference in everyday life.\n\nWhen I am not designing, I enjoy creating digital art, exploring vernacular architecture, studying textures and lighting nuances, and noticing the small details that give spaces their unique personality. I am constantly collecting ideas from architecture, culture, nature, and everyday experiences.",
     interests: [
       "Commercial Interiors",
       "Workplace",
@@ -23,12 +23,8 @@ export const siteData = {
       "Sustainability",
       "Interactive Architecture"
     ],
-    awards: [
-      "2024 Design Excellence Recognition – Alagappa University Showcase"
-    ],
+    awards: [],
     organizations: [
-      "IIID",
-      "ASID Student Affiliate",
       "Kerala Interior Designers Forum"
     ],
     skills: [
@@ -130,8 +126,11 @@ export const siteData = {
         "/gallery/kitchen/design 2 (4).png",
         "/gallery/kitchen/design 3 (1).png",
         "/gallery/kitchen/design 3 (2).png",
+        "/gallery/kitchen/design 3 (3).png",
         "/gallery/kitchen/design 4 (1).png",
-        "/gallery/kitchen/design 4 (2).png"
+        "/gallery/kitchen/design 4 (2).png",
+        "/gallery/kitchen/design 4 (3).png",
+        "/gallery/kitchen/design 4 (4).png"
       ],
       shortDescription: "Culinary spaces, modular cabinetry, and open-plan entertaining zones.",
       descriptionParagraphs: [
@@ -186,23 +185,21 @@ export const siteData = {
       heroImage: "/contents/07.jpg.png",
       images: [
         "/contents/07.jpg.png",
-        "/gallery/BEDROOM/br1.png",
-        "/gallery/BEDROOM/br2.png",
-        "/gallery/BEDROOM/br3.png",
-        "/gallery/BEDROOM/br4.png",
-        "/gallery/BEDROOM/11.png",
-        "/gallery/BEDROOM/22.png",
-        "/gallery/BEDROOM/1 (15).png",
-        "/gallery/BEDROOM/1 (16).png",
-        "/gallery/BEDROOM/1 (17).png",
-        "/gallery/BEDROOM/3 (12).png",
-        "/gallery/BEDROOM/3 (13).png",
-        "/gallery/BEDROOM/1 (1).png",
-        "/gallery/BEDROOM/1 (2).png",
-        "/gallery/BEDROOM/1 (3).png",
-        "/gallery/BEDROOM/2 (1).png",
-        "/gallery/BEDROOM/2 (2).png",
-        "/gallery/BEDROOM/2 (15).png"
+        "/gallery/BEDROOM/view 1 (1).png",
+        "/gallery/BEDROOM/view 1 (2).png",
+        "/gallery/BEDROOM/view 1 (3).png",
+        "/gallery/BEDROOM/view 2 (1).png",
+        "/gallery/BEDROOM/view 2 (2).png",
+        "/gallery/BEDROOM/view 2 (3).png",
+        "/gallery/BEDROOM/view 2 (4).png",
+        "/gallery/BEDROOM/view 2 (5).png",
+        "/gallery/BEDROOM/view 3 (1).png",
+        "/gallery/BEDROOM/view 3 (2).png",
+        "/gallery/BEDROOM/view 3 (3).png",
+        "/gallery/BEDROOM/view 4 (1).png",
+        "/gallery/BEDROOM/view 4 (2).png",
+        "/gallery/BEDROOM/view 5 (1).png",
+        "/gallery/BEDROOM/view 5 (2).png"
       ],
       shortDescription: "Private rest and wellness spaces detailed with custom millwork and atmospheric lighting.",
       descriptionParagraphs: [
