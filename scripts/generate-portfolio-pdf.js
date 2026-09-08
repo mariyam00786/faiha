@@ -218,7 +218,7 @@ const htmlContent = `<!DOCTYPE html>
     color: #25211E;
     font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
     line-height: 1.45;
-    font-size: 10.5px;
+    font-size: 11.5px;
   }
 
   .sheet {
@@ -243,7 +243,7 @@ const htmlContent = `<!DOCTYPE html>
     border-bottom: 1px solid rgba(44, 39, 35, 0.12);
   }
   .page-header-left {
-    font-size: 8.5px;
+    font-size: 9.5px;
     letter-spacing: 0.18em;
     text-transform: uppercase;
     color: #5A5148;
@@ -252,7 +252,7 @@ const htmlContent = `<!DOCTYPE html>
   .page-header-right {
     font-family: 'Cormorant Garamond', Georgia, serif;
     font-style: italic;
-    font-size: 12.5px;
+    font-size: 13.5px;
     color: #25211E;
   }
   .page-footer {
@@ -262,7 +262,7 @@ const htmlContent = `<!DOCTYPE html>
     justify-content: space-between;
     align-items: center;
     border-top: 1px solid rgba(44, 39, 35, 0.1);
-    font-size: 8px;
+    font-size: 9px;
     color: #7D746A;
     letter-spacing: 0.14em;
     text-transform: uppercase;
@@ -288,7 +288,7 @@ const htmlContent = `<!DOCTYPE html>
     font-style: italic;
   }
   .section-tag {
-    font-size: 8px;
+    font-size: 9.5px;
     letter-spacing: 0.22em;
     text-transform: uppercase;
     color: #592727;
@@ -297,8 +297,8 @@ const htmlContent = `<!DOCTYPE html>
     display: inline-block;
   }
   .editorial-body {
-    font-size: 9.5px;
-    line-height: 1.5;
+    font-size: 11px;
+    line-height: 1.55;
     color: #433D36;
     margin-bottom: 6px;
   }
@@ -323,8 +323,8 @@ const htmlContent = `<!DOCTYPE html>
     left: 6px;
     background: rgba(37, 33, 30, 0.85);
     color: #FAF8F5;
-    padding: 2.5px 7px;
-    font-size: 7.5px;
+    padding: 3px 8px;
+    font-size: 8.8px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     font-weight: 500;
@@ -346,14 +346,14 @@ const htmlContent = `<!DOCTYPE html>
     border: 1px solid rgba(44, 39, 35, 0.06);
   }
   .fact-label {
-    font-size: 7px;
+    font-size: 8px;
     text-transform: uppercase;
     letter-spacing: 0.14em;
     color: #7D746A;
     margin-bottom: 1.5px;
   }
   .fact-val {
-    font-size: 8.2px;
+    font-size: 9.5px;
     font-weight: 600;
     color: #25211E;
     line-height: 1.2;
@@ -362,9 +362,9 @@ const htmlContent = `<!DOCTYPE html>
     background: #EDE8DE;
     padding: 7px 9px;
     border-left: 2px solid #592727;
-    font-size: 8.5px;
+    font-size: 9.8px;
     color: #433D36;
-    line-height: 1.4;
+    line-height: 1.45;
   }
 
   /* Specific Grids */
@@ -417,7 +417,7 @@ const htmlContent = `<!DOCTYPE html>
     margin-bottom: 14px;
   }
   .cover-subtitle {
-    font-size: 10.5px;
+    font-size: 11.8px;
     letter-spacing: 0.22em;
     text-transform: uppercase;
     color: #D3C9BC;
@@ -426,7 +426,7 @@ const htmlContent = `<!DOCTYPE html>
   }
   .cover-quote {
     font-family: 'Cormorant Garamond', Georgia, serif;
-    font-size: 14px;
+    font-size: 15.5px;
     font-style: italic;
     color: #E2DDD5;
     opacity: 0.9;
@@ -447,7 +447,7 @@ const htmlContent = `<!DOCTYPE html>
     align-items: center;
     border-top: 1px solid rgba(250, 248, 245, 0.15);
     padding-top: 5mm;
-    font-size: 8.5px;
+    font-size: 9.5px;
     letter-spacing: 0.18em;
     text-transform: uppercase;
     color: #9E9487;
@@ -471,8 +471,8 @@ const htmlContent = `<!DOCTYPE html>
     padding: 10px 12px;
     font-family: 'Cormorant Garamond', Georgia, serif;
     font-style: italic;
-    font-size: 12.5px;
-    line-height: 1.45;
+    font-size: 13.5px;
+    line-height: 1.5;
     color: #25211E;
   }
 
@@ -498,14 +498,14 @@ const htmlContent = `<!DOCTYPE html>
     width: 28px;
   }
   .toc-title {
-    font-size: 10px;
+    font-size: 11.5px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.08em;
     color: #25211E;
   }
   .toc-desc {
-    font-size: 8.2px;
+    font-size: 9.5px;
     color: #7D746A;
   }
   .methodology-step {
@@ -534,25 +534,25 @@ const htmlContent = `<!DOCTYPE html>
     margin-bottom: 10px;
   }
   .cv-item-title {
-    font-size: 9.5px;
+    font-size: 11px;
     font-weight: 700;
     color: #25211E;
   }
   .cv-item-sub {
-    font-size: 8.5px;
+    font-size: 9.8px;
     color: #592727;
     font-weight: 600;
     margin-bottom: 2px;
   }
   .cv-item-desc {
-    font-size: 8.5px;
+    font-size: 9.5px;
     color: #5A5148;
-    line-height: 1.4;
+    line-height: 1.45;
   }
   .skill-badge {
     background: #EDE8DE;
-    padding: 3px 6px;
-    font-size: 7.8px;
+    padding: 3.5px 7px;
+    font-size: 8.8px;
     font-weight: 600;
     color: #25211E;
     letter-spacing: 0.04em;
@@ -565,7 +565,7 @@ const htmlContent = `<!DOCTYPE html>
   <!-- ================================= SHEET 1: COVER PAGE ================================= -->
   <div class="sheet cover-sheet">
     <div class="cover-container">
-      <div style="font-size: 8.5px; letter-spacing: 0.25em; text-transform: uppercase; color: #9E9487; display: flex; justify-content: space-between;">
+      <div style="font-size: 9.5px; letter-spacing: 0.25em; text-transform: uppercase; color: #9E9487; display: flex; justify-content: space-between;">
         <span>Selected Works Publication · 2024–2025</span>
         <span>Kerala, India</span>
       </div>
@@ -580,7 +580,7 @@ const htmlContent = `<!DOCTYPE html>
           <div class="cover-quote">
             "Translating human social dynamics, cultural context, and sensory rituals into enduring, warm architectural environments."
           </div>
-          <div style="margin-top: 20px; display: flex; gap: 14px; font-size: 8.5px; letter-spacing: 0.12em; text-transform: uppercase; color: #9E9487;">
+          <div style="margin-top: 20px; display: flex; gap: 14px; font-size: 9.5px; letter-spacing: 0.12em; text-transform: uppercase; color: #9E9487;">
             <span>Residential</span>
             <span>·</span>
             <span>Commercial</span>
@@ -642,7 +642,7 @@ const htmlContent = `<!DOCTYPE html>
 
           <div style="background: #EDE8DE; padding: 10px 14px; border: 1px solid rgba(44, 39, 35, 0.08);">
             <div class="fact-label">Core Specializations</div>
-            <div style="font-size: 8.8px; font-weight: 600; color: #25211E;">
+            <div style="font-size: 10px; font-weight: 600; color: #25211E;">
               Residential Interiors · Space Planning · Photorealistic 3D Visualization · Custom Joinery
             </div>
           </div>
@@ -678,7 +678,7 @@ const htmlContent = `<!DOCTYPE html>
                 <div class="toc-desc">Designs 01–03 Modern Zen, Tropical Atrium &amp; Concrete Light Wells</div>
               </div>
             </div>
-            <div style="font-weight: 700; font-size: 10px; color: #592727;">p. 04–06</div>
+            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 04–06</div>
           </div>
 
           <div class="toc-item">
@@ -689,7 +689,7 @@ const htmlContent = `<!DOCTYPE html>
                 <div class="toc-desc">Villa Facades, Climate Modulation &amp; Framed Overhangs</div>
               </div>
             </div>
-            <div style="font-weight: 700; font-size: 10px; color: #592727;">p. 07</div>
+            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 07</div>
           </div>
 
           <div class="toc-item">
@@ -700,7 +700,7 @@ const htmlContent = `<!DOCTYPE html>
                 <div class="toc-desc">Designs 01–04 Modular Kitchens, Islands &amp; Blum Hardware</div>
               </div>
             </div>
-            <div style="font-weight: 700; font-size: 10px; color: #592727;">p. 08–11</div>
+            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 08–11</div>
           </div>
 
           <div class="toc-item">
@@ -711,7 +711,7 @@ const htmlContent = `<!DOCTYPE html>
                 <div class="toc-desc">Designs 01–03 Double-Height Lounges, Social Flow &amp; Paneling</div>
               </div>
             </div>
-            <div style="font-weight: 700; font-size: 10px; color: #592727;">p. 12–14</div>
+            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 12–14</div>
           </div>
 
           <div class="toc-item">
@@ -722,7 +722,7 @@ const htmlContent = `<!DOCTYPE html>
                 <div class="toc-desc">Entertaining Hubs, Custom Buffet Joinery &amp; Ambient Lighting</div>
               </div>
             </div>
-            <div style="font-weight: 700; font-size: 10px; color: #592727;">p. 15</div>
+            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 15</div>
           </div>
 
           <div class="toc-item">
@@ -733,7 +733,7 @@ const htmlContent = `<!DOCTYPE html>
                 <div class="toc-desc">Spa Sanctuaries, Fluted Finishes &amp; Backlit Mirrors</div>
               </div>
             </div>
-            <div style="font-weight: 700; font-size: 10px; color: #592727;">p. 16</div>
+            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 16</div>
           </div>
 
           <div class="toc-item">
@@ -744,7 +744,7 @@ const htmlContent = `<!DOCTYPE html>
                 <div class="toc-desc">Views 01–05 Dedicated Design Suites &amp; Joinery Collections</div>
               </div>
             </div>
-            <div style="font-weight: 700; font-size: 10px; color: #592727;">p. 17–21</div>
+            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 17–21</div>
           </div>
 
           <div class="toc-item">
@@ -755,7 +755,7 @@ const htmlContent = `<!DOCTYPE html>
                 <div class="toc-desc">AutoCAD Architectural CAD Sets, Sections &amp; Joinery Details</div>
               </div>
             </div>
-            <div style="font-weight: 700; font-size: 10px; color: #592727;">p. 22–27</div>
+            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 22–27</div>
           </div>
 
           <div class="toc-item">
@@ -766,7 +766,7 @@ const htmlContent = `<!DOCTYPE html>
                 <div class="toc-desc">Professional Experience, Technical Skills &amp; Contact</div>
               </div>
             </div>
-            <div style="font-weight: 700; font-size: 10px; color: #592727;">p. 28</div>
+            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 28</div>
           </div>
         </div>
 
@@ -777,40 +777,40 @@ const htmlContent = `<!DOCTYPE html>
 
           <div class="methodology-step">
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2px;">
-              <span style="font-weight: 700; font-size: 9.5px; text-transform: uppercase; letter-spacing: 0.08em; color: #25211E;">01 · Discovery &amp; Spatial Strategy</span>
-              <span style="font-size: 7.5px; color: #7D746A; text-transform: uppercase;">Brief &amp; Research</span>
+              <span style="font-weight: 700; font-size: 10.8px; text-transform: uppercase; letter-spacing: 0.08em; color: #25211E;">01 · Discovery &amp; Spatial Strategy</span>
+              <span style="font-size: 8.5px; color: #7D746A; text-transform: uppercase;">Brief &amp; Research</span>
             </div>
-            <p style="font-size: 8.5px; color: #5A5148; line-height: 1.45;">
+            <p style="font-size: 9.8px; color: #5A5148; line-height: 1.48;">
               Engaging closely with client lifestyles, cultural habits, circulation constraints, and site context to define the design compass.
             </p>
           </div>
 
           <div class="methodology-step">
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2px;">
-              <span style="font-weight: 700; font-size: 9.5px; text-transform: uppercase; letter-spacing: 0.08em; color: #25211E;">02 · Concept Design &amp; 3D Modeling</span>
-              <span style="font-size: 7.5px; color: #7D746A; text-transform: uppercase;">Volume &amp; Mood</span>
+              <span style="font-weight: 700; font-size: 10.8px; text-transform: uppercase; letter-spacing: 0.08em; color: #25211E;">02 · Concept Design &amp; 3D Modeling</span>
+              <span style="font-size: 8.5px; color: #7D746A; text-transform: uppercase;">Volume &amp; Mood</span>
             </div>
-            <p style="font-size: 8.5px; color: #5A5148; line-height: 1.45;">
+            <p style="font-size: 9.8px; color: #5A5148; line-height: 1.48;">
               Synthesizing moodboards, spatial zoning diagrams, material palettes, and photorealistic 3D mockups in SketchUp &amp; 3ds Max.
             </p>
           </div>
 
           <div class="methodology-step">
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2px;">
-              <span style="font-weight: 700; font-size: 9.5px; text-transform: uppercase; letter-spacing: 0.08em; color: #25211E;">03 · Technical Detailing &amp; Documentation</span>
-              <span style="font-size: 7.5px; color: #7D746A; text-transform: uppercase;">AutoCAD &amp; Revit</span>
+              <span style="font-weight: 700; font-size: 10.8px; text-transform: uppercase; letter-spacing: 0.08em; color: #25211E;">03 · Technical Detailing &amp; Documentation</span>
+              <span style="font-size: 8.5px; color: #7D746A; text-transform: uppercase;">AutoCAD &amp; Revit</span>
             </div>
-            <p style="font-size: 8.5px; color: #5A5148; line-height: 1.45;">
+            <p style="font-size: 9.8px; color: #5A5148; line-height: 1.48;">
               Producing complete construction packs, electrical schematics, custom joinery sections, and finish schedules with zero ambiguity.
             </p>
           </div>
 
           <div class="methodology-step">
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2px;">
-              <span style="font-weight: 700; font-size: 9.5px; text-transform: uppercase; letter-spacing: 0.08em; color: #25211E;">04 · Site Coordination &amp; Realization</span>
-              <span style="font-size: 7.5px; color: #7D746A; text-transform: uppercase;">On-Site Craft</span>
+              <span style="font-weight: 700; font-size: 10.8px; text-transform: uppercase; letter-spacing: 0.08em; color: #25211E;">04 · Site Coordination &amp; Realization</span>
+              <span style="font-size: 8.5px; color: #7D746A; text-transform: uppercase;">On-Site Craft</span>
             </div>
-            <p style="font-size: 8.5px; color: #5A5148; line-height: 1.45;">
+            <p style="font-size: 9.8px; color: #5A5148; line-height: 1.48;">
               Collaborating on-site with carpenters, contractors, and lighting specialists to ensure precision craft and harmonious aesthetic finish.
             </p>
           </div>
@@ -2227,7 +2227,7 @@ const htmlContent = `<!DOCTYPE html>
               Formal Living Room <span class="serif-italic">Layout &amp; Section AA</span>
             </h2>
           </div>
-          <div style="font-size: 8px; color: #5A5148; max-width: 480px; text-align: right; line-height: 1.35;">
+          <div style="font-size: 9.2px; color: #5A5148; max-width: 480px; text-align: right; line-height: 1.38;">
             Architectural working drawings drafted to 1:50 scale specifying structural perimeter envelope, circulation clearances, modular seating offsets, and media wall paneling.
           </div>
         </div>
@@ -2238,14 +2238,14 @@ const htmlContent = `<!DOCTYPE html>
             <div style="margin-bottom: 5px; display: flex; justify-content: space-between; align-items: baseline;">
               <div>
                 <span class="fact-label" style="display: inline-block; margin-bottom: 1px;">Sheet A101 · Dimensioned Floor Plan</span>
-                <div style="font-size: 10px; font-weight: 700; color: #25211E;">Formal Living Room Spatial Layout</div>
+                <div style="font-size: 11.2px; font-weight: 700; color: #25211E;">Formal Living Room Spatial Layout</div>
               </div>
-              <span style="font-size: 7.5px; font-weight: 600; color: #592727; letter-spacing: 0.08em; text-transform: uppercase;">AutoCAD 1:50</span>
+              <span style="font-size: 8.5px; font-weight: 600; color: #592727; letter-spacing: 0.08em; text-transform: uppercase;">AutoCAD 1:50</span>
             </div>
             <div class="img-frame" style="flex: 1; min-height: 0; background: #FFFFFF; border: 1px solid #EAE5DE; display: flex; align-items: center; justify-content: center;">
               <img src="${dwg1}" alt="Formal Living Room Layout Plan" class="img-fill" style="object-fit: contain; background: #FFFFFF; width: 100%; height: 100%;">
             </div>
-            <div style="font-size: 7.5px; color: #6E665D; margin-top: 4px; line-height: 1.3; font-style: italic;">
+            <div style="font-size: 8.5px; color: #6E665D; margin-top: 4px; line-height: 1.35; font-style: italic;">
               Dimensioned layout detailing circulation corridors, seating positions, masonry envelope, and fenestration openings.
             </div>
           </div>
@@ -2255,14 +2255,14 @@ const htmlContent = `<!DOCTYPE html>
             <div style="margin-bottom: 5px; display: flex; justify-content: space-between; align-items: baseline;">
               <div>
                 <span class="fact-label" style="display: inline-block; margin-bottom: 1px;">Sheet A102 · Section AA Elevation</span>
-                <div style="font-size: 10px; font-weight: 700; color: #25211E;">Transverse Section &amp; Paneling Elevation</div>
+                <div style="font-size: 11.2px; font-weight: 700; color: #25211E;">Transverse Section &amp; Paneling Elevation</div>
               </div>
-              <span style="font-size: 7.5px; font-weight: 600; color: #592727; letter-spacing: 0.08em; text-transform: uppercase;">AutoCAD 1:50</span>
+              <span style="font-size: 8.5px; font-weight: 600; color: #592727; letter-spacing: 0.08em; text-transform: uppercase;">AutoCAD 1:50</span>
             </div>
             <div class="img-frame" style="flex: 1; min-height: 0; background: #FFFFFF; border: 1px solid #EAE5DE; display: flex; align-items: center; justify-content: center;">
               <img src="${dwg2}" alt="Formal Living Section AA" class="img-fill" style="object-fit: contain; background: #FFFFFF; width: 100%; height: 100%;">
             </div>
-            <div style="font-size: 7.5px; color: #6E665D; margin-top: 4px; line-height: 1.3; font-style: italic;">
+            <div style="font-size: 8.5px; color: #6E665D; margin-top: 4px; line-height: 1.35; font-style: italic;">
               Sectional elevation detailing ceiling drop levels, fluted timber paneling height, wall sconce heights, and conduit routes.
             </div>
           </div>
@@ -2292,7 +2292,7 @@ const htmlContent = `<!DOCTYPE html>
               Formal Living <span class="serif-italic">Longitudinal Sections &amp; Glazing</span>
             </h2>
           </div>
-          <div style="font-size: 8px; color: #5A5148; max-width: 480px; text-align: right; line-height: 1.35;">
+          <div style="font-size: 9.2px; color: #5A5148; max-width: 480px; text-align: right; line-height: 1.38;">
             Vertical sections illustrating lintel datum levels, floor slab drop transitions, acoustic insulation cavity detailing, and structural framing.
           </div>
         </div>
@@ -2303,14 +2303,14 @@ const htmlContent = `<!DOCTYPE html>
             <div style="margin-bottom: 5px; display: flex; justify-content: space-between; align-items: baseline;">
               <div>
                 <span class="fact-label" style="display: inline-block; margin-bottom: 1px;">Sheet A103 · Longitudinal Section BB</span>
-                <div style="font-size: 10px; font-weight: 700; color: #25211E;">Longitudinal Section Through Living Suite</div>
+                <div style="font-size: 11.2px; font-weight: 700; color: #25211E;">Longitudinal Section Through Living Suite</div>
               </div>
-              <span style="font-size: 7.5px; font-weight: 600; color: #592727; letter-spacing: 0.08em; text-transform: uppercase;">AutoCAD 1:50</span>
+              <span style="font-size: 8.5px; font-weight: 600; color: #592727; letter-spacing: 0.08em; text-transform: uppercase;">AutoCAD 1:50</span>
             </div>
             <div class="img-frame" style="flex: 1; min-height: 0; background: #FFFFFF; border: 1px solid #EAE5DE; display: flex; align-items: center; justify-content: center;">
               <img src="${dwg3}" alt="Formal Living Longitudinal Section BB" class="img-fill" style="object-fit: contain; background: #FFFFFF; width: 100%; height: 100%;">
             </div>
-            <div style="font-size: 7.5px; color: #6E665D; margin-top: 4px; line-height: 1.3; font-style: italic;">
+            <div style="font-size: 8.5px; color: #6E665D; margin-top: 4px; line-height: 1.35; font-style: italic;">
               Full-length sectional cut displaying wall cladding substrates, ceiling cove recesses, and skirting interface details.
             </div>
           </div>
@@ -2320,14 +2320,14 @@ const htmlContent = `<!DOCTYPE html>
             <div style="margin-bottom: 5px; display: flex; justify-content: space-between; align-items: baseline;">
               <div>
                 <span class="fact-label" style="display: inline-block; margin-bottom: 1px;">Sheet A104 · Sectional Elevation CC</span>
-                <div style="font-size: 10px; font-weight: 700; color: #25211E;">Fenestration &amp; Glazing Interface</div>
+                <div style="font-size: 11.2px; font-weight: 700; color: #25211E;">Fenestration &amp; Glazing Interface</div>
               </div>
-              <span style="font-size: 7.5px; font-weight: 600; color: #592727; letter-spacing: 0.08em; text-transform: uppercase;">AutoCAD 1:50</span>
+              <span style="font-size: 8.5px; font-weight: 600; color: #592727; letter-spacing: 0.08em; text-transform: uppercase;">AutoCAD 1:50</span>
             </div>
             <div class="img-frame" style="flex: 1; min-height: 0; background: #FFFFFF; border: 1px solid #EAE5DE; display: flex; align-items: center; justify-content: center;">
               <img src="${dwg4}" alt="Formal Living Fenestration Section CC" class="img-fill" style="object-fit: contain; background: #FFFFFF; width: 100%; height: 100%;">
             </div>
-            <div style="font-size: 7.5px; color: #6E665D; margin-top: 4px; line-height: 1.3; font-style: italic;">
+            <div style="font-size: 8.5px; color: #6E665D; margin-top: 4px; line-height: 1.35; font-style: italic;">
               Constructability details showing thermally broken aluminum window profiles, structural mullions, and ceiling reveals.
             </div>
           </div>
@@ -2357,7 +2357,7 @@ const htmlContent = `<!DOCTYPE html>
               Biophilic Courtyard <span class="serif-italic">Layout &amp; Console Millwork</span>
             </h2>
           </div>
-          <div style="font-size: 8px; color: #5A5148; max-width: 480px; text-align: right; line-height: 1.35;">
+          <div style="font-size: 9.2px; color: #5A5148; max-width: 480px; text-align: right; line-height: 1.38;">
             Working documentation for central courtyard integration, detailing light well positioning, planter masonry, and custom plywood console.
           </div>
         </div>
@@ -2368,14 +2368,14 @@ const htmlContent = `<!DOCTYPE html>
             <div style="margin-bottom: 5px; display: flex; justify-content: space-between; align-items: baseline;">
               <div>
                 <span class="fact-label" style="display: inline-block; margin-bottom: 1px;">Sheet B101 · Plan Layout &amp; Console</span>
-                <div style="font-size: 10px; font-weight: 700; color: #25211E;">Courtyard Floor Plan &amp; Joinery Layout</div>
+                <div style="font-size: 11.2px; font-weight: 700; color: #25211E;">Courtyard Floor Plan &amp; Joinery Layout</div>
               </div>
-              <span style="font-size: 7.5px; font-weight: 600; color: #592727; letter-spacing: 0.08em; text-transform: uppercase;">AutoCAD 1:50</span>
+              <span style="font-size: 8.5px; font-weight: 600; color: #592727; letter-spacing: 0.08em; text-transform: uppercase;">AutoCAD 1:50</span>
             </div>
             <div class="img-frame" style="flex: 1; min-height: 0; background: #FFFFFF; border: 1px solid #EAE5DE; display: flex; align-items: center; justify-content: center;">
               <img src="${dwg5}" alt="Courtyard Floor Plan and Console" class="img-fill" style="object-fit: contain; background: #FFFFFF; width: 100%; height: 100%;">
             </div>
-            <div style="font-size: 7.5px; color: #6E665D; margin-top: 4px; line-height: 1.3; font-style: italic;">
+            <div style="font-size: 8.5px; color: #6E665D; margin-top: 4px; line-height: 1.35; font-style: italic;">
               Floor plan detailing courtyard perimeters, stone paving boundaries, and custom multi-compartment plywood console.
             </div>
           </div>
@@ -2385,14 +2385,14 @@ const htmlContent = `<!DOCTYPE html>
             <div style="margin-bottom: 5px; display: flex; justify-content: space-between; align-items: baseline;">
               <div>
                 <span class="fact-label" style="display: inline-block; margin-bottom: 1px;">Sheet B102 · Courtyard Cross Sections</span>
-                <div style="font-size: 10px; font-weight: 700; color: #25211E;">Transverse Sections AA &amp; BB</div>
+                <div style="font-size: 11.2px; font-weight: 700; color: #25211E;">Transverse Sections AA &amp; BB</div>
               </div>
-              <span style="font-size: 7.5px; font-weight: 600; color: #592727; letter-spacing: 0.08em; text-transform: uppercase;">AutoCAD 1:50</span>
+              <span style="font-size: 8.5px; font-weight: 600; color: #592727; letter-spacing: 0.08em; text-transform: uppercase;">AutoCAD 1:50</span>
             </div>
             <div class="img-frame" style="flex: 1; min-height: 0; background: #FFFFFF; border: 1px solid #EAE5DE; display: flex; align-items: center; justify-content: center;">
               <img src="${dwg6}" alt="Courtyard Cross Sections AA and BB" class="img-fill" style="object-fit: contain; background: #FFFFFF; width: 100%; height: 100%;">
             </div>
-            <div style="font-size: 7.5px; color: #6E665D; margin-top: 4px; line-height: 1.3; font-style: italic;">
+            <div style="font-size: 8.5px; color: #6E665D; margin-top: 4px; line-height: 1.35; font-style: italic;">
               Vertical sections specifying ceiling skylight opening, double-height light shaft geometry, and planter waterproofing.
             </div>
           </div>
@@ -2422,7 +2422,7 @@ const htmlContent = `<!DOCTYPE html>
               Courtyard Enclosure <span class="serif-italic">&amp; Planter Drainage</span>
             </h2>
           </div>
-          <div style="font-size: 8px; color: #5A5148; max-width: 480px; text-align: right; line-height: 1.35;">
+          <div style="font-size: 9.2px; color: #5A5148; max-width: 480px; text-align: right; line-height: 1.38;">
             Constructability package detailing planter sub-base soil filtration, rainwater drainage scuppers, and sliding partition enclosure systems.
           </div>
         </div>
@@ -2433,14 +2433,14 @@ const htmlContent = `<!DOCTYPE html>
             <div style="margin-bottom: 5px; display: flex; justify-content: space-between; align-items: baseline;">
               <div>
                 <span class="fact-label" style="display: inline-block; margin-bottom: 1px;">Sheet B103 · Longitudinal Sections CC &amp; DD</span>
-                <div style="font-size: 10px; font-weight: 700; color: #25211E;">Planter Soil Bed &amp; Drainage Profiles</div>
+                <div style="font-size: 11.2px; font-weight: 700; color: #25211E;">Planter Soil Bed &amp; Drainage Profiles</div>
               </div>
-              <span style="font-size: 7.5px; font-weight: 600; color: #592727; letter-spacing: 0.08em; text-transform: uppercase;">AutoCAD 1:50</span>
+              <span style="font-size: 8.5px; font-weight: 600; color: #592727; letter-spacing: 0.08em; text-transform: uppercase;">AutoCAD 1:50</span>
             </div>
             <div class="img-frame" style="flex: 1; min-height: 0; background: #FFFFFF; border: 1px solid #EAE5DE; display: flex; align-items: center; justify-content: center;">
               <img src="${dwg7}" alt="Courtyard Longitudinal Sections CC and DD" class="img-fill" style="object-fit: contain; background: #FFFFFF; width: 100%; height: 100%;">
             </div>
-            <div style="font-size: 7.5px; color: #6E665D; margin-top: 4px; line-height: 1.3; font-style: italic;">
+            <div style="font-size: 8.5px; color: #6E665D; margin-top: 4px; line-height: 1.35; font-style: italic;">
               Engineering details illustrating geotextile membrane layers, perforated drain pipes, overflow traps, and perimeter gravel.
             </div>
           </div>
@@ -2450,14 +2450,14 @@ const htmlContent = `<!DOCTYPE html>
             <div style="margin-bottom: 5px; display: flex; justify-content: space-between; align-items: baseline;">
               <div>
                 <span class="fact-label" style="display: inline-block; margin-bottom: 1px;">Sheet B104 · Enclosure &amp; Sliding Fenestration</span>
-                <div style="font-size: 10px; font-weight: 700; color: #25211E;">Sliding Glass Partitions &amp; Thresholds</div>
+                <div style="font-size: 11.2px; font-weight: 700; color: #25211E;">Sliding Glass Partitions &amp; Thresholds</div>
               </div>
-              <span style="font-size: 7.5px; font-weight: 600; color: #592727; letter-spacing: 0.08em; text-transform: uppercase;">AutoCAD 1:50</span>
+              <span style="font-size: 8.5px; font-weight: 600; color: #592727; letter-spacing: 0.08em; text-transform: uppercase;">AutoCAD 1:50</span>
             </div>
             <div class="img-frame" style="flex: 1; min-height: 0; background: #FFFFFF; border: 1px solid #EAE5DE; display: flex; align-items: center; justify-content: center;">
               <img src="${dwg8}" alt="Courtyard Sliding Partition and Door Schedules" class="img-fill" style="object-fit: contain; background: #FFFFFF; width: 100%; height: 100%;">
             </div>
-            <div style="font-size: 7.5px; color: #6E665D; margin-top: 4px; line-height: 1.3; font-style: italic;">
+            <div style="font-size: 8.5px; color: #6E665D; margin-top: 4px; line-height: 1.35; font-style: italic;">
               Jamb, head, and recessed floor track details for weatherproof glass sliding systems interfacing courtyard with dining spaces.
             </div>
           </div>
@@ -2487,7 +2487,7 @@ const htmlContent = `<!DOCTYPE html>
               Master Suite 4 <span class="serif-italic">Wardrobe &amp; Accent Wall</span>
             </h2>
           </div>
-          <div style="font-size: 8px; color: #5A5148; max-width: 480px; text-align: right; line-height: 1.35;">
+          <div style="font-size: 9.2px; color: #5A5148; max-width: 480px; text-align: right; line-height: 1.38;">
             Joinery shop drawings specifying carcass divisions, Blum soft-close hardware, integrated LED channels, and tactile finish swatches.
           </div>
         </div>
@@ -2498,14 +2498,14 @@ const htmlContent = `<!DOCTYPE html>
             <div style="margin-bottom: 5px; display: flex; justify-content: space-between; align-items: baseline;">
               <div>
                 <span class="fact-label" style="display: inline-block; margin-bottom: 1px;">Detail Sheet J201 · Master Wardrobe</span>
-                <div style="font-size: 10px; font-weight: 700; color: #25211E;">Full-Height Master Wardrobe Elevation</div>
+                <div style="font-size: 11.2px; font-weight: 700; color: #25211E;">Full-Height Master Wardrobe Elevation</div>
               </div>
-              <span style="font-size: 7.5px; font-weight: 600; color: #592727; letter-spacing: 0.08em; text-transform: uppercase;">Joinery Shop Detail</span>
+              <span style="font-size: 8.5px; font-weight: 600; color: #592727; letter-spacing: 0.08em; text-transform: uppercase;">Joinery Shop Detail</span>
             </div>
             <div class="img-frame" style="flex: 1; min-height: 0; background: #FFFFFF; border: 1px solid #EAE5DE; display: flex; align-items: center; justify-content: center;">
               <img src="${wdWardrobe}" alt="Master Wardrobe Production Sheet" class="img-fill" style="object-fit: contain; background: #FFFFFF; width: 100%; height: 100%;">
             </div>
-            <div style="font-size: 7.5px; color: #6E665D; margin-top: 4px; line-height: 1.3; font-style: italic;">
+            <div style="font-size: 8.5px; color: #6E665D; margin-top: 4px; line-height: 1.35; font-style: italic;">
               Shop drawing detailing carcass thicknesses, hanging rails, accessory drawers, handle recesses, and integrated LED extrusion.
             </div>
           </div>
@@ -2515,14 +2515,14 @@ const htmlContent = `<!DOCTYPE html>
             <div style="margin-bottom: 5px; display: flex; justify-content: space-between; align-items: baseline;">
               <div>
                 <span class="fact-label" style="display: inline-block; margin-bottom: 1px;">Detail Sheet J202 · Headboard &amp; Accent Wall</span>
-                <div style="font-size: 10px; font-weight: 700; color: #25211E;">Headboard Paneling &amp; Beverage Station</div>
+                <div style="font-size: 11.2px; font-weight: 700; color: #25211E;">Headboard Paneling &amp; Beverage Station</div>
               </div>
-              <span style="font-size: 7.5px; font-weight: 600; color: #592727; letter-spacing: 0.08em; text-transform: uppercase;">Joinery Shop Detail</span>
+              <span style="font-size: 8.5px; font-weight: 600; color: #592727; letter-spacing: 0.08em; text-transform: uppercase;">Joinery Shop Detail</span>
             </div>
             <div class="img-frame" style="flex: 1; min-height: 0; background: #FFFFFF; border: 1px solid #EAE5DE; display: flex; align-items: center; justify-content: center;">
               <img src="${wdKettle}" alt="Headboard Paneling and Kettle Station Sheet" class="img-fill" style="object-fit: contain; background: #FFFFFF; width: 100%; height: 100%;">
             </div>
-            <div style="font-size: 7.5px; color: #6E665D; margin-top: 4px; line-height: 1.3; font-style: italic;">
+            <div style="font-size: 8.5px; color: #6E665D; margin-top: 4px; line-height: 1.35; font-style: italic;">
               Detailed wall paneling elevation with recessed niche for tea station, integrated electrical points, and approved finish board.
             </div>
           </div>
@@ -2552,7 +2552,7 @@ const htmlContent = `<!DOCTYPE html>
               Contemporary Suite 2 <span class="serif-italic">Millwork &amp; Bed Detailing</span>
             </h2>
           </div>
-          <div style="font-size: 8px; color: #5A5148; max-width: 480px; text-align: right; line-height: 1.35;">
+          <div style="font-size: 9.2px; color: #5A5148; max-width: 480px; text-align: right; line-height: 1.38;">
             Production drawings detailing carcass construction, edge banding, structural bed frame supports, and floating nightstand integration.
           </div>
         </div>
@@ -2563,14 +2563,14 @@ const htmlContent = `<!DOCTYPE html>
             <div style="margin-bottom: 5px; display: flex; justify-content: space-between; align-items: baseline;">
               <div>
                 <span class="fact-label" style="display: inline-block; margin-bottom: 1px;">Detail Sheet J203 · Internal Wardrobe Millwork</span>
-                <div style="font-size: 10px; font-weight: 700; color: #25211E;">Wardrobe Internal Sections &amp; Divisions</div>
+                <div style="font-size: 11.2px; font-weight: 700; color: #25211E;">Wardrobe Internal Sections &amp; Divisions</div>
               </div>
-              <span style="font-size: 7.5px; font-weight: 600; color: #592727; letter-spacing: 0.08em; text-transform: uppercase;">Joinery Shop Detail</span>
+              <span style="font-size: 8.5px; font-weight: 600; color: #592727; letter-spacing: 0.08em; text-transform: uppercase;">Joinery Shop Detail</span>
             </div>
             <div class="img-frame" style="flex: 1; min-height: 0; background: #FFFFFF; border: 1px solid #EAE5DE; display: flex; align-items: center; justify-content: center;">
               <img src="${wdWardrobeDetail}" alt="Wardrobe Internal Millwork Detail Sheet" class="img-fill" style="object-fit: contain; background: #FFFFFF; width: 100%; height: 100%;">
             </div>
-            <div style="font-size: 7.5px; color: #6E665D; margin-top: 4px; line-height: 1.3; font-style: italic;">
+            <div style="font-size: 8.5px; color: #6E665D; margin-top: 4px; line-height: 1.35; font-style: italic;">
               Detailed section through wardrobe units illustrating 18mm marine ply carcass, shelf spacing, and drawer slide positions.
             </div>
           </div>
@@ -2580,14 +2580,14 @@ const htmlContent = `<!DOCTYPE html>
             <div style="margin-bottom: 5px; display: flex; justify-content: space-between; align-items: baseline;">
               <div>
                 <span class="fact-label" style="display: inline-block; margin-bottom: 1px;">Detail Sheet J204 · Bed Cot &amp; Nightstand</span>
-                <div style="font-size: 10px; font-weight: 700; color: #25211E;">Bed Platform &amp; Cantilever Nightstand</div>
+                <div style="font-size: 11.2px; font-weight: 700; color: #25211E;">Bed Platform &amp; Cantilever Nightstand</div>
               </div>
-              <span style="font-size: 7.5px; font-weight: 600; color: #592727; letter-spacing: 0.08em; text-transform: uppercase;">Joinery Shop Detail</span>
+              <span style="font-size: 8.5px; font-weight: 600; color: #592727; letter-spacing: 0.08em; text-transform: uppercase;">Joinery Shop Detail</span>
             </div>
             <div class="img-frame" style="flex: 1; min-height: 0; background: #FFFFFF; border: 1px solid #EAE5DE; display: flex; align-items: center; justify-content: center;">
               <img src="${wdKattlSideTable}" alt="Bed Cot with Side Table Drawing" class="img-fill" style="object-fit: contain; background: #FFFFFF; width: 100%; height: 100%;">
             </div>
-            <div style="font-size: 7.5px; color: #6E665D; margin-top: 4px; line-height: 1.3; font-style: italic;">
+            <div style="font-size: 8.5px; color: #6E665D; margin-top: 4px; line-height: 1.35; font-style: italic;">
               Plan, front elevation, and cross-section of platform bed cot with integrated floating cantilever nightstand and headboard.
             </div>
           </div>
@@ -2677,11 +2677,11 @@ const htmlContent = `<!DOCTYPE html>
         <div class="cv-column" style="display: flex; flex-direction: column; justify-content: space-between;">
           <div>
             <h3>Let's Collaborate</h3>
-            <p style="font-size: 9.5px; line-height: 1.5; color: #433D36; margin-bottom: 12px;">
+            <p style="font-size: 10.5px; line-height: 1.5; color: #433D36; margin-bottom: 12px;">
               Open to junior interior designer positions, collaborative architectural projects, and design consultations worldwide.
             </p>
 
-            <div style="display: flex; flex-direction: column; gap: 6px; font-size: 9.5px; color: #25211E;">
+            <div style="display: flex; flex-direction: column; gap: 6px; font-size: 10.5px; color: #25211E;">
               <div><strong>Email:</strong> <a href="mailto:faihafaisal668@gmail.com" style="color: #592727; text-decoration: none;">faihafaisal668@gmail.com</a></div>
               <div><strong>Phone:</strong> +91 9544466908</div>
               <div><strong>LinkedIn:</strong> linkedin.com/in/faiha-faisal</div>
@@ -2692,7 +2692,7 @@ const htmlContent = `<!DOCTYPE html>
 
           <div style="background: #25211E; color: #FAF8F5; padding: 14px; text-align: center; border-radius: 2px;">
             <div style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 20px; font-style: italic; margin-bottom: 4px;">Faiha Faisal</div>
-            <div style="font-size: 7.8px; letter-spacing: 0.2em; text-transform: uppercase; color: #D3C9BC;">Thank you for reviewing my portfolio</div>
+            <div style="font-size: 8.8px; letter-spacing: 0.2em; text-transform: uppercase; color: #D3C9BC;">Thank you for reviewing my portfolio</div>
           </div>
         </div>
       </div>

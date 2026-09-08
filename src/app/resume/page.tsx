@@ -6,10 +6,10 @@ import { siteData } from "@/data/site";
 import { ArrowDownToLine } from "lucide-react";
 
 export default function ResumePage() {
-  const [zoomLevel, setZoomLevel] = useState(1);
+  const [zoomLevel, setZoomLevel] = useState(1.15);
 
   const zoomIn = () => {
-    setZoomLevel((prev) => Math.min(prev + 0.25, 2));
+    setZoomLevel((prev) => Math.min(prev + 0.25, 2.5));
   };
 
   const zoomOut = () => {
@@ -55,7 +55,7 @@ export default function ResumePage() {
         <div className="resumeZoomTools">
           <button
             onClick={zoomIn}
-            disabled={zoomLevel >= 2}
+            disabled={zoomLevel >= 2.5}
             aria-label="Zoom in"
             title="Zoom in"
           >
