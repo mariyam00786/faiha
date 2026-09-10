@@ -71,7 +71,7 @@ function toBase64(relPath) {
 
 // Profile & Cover
 const profileIntro = toBase64('images/profile-intro.jpg');
-const exteriorCover = toBase64('images/projects/exterior/exterior-cover.jpg');
+const exteriorCover = toBase64('images/projects/exterior/architectural-facade-sketch.jpg');
 
 // 01 · Courtyard Living & Biophilic Spaces (public/gallery/courtyard — dedicated Designs 01–03)
 // Design 01 (3 Views - Modern Zen Garden)
@@ -428,12 +428,13 @@ const htmlContent = `<!DOCTYPE html>
   }
   .cover-title {
     font-family: 'Cormorant Garamond', Georgia, serif;
-    font-size: 58px;
-    line-height: 0.95;
+    font-size: 50px;
+    line-height: 1.05;
     font-weight: 400;
     letter-spacing: -0.01em;
     color: #FAF8F5;
     margin-bottom: 14px;
+    white-space: nowrap;
   }
   .cover-subtitle {
     font-size: 11.8px;
@@ -592,10 +593,7 @@ const htmlContent = `<!DOCTYPE html>
       <div class="cover-main-grid">
         <div>
           <div class="cover-subtitle">Interior Architecture &amp; Spatial Design</div>
-          <h1 class="cover-title">
-            FAIHA<br>
-            <span class="serif-italic" style="color: #D3C9BC;">FAISAL</span>
-          </h1>
+          <h1 class="cover-title">FAIHA <span class="serif-italic" style="color: #D3C9BC;">FAISAL</span></h1>
           <div class="cover-quote">
             "Translating human social dynamics, cultural context, and sensory rituals into enduring, warm architectural environments."
           </div>
