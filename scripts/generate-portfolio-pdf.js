@@ -166,6 +166,11 @@ const bedD2_1 = toBase64('gallery/BEDROOM/DESIGN 2 (1).jpeg');
 const bedD2_2 = toBase64('gallery/BEDROOM/DESIGN 2 (2).jpeg');
 const bedD2_3 = toBase64('gallery/BEDROOM/DESIGN 2 (3).jpeg');
 
+// Design 03 (3 images - Modern Arched Sanctuary & Illuminated Niche)
+const bedD3_1 = toBase64('gallery/BEDROOM/DESIGN 3 (1).png');
+const bedD3_2 = toBase64('gallery/BEDROOM/DESIGN 3 (2).png');
+const bedD3_3 = toBase64('gallery/BEDROOM/DESIGN 3 (3).png');
+
 // Bedroom Suites (public/gallery/BEDROOM — dedicated Views 01–05)
 // View 01 (3 images)
 const bedV1_1 = toBase64('gallery/BEDROOM/view 1 (1).png');
@@ -205,7 +210,7 @@ const wdKettle = toBase64('images/projects/working-drawings/wall with kttl.jpg.j
 const wdWardrobeDetail = toBase64('images/projects/working-drawings/WARDROBE DETAIL.jpg.jpeg');
 const wdKattlSideTable = toBase64('images/projects/working-drawings/KATTL WITH SIDE TABLE.jpg.jpeg');
 
-console.log('Generating 32-page editorial publication layout with dedicated bedroom, courtyard, kitchen, living, washroom suites, conference hall, and technical CAD sets...');
+console.log('Generating 33-page editorial publication layout with dedicated bedroom, courtyard, kitchen, living, washroom suites, conference hall, and technical CAD sets...');
 
 const htmlContent = `<!DOCTYPE html>
 <html lang="en">
@@ -689,10 +694,10 @@ const htmlContent = `<!DOCTYPE html>
               <span class="toc-num">01</span>
               <div>
                 <div class="toc-title">Bedroom Sanctuaries &amp; Suites</div>
-                <div class="toc-desc">Designs 01–06 Luxury Master Lounge, Acoustic Slatting &amp; Bespoke Millwork</div>
+                <div class="toc-desc">Designs 01–03 &amp; Views 01–05 Master Lounges, Arched Niches &amp; Millwork</div>
               </div>
             </div>
-            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 04–09</div>
+            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 04–10</div>
           </div>
 
           <div class="toc-item">
@@ -703,7 +708,7 @@ const htmlContent = `<!DOCTYPE html>
                 <div class="toc-desc">Designs 01–03 Modern Zen, Tropical Atrium &amp; Concrete Light Wells</div>
               </div>
             </div>
-            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 10–12</div>
+            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 11–13</div>
           </div>
 
           <div class="toc-item">
@@ -714,7 +719,7 @@ const htmlContent = `<!DOCTYPE html>
                 <div class="toc-desc">Villa Facades, Climate Modulation &amp; Framed Overhangs</div>
               </div>
             </div>
-            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 13</div>
+            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 14</div>
           </div>
 
           <div class="toc-item">
@@ -725,7 +730,7 @@ const htmlContent = `<!DOCTYPE html>
                 <div class="toc-desc">Designs 01–04 Modular Kitchens, Islands &amp; Blum Hardware</div>
               </div>
             </div>
-            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 14–17</div>
+            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 15–18</div>
           </div>
 
           <div class="toc-item">
@@ -736,7 +741,7 @@ const htmlContent = `<!DOCTYPE html>
                 <div class="toc-desc">Designs 01–03 Double-Height Lounges, Social Flow &amp; Paneling</div>
               </div>
             </div>
-            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 18–20</div>
+            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 19–21</div>
           </div>
 
           <div class="toc-item">
@@ -747,7 +752,7 @@ const htmlContent = `<!DOCTYPE html>
                 <div class="toc-desc">Entertaining Hubs, Custom Buffet Joinery &amp; Ambient Lighting</div>
               </div>
             </div>
-            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 21</div>
+            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 22</div>
           </div>
 
           <div class="toc-item">
@@ -758,7 +763,7 @@ const htmlContent = `<!DOCTYPE html>
                 <div class="toc-desc">Master Spa Sanctuary, Soaking Tub, Fluted Stone &amp; Powder Suites</div>
               </div>
             </div>
-            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 22–23</div>
+            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 23–24</div>
           </div>
 
           <div class="toc-item">
@@ -769,7 +774,7 @@ const htmlContent = `<!DOCTYPE html>
                 <div class="toc-desc">Executive Conference Hall, Boardroom AV Integration &amp; Acoustic Millwork</div>
               </div>
             </div>
-            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 24</div>
+            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 25</div>
           </div>
 
           <div class="toc-item">
@@ -780,7 +785,7 @@ const htmlContent = `<!DOCTYPE html>
                 <div class="toc-desc">Hand-Drawn Ideation &amp; AutoCAD Construction Sets A101–J204</div>
               </div>
             </div>
-            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 25–31</div>
+            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 26–32</div>
           </div>
 
           <div class="toc-item">
@@ -791,7 +796,7 @@ const htmlContent = `<!DOCTYPE html>
                 <div class="toc-desc">Professional Experience, Technical Skills &amp; Contact</div>
               </div>
             </div>
-            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 32</div>
+            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 33</div>
           </div>
         </div>
 
@@ -995,7 +1000,83 @@ const htmlContent = `<!DOCTYPE html>
     </div>
   </div>
 
-  <!-- ================================= SHEET 6: PROJECT 01 · BEDROOM — VIEW 01 ================================= -->
+    <!-- ================================= SHEET 6: PROJECT 01 · BEDROOM SUITES — DESIGN 03 ================================= -->
+  <div class="sheet">
+    <div class="page-header">
+      <div class="page-header-left">Project 01 · Bedroom Suites</div>
+      <div class="page-header-right">Design 03 · Modern Arched Sanctuary &amp; Illuminated Niche</div>
+    </div>
+
+    <div class="page-content">
+      <div class="split-layout">
+        <!-- Left Narrative & Specs -->
+        <div style="display: flex; flex-direction: column; justify-content: space-between;">
+          <div>
+            <div class="section-tag">Private Sanctuaries · Design 03</div>
+            <h2 class="serif-title" style="font-size: 28px; line-height: 1.1; margin-bottom: 8px;">
+              Illuminated Arched Niches, Stucco &amp; <span class="serif-italic">Vanity Alcove</span>
+            </h2>
+            <p class="editorial-body">
+              Conceived as a serene contemporary haven, Design 03 pairs an illuminated sage green stucco arched niche, classical damask wall coverings, and an acoustic perforated plaster frieze.
+            </p>
+            <p class="editorial-body">
+              A low-profile upholstered bed is flanked by minimalist walnut nightstands and dual spherical brass wall sconces. Seamless full-height glazing welcomes abundant daylight and lush garden views, while the dedicated dressing nook integrates an arched vanity mirror and compact floating joinery.
+            </p>
+          </div>
+
+          <div>
+            <div class="fact-grid">
+              <div class="fact-pill">
+                <div class="fact-label">Typology</div>
+                <div class="fact-val">Master Suite &amp; Vanity Nook</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Accent Niche</div>
+                <div class="fact-val">Backlit Sage Stucco Arch</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Headboard Wall</div>
+                <div class="fact-val">Perforated Plaster Frieze</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Hardware &amp; Lighting</div>
+                <div class="fact-val">Brass Sconces &amp; Warm LED</div>
+              </div>
+            </div>
+
+            <div class="intent-box">
+              <strong>Lighting Strategy:</strong> Concealed warm perimeter LED illumination around the arched alcove creates soft indirect evening radiance, providing a glare-free architectural focal point that gently dissolves boundary walls.
+            </div>
+          </div>
+        </div>
+
+        <!-- Right 3-Image Composition for Design 03 -->
+        <div style="display: flex; flex-direction: column; gap: 8px; height: 100%;">
+          <div class="img-frame" style="flex: 1.3;">
+            <img src="${bedD3_1}" alt="Master Suite Bed &amp; Illuminated Arched Accent Niche" class="img-fill">
+            <div class="img-caption">Primary Suite Perspective · Illuminated Arched Alcove &amp; Perforated Frieze</div>
+          </div>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; height: 48mm;">
+            <div class="img-frame">
+              <img src="${bedD3_2}" alt="Axial Elevation View &amp; Garden Access" class="img-fill">
+              <div class="img-caption">Axial Elevation · Symmetrical Bed Wall &amp; Balcony Access</div>
+            </div>
+            <div class="img-frame">
+              <img src="${bedD3_3}" alt="Vanity Nook &amp; Arched Mirror" class="img-fill">
+              <div class="img-caption">Vanity Nook · Arched Brass Mirror &amp; Damask Accent</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-footer">
+      <div>Bedroom Suites — Design 03 · Modern Arched Sanctuary &amp; Illuminated Niche</div>
+      <div>Page 06</div>
+    </div>
+  </div>
+
+<!-- ================================= SHEET 7: PROJECT 01 · BEDROOM — VIEW 01 ================================= -->
   <div class="sheet">
     <div class="page-header">
       <div class="page-header-left">Project 01 · Bedroom Suites</div>
@@ -1067,11 +1148,11 @@ const htmlContent = `<!DOCTYPE html>
 
     <div class="page-footer">
       <div>Bedroom Suites — View 01 · Minimalist Symmetry &amp; Restful Tones</div>
-      <div>Page 06</div>
+      <div>Page 07</div>
     </div>
   </div>
 
-  <!-- ================================= SHEET 7: PROJECT 01 · BEDROOM — VIEW 02 (MASTER SANCTUARY) ================================= -->
+  <!-- ================================= SHEET 8: PROJECT 01 · BEDROOM — VIEW 02 (MASTER SANCTUARY) ================================= -->
   <div class="sheet">
     <div class="page-header">
       <div class="page-header-left">Project 01 · Bedroom Suites</div>
@@ -1151,11 +1232,11 @@ const htmlContent = `<!DOCTYPE html>
 
     <div class="page-footer">
       <div>Bedroom Suites — View 02 · Master Sanctuary &amp; Fluted Joinery</div>
-      <div>Page 07</div>
+      <div>Page 08</div>
     </div>
   </div>
 
-  <!-- ================================= SHEET 8: PROJECT 01 · BEDROOM — VIEW 03 (EARTH TONE SUITE) ================================= -->
+  <!-- ================================= SHEET 9: PROJECT 01 · BEDROOM — VIEW 03 (EARTH TONE SUITE) ================================= -->
   <div class="sheet">
     <div class="page-header">
       <div class="page-header-left">Project 01 · Bedroom Suites</div>
@@ -1227,11 +1308,11 @@ const htmlContent = `<!DOCTYPE html>
 
     <div class="page-footer">
       <div>Bedroom Suites — View 03 · Earth Tones &amp; Acoustic Millwork</div>
-      <div>Page 08</div>
+      <div>Page 09</div>
     </div>
   </div>
 
-  <!-- ================================= SHEET 9: PROJECT 01 · BEDROOM — VIEW 05 (TAILORED WARDROBE & ALCOVE) ================================= -->
+  <!-- ================================= SHEET 10: PROJECT 01 · BEDROOM — VIEW 05 (TAILORED WARDROBE & ALCOVE) ================================= -->
   <div class="sheet">
     <div class="page-header">
       <div class="page-header-left">Project 01 · Bedroom Suites</div>
@@ -1297,11 +1378,11 @@ const htmlContent = `<!DOCTYPE html>
 
     <div class="page-footer">
       <div>Bedroom Suites — View 05 · Tailored Wardrobe &amp; Spatial Efficiency</div>
-      <div>Page 09</div>
+      <div>Page 10</div>
     </div>
   </div>
 
-  <!-- ================================= SHEET 10: PROJECT 02 · COURTYARD LIVING — DESIGN 01 ================================= -->
+  <!-- ================================= SHEET 11: PROJECT 02 · COURTYARD LIVING — DESIGN 01 ================================= -->
   <div class="sheet">
     <div class="page-header">
       <div class="page-header-left">Project 02 · Courtyard Living</div>
@@ -1373,11 +1454,11 @@ const htmlContent = `<!DOCTYPE html>
 
     <div class="page-footer">
       <div>Courtyards — Design 01 · Modern Zen Garden &amp; Contemplative Light</div>
-      <div>Page 10</div>
+      <div>Page 11</div>
     </div>
   </div>
 
-  <!-- ================================= SHEET 11: PROJECT 02 · COURTYARD LIVING — DESIGN 02 ================================= -->
+  <!-- ================================= SHEET 12: PROJECT 02 · COURTYARD LIVING — DESIGN 02 ================================= -->
   <div class="sheet">
     <div class="page-header">
       <div class="page-header-left">Project 02 · Courtyard Living</div>
@@ -1443,11 +1524,11 @@ const htmlContent = `<!DOCTYPE html>
 
     <div class="page-footer">
       <div>Courtyards — Design 02 · Tropical Light Atrium &amp; Passive Stack Cooling</div>
-      <div>Page 11</div>
+      <div>Page 12</div>
     </div>
   </div>
 
-  <!-- ================================= SHEET 12: PROJECT 02 · COURTYARD LIVING — DESIGN 03 ================================= -->
+  <!-- ================================= SHEET 13: PROJECT 02 · COURTYARD LIVING — DESIGN 03 ================================= -->
   <div class="sheet">
     <div class="page-header">
       <div class="page-header-left">Project 02 · Courtyard Living</div>
@@ -1527,11 +1608,11 @@ const htmlContent = `<!DOCTYPE html>
 
     <div class="page-footer">
       <div>Courtyards — Design 03 · Raw Concrete, Monolithic Planters &amp; Timber</div>
-      <div>Page 12</div>
+      <div>Page 13</div>
     </div>
   </div>
 
-  <!-- ================================= SHEET 13: PROJECT 03 · EXTERIOR ARCHITECTURE ================================= -->
+  <!-- ================================= SHEET 14: PROJECT 03 · EXTERIOR ARCHITECTURE ================================= -->
   <div class="sheet">
     <div class="page-header">
       <div class="page-header-left">Project 03 · Exterior Architecture</div>
@@ -1610,11 +1691,11 @@ const htmlContent = `<!DOCTYPE html>
 
     <div class="page-footer">
       <div>Exterior Architecture — Massing, Climate Modulation &amp; Thresholds</div>
-      <div>Page 13</div>
+      <div>Page 14</div>
     </div>
   </div>
 
-  <!-- ================================= SHEET 14: PROJECT 04 · CULINARY ARCHITECTURE — DESIGN 01 ================================= -->
+  <!-- ================================= SHEET 15: PROJECT 04 · CULINARY ARCHITECTURE — DESIGN 01 ================================= -->
   <div class="sheet">
     <div class="page-header">
       <div class="page-header-left">Project 04 · Culinary Architecture</div>
@@ -1686,11 +1767,11 @@ const htmlContent = `<!DOCTYPE html>
 
     <div class="page-footer">
       <div>Culinary Architecture — Design 01 · Minimalist Joinery &amp; Ergonomic Triangles</div>
-      <div>Page 14</div>
+      <div>Page 15</div>
     </div>
   </div>
 
-  <!-- ================================= SHEET 15: PROJECT 04 · CULINARY ARCHITECTURE — DESIGN 02 ================================= -->
+  <!-- ================================= SHEET 16: PROJECT 04 · CULINARY ARCHITECTURE — DESIGN 02 ================================= -->
   <div class="sheet">
     <div class="page-header">
       <div class="page-header-left">Project 04 · Culinary Architecture</div>
@@ -1766,11 +1847,11 @@ const htmlContent = `<!DOCTYPE html>
 
     <div class="page-footer">
       <div>Culinary Architecture — Design 02 · Monolithic Island &amp; Social Continuity</div>
-      <div>Page 15</div>
+      <div>Page 16</div>
     </div>
   </div>
 
-  <!-- ================================= SHEET 16: PROJECT 04 · CULINARY ARCHITECTURE — DESIGN 03 ================================= -->
+  <!-- ================================= SHEET 17: PROJECT 04 · CULINARY ARCHITECTURE — DESIGN 03 ================================= -->
   <div class="sheet">
     <div class="page-header">
       <div class="page-header-left">Project 04 · Culinary Architecture</div>
@@ -1842,11 +1923,11 @@ const htmlContent = `<!DOCTYPE html>
 
     <div class="page-footer">
       <div>Culinary Architecture — Design 03 · Parallel Configuration &amp; Storage Flow</div>
-      <div>Page 16</div>
+      <div>Page 17</div>
     </div>
   </div>
 
-  <!-- ================================= SHEET 17: PROJECT 04 · CULINARY ARCHITECTURE — DESIGN 04 ================================= -->
+  <!-- ================================= SHEET 18: PROJECT 04 · CULINARY ARCHITECTURE — DESIGN 04 ================================= -->
   <div class="sheet">
     <div class="page-header">
       <div class="page-header-left">Project 04 · Culinary Architecture</div>
@@ -1922,11 +2003,11 @@ const htmlContent = `<!DOCTYPE html>
 
     <div class="page-footer">
       <div>Culinary Architecture — Design 04 · Compact Modular Geometry &amp; Smart Storage</div>
-      <div>Page 17</div>
+      <div>Page 18</div>
     </div>
   </div>
 
-  <!-- ================================= SHEET 18: PROJECT 05 · LIVING ENVIRONMENTS — DESIGN 01 ================================= -->
+  <!-- ================================= SHEET 19: PROJECT 05 · LIVING ENVIRONMENTS — DESIGN 01 ================================= -->
   <div class="sheet">
     <div class="page-header">
       <div class="page-header-left">Project 05 · Living Environments</div>
@@ -1998,11 +2079,11 @@ const htmlContent = `<!DOCTYPE html>
 
     <div class="page-footer">
       <div>Living Environments — Design 01 · Double-Height Lounge &amp; Spatial Flow</div>
-      <div>Page 18</div>
+      <div>Page 19</div>
     </div>
   </div>
 
-  <!-- ================================= SHEET 19: PROJECT 05 · LIVING ENVIRONMENTS — DESIGN 02 ================================= -->
+  <!-- ================================= SHEET 20: PROJECT 05 · LIVING ENVIRONMENTS — DESIGN 02 ================================= -->
   <div class="sheet">
     <div class="page-header">
       <div class="page-header-left">Project 05 · Living Environments</div>
@@ -2074,11 +2155,11 @@ const htmlContent = `<!DOCTYPE html>
 
     <div class="page-footer">
       <div>Living Environments — Design 02 · Tactile Wood Paneling &amp; Intimate Retreat</div>
-      <div>Page 19</div>
+      <div>Page 20</div>
     </div>
   </div>
 
-  <!-- ================================= SHEET 20: PROJECT 05 · LIVING ENVIRONMENTS — DESIGN 03 ================================= -->
+  <!-- ================================= SHEET 21: PROJECT 05 · LIVING ENVIRONMENTS — DESIGN 03 ================================= -->
   <div class="sheet">
     <div class="page-header">
       <div class="page-header-left">Project 05 · Living Environments</div>
@@ -2154,11 +2235,11 @@ const htmlContent = `<!DOCTYPE html>
 
     <div class="page-footer">
       <div>Living Environments — Design 03 · Contemporary Form &amp; Ambient Illumination</div>
-      <div>Page 20</div>
+      <div>Page 21</div>
     </div>
   </div>
 
-  <!-- ================================= SHEET 21: PROJECT 06 · DINING ARCHITECTURE ================================= -->
+  <!-- ================================= SHEET 22: PROJECT 06 · DINING ARCHITECTURE ================================= -->
   <div class="sheet">
     <div class="page-header">
       <div class="page-header-left">Project 06 · Dining Architecture</div>
@@ -2229,11 +2310,11 @@ const htmlContent = `<!DOCTYPE html>
 
     <div class="page-footer">
       <div>Dining Architecture — Gathering Hubs &amp; Custom Millwork Transitions</div>
-      <div>Page 21</div>
+      <div>Page 22</div>
     </div>
   </div>
 
-  <!-- ================================= SHEET 22: PROJECT 07 · WELLNESS WASHROOMS — MASTER SPA SANCTUARY ================================= -->
+  <!-- ================================= SHEET 23: PROJECT 07 · WELLNESS WASHROOMS — MASTER SPA SANCTUARY ================================= -->
   <div class="sheet">
     <div class="page-header">
       <div class="page-header-left">Project 07 · Wellness Washrooms</div>
@@ -2305,11 +2386,11 @@ const htmlContent = `<!DOCTYPE html>
 
     <div class="page-footer">
       <div>Wellness Washrooms — Master Spa Sanctuary · Freestanding Soaking Tub &amp; Biophilic Daylighting</div>
-      <div>Page 22</div>
+      <div>Page 23</div>
     </div>
   </div>
 
-  <!-- ================================= SHEET 23: PROJECT 07 · WELLNESS WASHROOMS — POWDER ROOMS & EN-SUITES ================================= -->
+  <!-- ================================= SHEET 24: PROJECT 07 · WELLNESS WASHROOMS — POWDER ROOMS & EN-SUITES ================================= -->
   <div class="sheet">
     <div class="page-header">
       <div class="page-header-left">Project 07 · Wellness Washrooms</div>
@@ -2380,11 +2461,11 @@ const htmlContent = `<!DOCTYPE html>
 
     <div class="page-footer">
       <div>Wellness Washrooms — En-Suites &amp; Powder Rooms · Concealed Plumbing &amp; Ambient Detailing</div>
-      <div>Page 23</div>
+      <div>Page 24</div>
     </div>
   </div>
 
-  <!-- ================================= SHEET 24: PROJECT 08 · COMMERCIAL INTERIORS — EXECUTIVE CONFERENCE HALL ================================= -->
+  <!-- ================================= SHEET 25: PROJECT 08 · COMMERCIAL INTERIORS — EXECUTIVE CONFERENCE HALL ================================= -->
   <div class="sheet">
     <div class="page-header">
       <div class="page-header-left">Project 08 · Commercial Interiors</div>
@@ -2444,11 +2525,11 @@ const htmlContent = `<!DOCTYPE html>
 
     <div class="page-footer">
       <div>Commercial Interiors — Executive Conference Hall &amp; Boardroom · Acoustic Joinery &amp; AV Integration</div>
-      <div>Page 24</div>
+      <div>Page 25</div>
     </div>
   </div>
 
-  <!-- ================================= SHEET 25: PROJECT 09 · TECHNICAL WORKING DRAWINGS — SCHEMATIC IDEATION ================================= -->
+  <!-- ================================= SHEET 26: PROJECT 09 · TECHNICAL WORKING DRAWINGS — SCHEMATIC IDEATION ================================= -->
   <div class="sheet">
     <div class="page-header">
       <div class="page-header-left">Project 09 · Technical Documentation</div>
@@ -2537,11 +2618,11 @@ const htmlContent = `<!DOCTYPE html>
 
     <div class="page-footer">
       <div>Technical Documentation — Schematic Design · Freehand Architectural Perspective &amp; CAD Integration</div>
-      <div>Page 25</div>
+      <div>Page 26</div>
     </div>
   </div>
 
-  <!-- ================================= SHEET 26: PROJECT 09 · TECHNICAL WORKING DRAWINGS — SHEET 01 ================================= -->
+  <!-- ================================= SHEET 27: PROJECT 09 · TECHNICAL WORKING DRAWINGS — SHEET 01 ================================= -->
   <div class="sheet">
     <div class="page-header">
       <div class="page-header-left">Project 09 · Technical Documentation</div>
@@ -2602,11 +2683,11 @@ const htmlContent = `<!DOCTYPE html>
 
     <div class="page-footer">
       <div>Technical Documentation — Formal Living Room AutoCAD Construction Set · Sheet A101 / A102</div>
-      <div>Page 26</div>
+      <div>Page 27</div>
     </div>
   </div>
 
-  <!-- ================================= SHEET 27: PROJECT 09 · TECHNICAL WORKING DRAWINGS — SHEET 02 ================================= -->
+  <!-- ================================= SHEET 28: PROJECT 09 · TECHNICAL WORKING DRAWINGS — SHEET 02 ================================= -->
   <div class="sheet">
     <div class="page-header">
       <div class="page-header-left">Project 09 · Technical Documentation</div>
@@ -2667,11 +2748,11 @@ const htmlContent = `<!DOCTYPE html>
 
     <div class="page-footer">
       <div>Technical Documentation — Formal Living Room AutoCAD Construction Set · Sheet A103 / A104</div>
-      <div>Page 27</div>
+      <div>Page 28</div>
     </div>
   </div>
 
-  <!-- ================================= SHEET 28: PROJECT 09 · TECHNICAL WORKING DRAWINGS — SHEET 03 ================================= -->
+  <!-- ================================= SHEET 29: PROJECT 09 · TECHNICAL WORKING DRAWINGS — SHEET 03 ================================= -->
   <div class="sheet">
     <div class="page-header">
       <div class="page-header-left">Project 09 · Technical Documentation</div>
@@ -2732,11 +2813,11 @@ const htmlContent = `<!DOCTYPE html>
 
     <div class="page-footer">
       <div>Technical Documentation — Biophilic Courtyard CAD Detailing Set · Sheet B101 / B102</div>
-      <div>Page 28</div>
+      <div>Page 29</div>
     </div>
   </div>
 
-  <!-- ================================= SHEET 29: PROJECT 09 · TECHNICAL WORKING DRAWINGS — SHEET 04 ================================= -->
+  <!-- ================================= SHEET 30: PROJECT 09 · TECHNICAL WORKING DRAWINGS — SHEET 04 ================================= -->
   <div class="sheet">
     <div class="page-header">
       <div class="page-header-left">Project 09 · Technical Documentation</div>
@@ -2797,11 +2878,11 @@ const htmlContent = `<!DOCTYPE html>
 
     <div class="page-footer">
       <div>Technical Documentation — Biophilic Courtyard CAD Detailing Set · Sheet B103 / B104</div>
-      <div>Page 29</div>
+      <div>Page 30</div>
     </div>
   </div>
 
-  <!-- ================================= SHEET 30: PROJECT 09 · TECHNICAL WORKING DRAWINGS — SHEET 05 ================================= -->
+  <!-- ================================= SHEET 31: PROJECT 09 · TECHNICAL WORKING DRAWINGS — SHEET 05 ================================= -->
   <div class="sheet">
     <div class="page-header">
       <div class="page-header-left">Project 09 · Technical Documentation</div>
@@ -2862,11 +2943,11 @@ const htmlContent = `<!DOCTYPE html>
 
     <div class="page-footer">
       <div>Technical Documentation — Master Suite Bespoke Joinery &amp; Finish Schedules · Sheet J201 / J202</div>
-      <div>Page 30</div>
+      <div>Page 31</div>
     </div>
   </div>
 
-  <!-- ================================= SHEET 31: PROJECT 09 · TECHNICAL WORKING DRAWINGS — SHEET 06 ================================= -->
+  <!-- ================================= SHEET 32: PROJECT 09 · TECHNICAL WORKING DRAWINGS — SHEET 06 ================================= -->
   <div class="sheet">
     <div class="page-header">
       <div class="page-header-left">Project 09 · Technical Documentation</div>
@@ -2927,11 +3008,11 @@ const htmlContent = `<!DOCTYPE html>
 
     <div class="page-footer">
       <div>Technical Documentation — Contemporary Suite Joinery &amp; Millwork Detailing · Sheet J203 / J204</div>
-      <div>Page 31</div>
+      <div>Page 32</div>
     </div>
   </div>
 
-  <!-- ================================= SHEET 32: 10 · CV, TOOLKIT & CONTACT ================================= -->
+  <!-- ================================= SHEET 33: 10 · CV, TOOLKIT & CONTACT ================================= -->
   <div class="sheet" style="background-color: #FAF8F5;">
     <div class="page-header">
       <div class="page-header-left">10 · Curriculum Vitae &amp; Toolkit</div>
@@ -3030,7 +3111,7 @@ const htmlContent = `<!DOCTYPE html>
 
     <div class="page-footer">
       <div>Faiha Faisal · Selected Works Portfolio 2024–2025</div>
-      <div>Page 32</div>
+      <div>Page 33</div>
     </div>
   </div>
 
@@ -3047,7 +3128,7 @@ if (!fs.existsSync(userDataDir)) {
   fs.mkdirSync(userDataDir, { recursive: true });
 }
 
-console.log('Compiling 32-page PDF with Microsoft Edge headless...');
+console.log('Compiling 33-page PDF with Microsoft Edge headless...');
 const edgeExe = 'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe';
 const fileUrl = 'file:///' + tempHtmlPath.replace(/\\/g, '/');
 

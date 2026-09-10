@@ -213,6 +213,15 @@ export const contentsData: ContentCategory[] = [
         ]
       },
       {
+        title: "Bedroom Suite — Modern Arched Sanctuary (Design 03)",
+        description: "Serene bedroom suite centered on an illuminated arched stucco accent niche, classic damask wall covering, perforated acoustic frieze paneling, and a dedicated vanity nook with an arched brass mirror.",
+        images: [
+          "/gallery/BEDROOM/DESIGN 3 (1).png",
+          "/gallery/BEDROOM/DESIGN 3 (2).png",
+          "/gallery/BEDROOM/DESIGN 3 (3).png"
+        ]
+      },
+      {
         title: "Bedroom Design — View 01",
         description: "Minimalist warm-toned bedroom sanctuary featuring balanced natural lighting, integrated wall accents, and calming symmetry.",
         images: [
