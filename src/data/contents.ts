@@ -196,12 +196,20 @@ export const contentsData: ContentCategory[] = [
     gallery: [],
     projects: [
       {
-        title: "Bedroom Suite — Contemporary Luxury (Design 01)",
+        title: "Bedroom Design — Heritage Cane Suite (Design 01)",
+        description: "Bespoke master bedroom suite featuring a custom slatted and woven cane headboard, botanical art triptych, and an artisanal carved arched mirror in the dressing foyer.",
+        images: [
+          "/gallery/BEDROOM/DESIGN 1 (1).png",
+          "/gallery/BEDROOM/DESIGN 1 (2).png"
+        ]
+      },
+      {
+        title: "Bedroom Suite — Contemporary Luxury (Design 02)",
         description: "Expansive luxury master bedroom suite featuring a bespoke timber and woven cane headboard, acoustic wall relief art, private window lounge, and dedicated dressing room corridor.",
         images: [
-          "/gallery/BEDROOM/design 1 (3).jpeg",
-          "/gallery/BEDROOM/design 1 (2).jpeg",
-          "/gallery/BEDROOM/design 1 (1).jpeg"
+          "/gallery/BEDROOM/DESIGN 2 (3).jpeg",
+          "/gallery/BEDROOM/DESIGN 2 (2).jpeg",
+          "/gallery/BEDROOM/DESIGN 2 (1).jpeg"
         ]
       },
       {
@@ -231,14 +239,6 @@ export const contentsData: ContentCategory[] = [
           "/gallery/BEDROOM/view 3 (1).png",
           "/gallery/BEDROOM/view 3 (2).png",
           "/gallery/BEDROOM/view 3 (3).png"
-        ]
-      },
-      {
-        title: "Bedroom Design — View 04",
-        description: "Contemporary bedroom composition highlighting custom millwork, soft textures, and restful neutral palettes.",
-        images: [
-          "/gallery/BEDROOM/view 4 (1).png",
-          "/gallery/BEDROOM/view 4 (2).png"
         ]
       },
       {

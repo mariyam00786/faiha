@@ -184,9 +184,11 @@ export const siteData = {
       ],
       heroImage: "/contents/07.jpg.png",
       images: [
-        "/gallery/BEDROOM/design 1 (3).jpeg",
-        "/gallery/BEDROOM/design 1 (2).jpeg",
-        "/gallery/BEDROOM/design 1 (1).jpeg",
+        "/gallery/BEDROOM/DESIGN 1 (1).png",
+        "/gallery/BEDROOM/DESIGN 1 (2).png",
+        "/gallery/BEDROOM/DESIGN 2 (3).jpeg",
+        "/gallery/BEDROOM/DESIGN 2 (2).jpeg",
+        "/gallery/BEDROOM/DESIGN 2 (1).jpeg",
         "/contents/07.jpg.png",
         "/gallery/BEDROOM/view 1 (1).png",
         "/gallery/BEDROOM/view 1 (2).png",
@@ -199,8 +201,6 @@ export const siteData = {
         "/gallery/BEDROOM/view 3 (1).png",
         "/gallery/BEDROOM/view 3 (2).png",
         "/gallery/BEDROOM/view 3 (3).png",
-        "/gallery/BEDROOM/view 4 (1).png",
-        "/gallery/BEDROOM/view 4 (2).png",
         "/gallery/BEDROOM/view 5 (1).png",
         "/gallery/BEDROOM/view 5 (2).png"
       ],

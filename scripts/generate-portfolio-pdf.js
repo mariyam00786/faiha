@@ -156,11 +156,15 @@ const confHero = toBase64('gallery/conference hall/ChatGPT Image Aug 12, 2026, 1
 // Hand-drawn Architectural Concept Perspective Sketch
 const sketchVilla = toBase64('gallery/working-drawings/WhatsApp Image 2026-09-08 at 11.26.23 PM.jpeg');
 
-// 01 · Bedroom Suites (public/gallery/BEDROOM — dedicated Design 01 & Views 01–05)
-// Design 01 (3 images - Luxury Master Sanctuary & Window Lounge)
-const bedD1_1 = toBase64('gallery/BEDROOM/design 1 (1).jpeg');
-const bedD1_2 = toBase64('gallery/BEDROOM/design 1 (2).jpeg');
-const bedD1_3 = toBase64('gallery/BEDROOM/design 1 (3).jpeg');
+// 01 · Bedroom Suites (public/gallery/BEDROOM — dedicated Designs 01 & 02, Views 01–05)
+// Design 01 (2 images - Heritage Cane Headboard & Dressing Suite)
+const bedD1_1 = toBase64('gallery/BEDROOM/DESIGN 1 (1).png');
+const bedD1_2 = toBase64('gallery/BEDROOM/DESIGN 1 (2).png');
+
+// Design 02 (3 images - Luxury Master Sanctuary & Window Lounge)
+const bedD2_1 = toBase64('gallery/BEDROOM/DESIGN 2 (1).jpeg');
+const bedD2_2 = toBase64('gallery/BEDROOM/DESIGN 2 (2).jpeg');
+const bedD2_3 = toBase64('gallery/BEDROOM/DESIGN 2 (3).jpeg');
 
 // Bedroom Suites (public/gallery/BEDROOM — dedicated Views 01–05)
 // View 01 (3 images)
@@ -179,10 +183,6 @@ const bedV2_5 = toBase64('gallery/BEDROOM/view 2 (5).png');
 const bedV3_1 = toBase64('gallery/BEDROOM/view 3 (1).png');
 const bedV3_2 = toBase64('gallery/BEDROOM/view 3 (2).png');
 const bedV3_3 = toBase64('gallery/BEDROOM/view 3 (3).png');
-
-// View 04 (2 images - Contemporary Suite)
-const bedV4_1 = toBase64('gallery/BEDROOM/view 4 (1).png');
-const bedV4_2 = toBase64('gallery/BEDROOM/view 4 (2).png');
 
 // View 05 (2 images - Tailored Wardrobe & Alcove)
 const bedV5_1 = toBase64('gallery/BEDROOM/view 5 (1).png');
@@ -853,7 +853,7 @@ const htmlContent = `<!DOCTYPE html>
   <div class="sheet">
     <div class="page-header">
       <div class="page-header-left">Project 01 · Bedroom Suites</div>
-      <div class="page-header-right">Design 01 · Contemporary Luxury Suite &amp; Lounge</div>
+      <div class="page-header-right">Design 01 · Heritage Cane Headboard &amp; Dressing Suite</div>
     </div>
 
     <div class="page-content">
@@ -863,10 +863,80 @@ const htmlContent = `<!DOCTYPE html>
           <div>
             <div class="section-tag">Private Sanctuaries · Design 01</div>
             <h2 class="serif-title" style="font-size: 28px; line-height: 1.1; margin-bottom: 8px;">
+              Bespoke Woodcraft, Cane Weave &amp; <span class="serif-italic">Dressing Foyer</span>
+            </h2>
+            <p class="editorial-body">
+              Conceived as an intimate sanctuary of natural craftsmanship, Design 01 pairs rich teak woodwork, woven cane screening, and organic botanical artwork.
+            </p>
+            <p class="editorial-body">
+              A bespoke bed frame featuring an integrated slatted and woven cane headboard anchors the sleeping volume, while an artisanal carved arched mirror in the dressing foyer establishes deep visual perspective and connects the arrival threshold with rest quarters.
+            </p>
+          </div>
+
+          <div>
+            <div class="fact-grid">
+              <div class="fact-pill">
+                <div class="fact-label">Typology</div>
+                <div class="fact-val">Master Suite &amp; Dressing Foyer</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Headboard</div>
+                <div class="fact-val">Custom Teak &amp; Natural Cane</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Wall Finish</div>
+                <div class="fact-val">Earthy Lime Wash &amp; Botanical Art</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Flooring</div>
+                <div class="fact-val">Polished Limestone &amp; Sisal Rug</div>
+              </div>
+            </div>
+
+            <div class="intent-box">
+              <strong>Spatial Reflection:</strong> The carved arched mirror in the dressing corridor captures soft natural daylight and reflects the primary bed elevation, cultivating continuous spatial dialogue between morning preparation and restful retreat.
+            </div>
+          </div>
+        </div>
+
+        <!-- Right 2-Image Composition for Design 01 -->
+        <div style="display: grid; grid-template-rows: 1.05fr 1fr; gap: 8px; height: 100%; min-height: 0;">
+          <div class="img-frame" style="min-height: 0;">
+            <img src="${bedD1_2}" alt="Master Suite Bed Elevation &amp; Cane Headboard" class="img-fill">
+            <div class="img-caption">Primary Suite Composition · Slatted Cane Headboard &amp; Botanical Triptych</div>
+          </div>
+          <div class="img-frame" style="min-height: 0;">
+            <img src="${bedD1_1}" alt="Dressing Corridor &amp; Arched Mirror Perspective" class="img-fill">
+            <div class="img-caption">Dressing Foyer &amp; Arched Mirror Elevation · Spatial Connection &amp; Vanity</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-footer">
+      <div>Bedroom Suites — Design 01 · Heritage Cane Headboard &amp; Dressing Suite</div>
+      <div>Page 04</div>
+    </div>
+  </div>
+
+  <!-- ================================= SHEET 5: PROJECT 01 · BEDROOM SUITES — DESIGN 02 ================================= -->
+  <div class="sheet">
+    <div class="page-header">
+      <div class="page-header-left">Project 01 · Bedroom Suites</div>
+      <div class="page-header-right">Design 02 · Contemporary Luxury Suite &amp; Lounge</div>
+    </div>
+
+    <div class="page-content">
+      <div class="split-layout">
+        <!-- Left Narrative & Specs -->
+        <div style="display: flex; flex-direction: column; justify-content: space-between;">
+          <div>
+            <div class="section-tag">Private Sanctuaries · Design 02</div>
+            <h2 class="serif-title" style="font-size: 28px; line-height: 1.1; margin-bottom: 8px;">
               Warm Minimalist Luxury &amp; <span class="serif-italic">Organic Textures</span>
             </h2>
             <p class="editorial-body">
-              Conceived as an expansive luxury master sanctuary, Design 01 harmonizes tactile natural finishes, architectural lighting, and an integrated private window lounge.
+              Conceived as an expansive luxury master sanctuary, Design 02 harmonizes tactile natural finishes, architectural lighting, and an integrated private window lounge.
             </p>
             <p class="editorial-body">
               A bespoke timber frame with curved woven cane headboard anchors the bedroom space, while floor-to-ceiling sheer drapery, sculptural hanging globe pendants, and acoustic 3D wall art cultivate an enveloping, resort-grade tranquility.
@@ -899,19 +969,19 @@ const htmlContent = `<!DOCTYPE html>
           </div>
         </div>
 
-        <!-- Right 3-Image Composition for Design 01 -->
+        <!-- Right 3-Image Composition for Design 02 -->
         <div style="display: flex; flex-direction: column; gap: 8px; height: 100%;">
           <div class="img-frame" style="flex: 1.3;">
-            <img src="${bedD1_3}" alt="Master Suite Bed &amp; Cane Headboard Elevation" class="img-fill">
+            <img src="${bedD2_3}" alt="Master Suite Bed &amp; Cane Headboard Elevation" class="img-fill">
             <div class="img-caption">Primary Suite Composition · Bespoke Cane Headboard &amp; Acoustic Wall Relief</div>
           </div>
           <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; height: 48mm;">
             <div class="img-frame">
-              <img src="${bedD1_2}" alt="Private Window Lounge &amp; Daylighting" class="img-fill">
+              <img src="${bedD2_2}" alt="Private Window Lounge &amp; Daylighting" class="img-fill">
               <div class="img-caption">Window Lounge · Daylighting &amp; Sheer Drapery</div>
             </div>
             <div class="img-frame">
-              <img src="${bedD1_1}" alt="Spatial Angle &amp; Dressing Corridor Entry" class="img-fill">
+              <img src="${bedD2_1}" alt="Spatial Angle &amp; Dressing Corridor Entry" class="img-fill">
               <div class="img-caption">Room Perspective · Hospitality Bar &amp; Dressing Suite</div>
             </div>
           </div>
@@ -920,12 +990,12 @@ const htmlContent = `<!DOCTYPE html>
     </div>
 
     <div class="page-footer">
-      <div>Bedroom Suites — Design 01 · Contemporary Luxury Suite &amp; Window Lounge</div>
-      <div>Page 04</div>
+      <div>Bedroom Suites — Design 02 · Contemporary Luxury Suite &amp; Window Lounge</div>
+      <div>Page 05</div>
     </div>
   </div>
 
-  <!-- ================================= SHEET 5: PROJECT 01 · BEDROOM — VIEW 01 ================================= -->
+  <!-- ================================= SHEET 6: PROJECT 01 · BEDROOM — VIEW 01 ================================= -->
   <div class="sheet">
     <div class="page-header">
       <div class="page-header-left">Project 01 · Bedroom Suites</div>
@@ -997,11 +1067,11 @@ const htmlContent = `<!DOCTYPE html>
 
     <div class="page-footer">
       <div>Bedroom Suites — View 01 · Minimalist Symmetry &amp; Restful Tones</div>
-      <div>Page 05</div>
+      <div>Page 06</div>
     </div>
   </div>
 
-  <!-- ================================= SHEET 6: PROJECT 01 · BEDROOM — VIEW 02 (MASTER SANCTUARY) ================================= -->
+  <!-- ================================= SHEET 7: PROJECT 01 · BEDROOM — VIEW 02 (MASTER SANCTUARY) ================================= -->
   <div class="sheet">
     <div class="page-header">
       <div class="page-header-left">Project 01 · Bedroom Suites</div>
@@ -1081,11 +1151,11 @@ const htmlContent = `<!DOCTYPE html>
 
     <div class="page-footer">
       <div>Bedroom Suites — View 02 · Master Sanctuary &amp; Fluted Joinery</div>
-      <div>Page 06</div>
+      <div>Page 07</div>
     </div>
   </div>
 
-  <!-- ================================= SHEET 7: PROJECT 01 · BEDROOM — VIEW 03 (EARTH TONE SUITE) ================================= -->
+  <!-- ================================= SHEET 8: PROJECT 01 · BEDROOM — VIEW 03 (EARTH TONE SUITE) ================================= -->
   <div class="sheet">
     <div class="page-header">
       <div class="page-header-left">Project 01 · Bedroom Suites</div>
@@ -1157,76 +1227,6 @@ const htmlContent = `<!DOCTYPE html>
 
     <div class="page-footer">
       <div>Bedroom Suites — View 03 · Earth Tones &amp; Acoustic Millwork</div>
-      <div>Page 07</div>
-    </div>
-  </div>
-
-  <!-- ================================= SHEET 8: PROJECT 01 · BEDROOM — VIEW 04 (CONTEMPORARY SUITE) ================================= -->
-  <div class="sheet">
-    <div class="page-header">
-      <div class="page-header-left">Project 01 · Bedroom Suites</div>
-      <div class="page-header-right">Design View 04 · Contemporary Neutral Suite</div>
-    </div>
-
-    <div class="page-content">
-      <div class="split-layout">
-        <!-- Left Narrative & Specs -->
-        <div style="display: flex; flex-direction: column; justify-content: space-between; min-height: 0;">
-          <div>
-            <div class="section-tag">Modern Living · View 04</div>
-            <h2 class="serif-title" style="font-size: 26px; line-height: 1.1; margin-bottom: 8px;">
-              Refined Textures &amp; <span class="serif-italic">Linear Elegance</span>
-            </h2>
-            <p class="editorial-body">
-              View 04 highlights a sleek contemporary aesthetic characterized by horizontal panel extensions, floating bedside tables, and discreet vertical brass accents.
-            </p>
-            <p class="editorial-body">
-              Gentle gray lacquers paired with warm oak highlights deliver an uncluttered, sophisticated ambiance tailored for modern urban residences.
-            </p>
-          </div>
-
-          <div>
-            <div class="fact-grid">
-              <div class="fact-pill">
-                <div class="fact-label">Typology</div>
-                <div class="fact-val">Contemporary Suite · View 04</div>
-              </div>
-              <div class="fact-pill">
-                <div class="fact-label">Millwork</div>
-                <div class="fact-val">Floating Ledge &amp; Paneling</div>
-              </div>
-              <div class="fact-pill">
-                <div class="fact-label">Finishes</div>
-                <div class="fact-val">Matte Greige &amp; White Oak</div>
-              </div>
-              <div class="fact-pill">
-                <div class="fact-label">Fittings</div>
-                <div class="fact-val">Brushed Brass Linear Accents</div>
-              </div>
-            </div>
-
-            <div class="intent-box">
-              <strong>Design Clarity:</strong> Seamless horizontal geometry visually expands the bedroom width, cultivating an airy, luminous sanctuary.
-            </div>
-          </div>
-        </div>
-
-        <!-- Right 2-Image Composition for View 04 -->
-        <div style="display: grid; grid-template-rows: 1fr 1fr; gap: 8px; height: 100%; min-height: 0;">
-          <div class="img-frame" style="min-height: 0;">
-            <img src="${bedV4_1}" alt="Bedroom View 04 Main Perspective" class="img-fill">
-            <div class="img-caption">Contemporary Bed Composition · Horizontal Paneling &amp; Floating Console</div>
-          </div>
-          <div class="img-frame" style="min-height: 0;">
-            <img src="${bedV4_2}" alt="Bedroom View 04 Angle Perspective" class="img-fill">
-            <div class="img-caption">Side Angle · Natural Light &amp; Architectural Balance</div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="page-footer">
-      <div>Bedroom Suites — View 04 · Contemporary Form &amp; Linear Sconces</div>
       <div>Page 08</div>
     </div>
   </div>
