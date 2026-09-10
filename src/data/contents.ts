@@ -196,6 +196,15 @@ export const contentsData: ContentCategory[] = [
     gallery: [],
     projects: [
       {
+        title: "Bedroom Suite — Contemporary Luxury (Design 01)",
+        description: "Expansive luxury master bedroom suite featuring a bespoke timber and woven cane headboard, acoustic wall relief art, private window lounge, and dedicated dressing room corridor.",
+        images: [
+          "/gallery/BEDROOM/design 1 (3).jpeg",
+          "/gallery/BEDROOM/design 1 (2).jpeg",
+          "/gallery/BEDROOM/design 1 (1).jpeg"
+        ]
+      },
+      {
         title: "Bedroom Design — View 01",
         description: "Minimalist warm-toned bedroom sanctuary featuring balanced natural lighting, integrated wall accents, and calming symmetry.",
         images: [
@@ -242,4 +251,23 @@ export const contentsData: ContentCategory[] = [
       }
     ]
   },
+  {
+    id: "08",
+    slug: "conference-hall",
+    title: "CONFERENCE HALL",
+    description: "Corporate workspace, acoustic joinery & executive boardrooms",
+    image: "/gallery/conference hall/ChatGPT Image Aug 12, 2026, 11_47_06 AM (1).png",
+    gallery: [
+      "/gallery/conference hall/ChatGPT Image Aug 12, 2026, 11_47_06 AM (1).png"
+    ],
+    projects: [
+      {
+        title: "Executive Conference Hall & Boardroom",
+        description: "A prestigious corporate boardroom featuring a monolithic marble conference table with integrated AV microphones, acoustic wood millwork shelving, and refined perimeter lighting.",
+        images: [
+          "/gallery/conference hall/ChatGPT Image Aug 12, 2026, 11_47_06 AM (1).png"
+        ]
+      }
+    ]
+  }
 ];

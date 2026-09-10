@@ -147,8 +147,22 @@ const wash1 = toBase64('gallery/WASHROOM/1 (12).png');
 const wash2 = toBase64('gallery/WASHROOM/2 (12).png');
 const wash3 = toBase64('gallery/WASHROOM/3 (10).png');
 const washB1 = toBase64('gallery/WASHROOM/b1.png');
+const washB2 = toBase64('gallery/WASHROOM/b2.png');
+const washB3 = toBase64('gallery/WASHROOM/b3.png');
 
-// 07 · Bedroom Suites (public/gallery/BEDROOM — dedicated Views 01–05)
+// 08 · Commercial Workplace (public/gallery/conference hall)
+const confHero = toBase64('gallery/conference hall/ChatGPT Image Aug 12, 2026, 11_47_06 AM (1).png');
+
+// Hand-drawn Architectural Concept Perspective Sketch
+const sketchVilla = toBase64('gallery/working-drawings/WhatsApp Image 2026-09-08 at 11.26.23 PM.jpeg');
+
+// 01 · Bedroom Suites (public/gallery/BEDROOM — dedicated Design 01 & Views 01–05)
+// Design 01 (3 images - Luxury Master Sanctuary & Window Lounge)
+const bedD1_1 = toBase64('gallery/BEDROOM/design 1 (1).jpeg');
+const bedD1_2 = toBase64('gallery/BEDROOM/design 1 (2).jpeg');
+const bedD1_3 = toBase64('gallery/BEDROOM/design 1 (3).jpeg');
+
+// Bedroom Suites (public/gallery/BEDROOM — dedicated Views 01–05)
 // View 01 (3 images)
 const bedV1_1 = toBase64('gallery/BEDROOM/view 1 (1).png');
 const bedV1_2 = toBase64('gallery/BEDROOM/view 1 (2).png');
@@ -191,7 +205,7 @@ const wdKettle = toBase64('images/projects/working-drawings/wall with kttl.jpg.j
 const wdWardrobeDetail = toBase64('images/projects/working-drawings/WARDROBE DETAIL.jpg.jpeg');
 const wdKattlSideTable = toBase64('images/projects/working-drawings/KATTL WITH SIDE TABLE.jpg.jpeg');
 
-console.log('Generating 28-page editorial publication layout with dedicated courtyard, kitchen, living, bedroom, and technical CAD sets...');
+console.log('Generating 32-page editorial publication layout with dedicated bedroom, courtyard, kitchen, living, washroom suites, conference hall, and technical CAD sets...');
 
 const htmlContent = `<!DOCTYPE html>
 <html lang="en">
@@ -674,99 +688,110 @@ const htmlContent = `<!DOCTYPE html>
             <div style="display: flex; align-items: baseline;">
               <span class="toc-num">01</span>
               <div>
-                <div class="toc-title">Courtyard &amp; Biophilic Spaces</div>
-                <div class="toc-desc">Designs 01–03 Modern Zen, Tropical Atrium &amp; Concrete Light Wells</div>
+                <div class="toc-title">Bedroom Sanctuaries &amp; Suites</div>
+                <div class="toc-desc">Designs 01–06 Luxury Master Lounge, Acoustic Slatting &amp; Bespoke Millwork</div>
               </div>
             </div>
-            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 04–06</div>
+            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 04–09</div>
           </div>
 
           <div class="toc-item">
             <div style="display: flex; align-items: baseline;">
               <span class="toc-num">02</span>
               <div>
-                <div class="toc-title">Exterior Architecture</div>
-                <div class="toc-desc">Villa Facades, Climate Modulation &amp; Framed Overhangs</div>
+                <div class="toc-title">Courtyard &amp; Biophilic Spaces</div>
+                <div class="toc-desc">Designs 01–03 Modern Zen, Tropical Atrium &amp; Concrete Light Wells</div>
               </div>
             </div>
-            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 07</div>
+            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 10–12</div>
           </div>
 
           <div class="toc-item">
             <div style="display: flex; align-items: baseline;">
               <span class="toc-num">03</span>
               <div>
-                <div class="toc-title">Culinary Architecture</div>
-                <div class="toc-desc">Designs 01–04 Modular Kitchens, Islands &amp; Blum Hardware</div>
+                <div class="toc-title">Exterior Architecture</div>
+                <div class="toc-desc">Villa Facades, Climate Modulation &amp; Framed Overhangs</div>
               </div>
             </div>
-            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 08–11</div>
+            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 13</div>
           </div>
 
           <div class="toc-item">
             <div style="display: flex; align-items: baseline;">
               <span class="toc-num">04</span>
               <div>
-                <div class="toc-title">Living Environments</div>
-                <div class="toc-desc">Designs 01–03 Double-Height Lounges, Social Flow &amp; Paneling</div>
+                <div class="toc-title">Culinary Architecture</div>
+                <div class="toc-desc">Designs 01–04 Modular Kitchens, Islands &amp; Blum Hardware</div>
               </div>
             </div>
-            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 12–14</div>
+            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 14–17</div>
           </div>
 
           <div class="toc-item">
             <div style="display: flex; align-items: baseline;">
               <span class="toc-num">05</span>
               <div>
-                <div class="toc-title">Dining Architecture</div>
-                <div class="toc-desc">Entertaining Hubs, Custom Buffet Joinery &amp; Ambient Lighting</div>
+                <div class="toc-title">Living Environments</div>
+                <div class="toc-desc">Designs 01–03 Double-Height Lounges, Social Flow &amp; Paneling</div>
               </div>
             </div>
-            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 15</div>
+            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 18–20</div>
           </div>
 
           <div class="toc-item">
             <div style="display: flex; align-items: baseline;">
               <span class="toc-num">06</span>
               <div>
-                <div class="toc-title">Wellness Washrooms</div>
-                <div class="toc-desc">Spa Sanctuaries, Fluted Finishes &amp; Backlit Mirrors</div>
+                <div class="toc-title">Dining Architecture</div>
+                <div class="toc-desc">Entertaining Hubs, Custom Buffet Joinery &amp; Ambient Lighting</div>
               </div>
             </div>
-            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 16</div>
+            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 21</div>
           </div>
 
           <div class="toc-item">
             <div style="display: flex; align-items: baseline;">
               <span class="toc-num">07</span>
               <div>
-                <div class="toc-title">Bedroom Sanctuaries &amp; Suites</div>
-                <div class="toc-desc">Views 01–05 Dedicated Design Suites &amp; Joinery Collections</div>
+                <div class="toc-title">Wellness Washrooms</div>
+                <div class="toc-desc">Master Spa Sanctuary, Soaking Tub, Fluted Stone &amp; Powder Suites</div>
               </div>
             </div>
-            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 17–21</div>
+            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 22–23</div>
           </div>
 
           <div class="toc-item">
             <div style="display: flex; align-items: baseline;">
               <span class="toc-num">08</span>
               <div>
-                <div class="toc-title">Technical Working Drawings</div>
-                <div class="toc-desc">AutoCAD Architectural CAD Sets, Sections &amp; Joinery Details</div>
+                <div class="toc-title">Commercial Workplace</div>
+                <div class="toc-desc">Executive Conference Hall, Boardroom AV Integration &amp; Acoustic Millwork</div>
               </div>
             </div>
-            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 22–27</div>
+            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 24</div>
           </div>
 
           <div class="toc-item">
             <div style="display: flex; align-items: baseline;">
               <span class="toc-num">09</span>
               <div>
+                <div class="toc-title">Technical Working Drawings</div>
+                <div class="toc-desc">Hand-Drawn Ideation &amp; AutoCAD Construction Sets A101–J204</div>
+              </div>
+            </div>
+            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 25–31</div>
+          </div>
+
+          <div class="toc-item">
+            <div style="display: flex; align-items: baseline;">
+              <span class="toc-num">10</span>
+              <div>
                 <div class="toc-title">Curriculum Vitae &amp; Toolkit</div>
                 <div class="toc-desc">Professional Experience, Technical Skills &amp; Contact</div>
               </div>
             </div>
-            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 28</div>
+            <div style="font-weight: 700; font-size: 11px; color: #592727;">p. 32</div>
           </div>
         </div>
 
@@ -824,11 +849,11 @@ const htmlContent = `<!DOCTYPE html>
     </div>
   </div>
 
-  <!-- ================================= SHEET 4: PROJECT 01 · COURTYARD LIVING — DESIGN 01 ================================= -->
+  <!-- ================================= SHEET 4: PROJECT 01 · BEDROOM SUITES — DESIGN 01 ================================= -->
   <div class="sheet">
     <div class="page-header">
-      <div class="page-header-left">Project 01 · Courtyard Living</div>
-      <div class="page-header-right">Design 01 · Modern Zen Garden &amp; Light Wells</div>
+      <div class="page-header-left">Project 01 · Bedroom Suites</div>
+      <div class="page-header-right">Design 01 · Contemporary Luxury Suite &amp; Lounge</div>
     </div>
 
     <div class="page-content">
@@ -836,15 +861,15 @@ const htmlContent = `<!DOCTYPE html>
         <!-- Left Narrative & Specs -->
         <div style="display: flex; flex-direction: column; justify-content: space-between;">
           <div>
-            <div class="section-tag">Biophilic Sanctuaries · Design 01</div>
+            <div class="section-tag">Private Sanctuaries · Design 01</div>
             <h2 class="serif-title" style="font-size: 28px; line-height: 1.1; margin-bottom: 8px;">
-              Modern Zen &amp; <span class="serif-italic">Contemplative Silence</span>
+              Warm Minimalist Luxury &amp; <span class="serif-italic">Organic Textures</span>
             </h2>
             <p class="editorial-body">
-              Conceived as a contemplative sanctuary within the residence, Design 01 translates classic Japanese zen garden principles into a contemporary architectural form.
+              Conceived as an expansive luxury master sanctuary, Design 01 harmonizes tactile natural finishes, architectural lighting, and an integrated private window lounge.
             </p>
             <p class="editorial-body">
-              Raked white quartz gravel, organic granite stepping pavers, and a Japanese maple focal point are gently illuminated by overhead skylight louvers, inviting shifting sun patterns and serene stillness into daily living.
+              A bespoke timber frame with curved woven cane headboard anchors the bedroom space, while floor-to-ceiling sheer drapery, sculptural hanging globe pendants, and acoustic 3D wall art cultivate an enveloping, resort-grade tranquility.
             </p>
           </div>
 
@@ -852,337 +877,24 @@ const htmlContent = `<!DOCTYPE html>
             <div class="fact-grid">
               <div class="fact-pill">
                 <div class="fact-label">Typology</div>
-                <div class="fact-val">Internal Zen Garden</div>
+                <div class="fact-val">Master Suite &amp; Lounge</div>
               </div>
               <div class="fact-pill">
-                <div class="fact-label">Materials</div>
-                <div class="fact-val">Granite Pavers, White Quartz</div>
-              </div>
-              <div class="fact-pill">
-                <div class="fact-label">Focal Elements</div>
-                <div class="fact-val">Japanese Maple &amp; Basin</div>
-              </div>
-              <div class="fact-pill">
-                <div class="fact-label">Daylight</div>
-                <div class="fact-val">Filtered North Skylight</div>
-              </div>
-            </div>
-
-            <div class="intent-box">
-              <strong>Spatial Strategy:</strong> Low-profile ground textures and frameless glass thresholds visually expand connecting corridors, transforming circulation into a restful pause.
-            </div>
-          </div>
-        </div>
-
-        <!-- Right 3-Image Composition for Courtyard Design 01 -->
-        <div style="display: flex; flex-direction: column; gap: 8px; height: 100%;">
-          <div class="img-frame" style="flex: 1.3;">
-            <img src="${courtD1_1}" alt="Courtyard Design 01 Hero" class="img-fill">
-            <div class="img-caption">Modern Zen Courtyard · Granite Pavers &amp; Skylit Light Atrium</div>
-          </div>
-          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; height: 48mm;">
-            <div class="img-frame">
-              <img src="${courtD1_2}" alt="Courtyard Design 01 Detail 1" class="img-fill">
-              <div class="img-caption">Raked Gravel Bed &amp; Stepping Paver Detail</div>
-            </div>
-            <div class="img-frame">
-              <img src="${courtD1_3}" alt="Courtyard Design 01 Detail 2" class="img-fill">
-              <div class="img-caption">Skylight Perspective &amp; Ambient Daylight Flow</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="page-footer">
-      <div>Courtyards — Design 01 · Modern Zen Garden &amp; Contemplative Light</div>
-      <div>Page 04</div>
-    </div>
-  </div>
-
-  <!-- ================================= SHEET 5: PROJECT 01 · COURTYARD LIVING — DESIGN 02 ================================= -->
-  <div class="sheet">
-    <div class="page-header">
-      <div class="page-header-left">Project 01 · Courtyard Living</div>
-      <div class="page-header-right">Design 02 · Tropical Light Atrium &amp; Passive Cooling</div>
-    </div>
-
-    <div class="page-content">
-      <div class="split-layout">
-        <!-- Left Narrative & Specs -->
-        <div style="display: flex; flex-direction: column; justify-content: space-between;">
-          <div>
-            <div class="section-tag">Biophilic Sanctuaries · Design 02</div>
-            <h2 class="serif-title" style="font-size: 28px; line-height: 1.1; margin-bottom: 8px;">
-              Tropical Atrium &amp; <span class="serif-italic">Thermal Modulation</span>
-            </h2>
-            <p class="editorial-body">
-              Design 02 serves as both a lush green sanctuary and a high-performance thermal chimney, channeling fresh breezes and gentle filtered daylight into the home's core.
-            </p>
-            <p class="editorial-body">
-              A cantilevered timber pergola roof modulates harsh midday sun, casting dynamic geometric shadows while encouraging natural stack-effect convection that flushes warm interior air through upper clerestory vents.
-            </p>
-          </div>
-
-          <div>
-            <div class="fact-grid">
-              <div class="fact-pill">
-                <div class="fact-label">Typology</div>
-                <div class="fact-val">Tropical Light Atrium</div>
-              </div>
-              <div class="fact-pill">
-                <div class="fact-label">Flora</div>
-                <div class="fact-val">Monstera, Ficus, Tree Ferns</div>
-              </div>
-              <div class="fact-pill">
-                <div class="fact-label">Shading</div>
-                <div class="fact-val">Cantilevered Teak Pergola</div>
-              </div>
-              <div class="fact-pill">
-                <div class="fact-label">Climate</div>
-                <div class="fact-val">Passive Stack Ventilation</div>
-              </div>
-            </div>
-
-            <div class="intent-box">
-              <strong>Micro-Climate Benefit:</strong> High foliage transpiration and sheltered breeze corridors lower adjacent ambient temperatures naturally without artificial mechanical cooling.
-            </div>
-          </div>
-        </div>
-
-        <!-- Right 2-Image Composition for Courtyard Design 02 -->
-        <div style="display: flex; flex-direction: column; gap: 8px; height: 100%;">
-          <div class="img-frame" style="flex: 1.25;">
-            <img src="${courtD2_1}" alt="Courtyard Design 02 Hero" class="img-fill">
-            <div class="img-caption">Tropical Light Atrium · Lush Foliage &amp; Double-Height Well</div>
-          </div>
-          <div class="img-frame" style="height: 48mm;">
-            <img src="${courtD2_2}" alt="Courtyard Design 02 Pergola Detail" class="img-fill">
-            <div class="img-caption">Cantilevered Teak Pergola &amp; Sunlight Modulation</div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="page-footer">
-      <div>Courtyards — Design 02 · Tropical Light Atrium &amp; Passive Stack Cooling</div>
-      <div>Page 05</div>
-    </div>
-  </div>
-
-  <!-- ================================= SHEET 6: PROJECT 01 · COURTYARD LIVING — DESIGN 03 ================================= -->
-  <div class="sheet">
-    <div class="page-header">
-      <div class="page-header-left">Project 01 · Courtyard Living</div>
-      <div class="page-header-right">Design 03 · Minimalist Concrete &amp; Monolithic Planters</div>
-    </div>
-
-    <div class="page-content">
-      <div class="split-layout">
-        <!-- Left Narrative & Specs -->
-        <div style="display: flex; flex-direction: column; justify-content: space-between;">
-          <div>
-            <div class="section-tag">Biophilic Sanctuaries · Design 03</div>
-            <h2 class="serif-title" style="font-size: 28px; line-height: 1.1; margin-bottom: 8px;">
-              Raw Concrete &amp; <span class="serif-italic">Architectural Honesty</span>
-            </h2>
-            <p class="editorial-body">
-              Design 03 embraces sculptural minimalism, combining board-formed cast concrete planter walls with custom teakwood bench seating and architectural pebble drainage channels.
-            </p>
-            <p class="editorial-body">
-              Crisp geometric lines frame tactile greenery against smooth cement surfaces, elevated at dusk by discreet recessed 3000K floor grazers that highlight the natural aggregate texture of the walls.
-            </p>
-          </div>
-
-          <div>
-            <div class="fact-grid">
-              <div class="fact-pill">
-                <div class="fact-label">Typology</div>
-                <div class="fact-val">Raw Concrete Courtyard</div>
-              </div>
-              <div class="fact-pill">
-                <div class="fact-label">Surfaces</div>
-                <div class="fact-val">Board-Formed Concrete</div>
-              </div>
-              <div class="fact-pill">
-                <div class="fact-label">Joinery</div>
-                <div class="fact-val">Integrated Teak Benches</div>
-              </div>
-              <div class="fact-pill">
-                <div class="fact-label">Lighting</div>
-                <div class="fact-val">Recessed 3000K Ground Grazers</div>
-              </div>
-            </div>
-
-            <div class="intent-box">
-              <strong>Material Detailing:</strong> The tactile contrast between solid board-formed concrete and warm wood grain achieves an enduring, dignified architectural balance.
-            </div>
-          </div>
-        </div>
-
-        <!-- Right 5-Image Composition for Courtyard Design 03 -->
-        <div style="display: flex; flex-direction: column; gap: 8px; height: 100%;">
-          <div class="img-frame" style="flex: 1.25;">
-            <img src="${courtD3_1}" alt="Courtyard Design 03 Hero" class="img-fill">
-            <div class="img-caption">Monolithic Concrete Planter &amp; Integrated Teak Seating Hero</div>
-          </div>
-          <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 6px; height: 44mm;">
-            <div class="img-frame">
-              <img src="${courtD3_2}" alt="Courtyard Design 03 Detail 1" class="img-fill">
-              <div class="img-caption">Planter Joinery</div>
-            </div>
-            <div class="img-frame">
-              <img src="${courtD3_3}" alt="Courtyard Design 03 Detail 2" class="img-fill">
-              <div class="img-caption">Pebble Drain Channel</div>
-            </div>
-            <div class="img-frame">
-              <img src="${courtD3_4}" alt="Courtyard Design 03 Detail 3" class="img-fill">
-              <div class="img-caption">Concrete Texture</div>
-            </div>
-            <div class="img-frame">
-              <img src="${courtD3_5}" alt="Courtyard Design 03 Detail 4" class="img-fill">
-              <div class="img-caption">Ground Illumination</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="page-footer">
-      <div>Courtyards — Design 03 · Raw Concrete, Monolithic Planters &amp; Timber</div>
-      <div>Page 06</div>
-    </div>
-  </div>
-
-  <!-- ================================= SHEET 7: PROJECT 02 · EXTERIOR ARCHITECTURE ================================= -->
-  <div class="sheet">
-    <div class="page-header">
-      <div class="page-header-left">Project 02 · Exterior Architecture</div>
-      <div class="page-header-right">Modern Villa Facade &amp; Thresholds · 2024</div>
-    </div>
-
-    <div class="page-content">
-      <div class="split-layout">
-        <div style="display: flex; flex-direction: column; justify-content: space-between;">
-          <div>
-            <div class="section-tag">Facades &amp; Entryways</div>
-            <h2 class="serif-title" style="font-size: 28px; line-height: 1.1; margin-bottom: 8px;">
-              Tropical Form &amp; <span class="serif-italic">Framed Thresholds</span>
-            </h2>
-            <p class="editorial-body">
-              The architectural exterior was conceived as a dynamic dialogue between contemporary geometric minimalism and tropical contextual responsiveness.
-            </p>
-            <p class="editorial-body">
-              Deep cantilevered overhangs, integrated green planters, and vertical rhythmic louvers modulate harsh tropical daylight while ensuring effortless cross-ventilation. Bold geometric volumes protect family privacy while crafting a dignified, enduring street presence.
-            </p>
-          </div>
-
-          <div>
-            <div class="fact-grid">
-              <div class="fact-pill">
-                <div class="fact-label">Typology</div>
-                <div class="fact-val">Modern Villa Facade</div>
-              </div>
-              <div class="fact-pill">
-                <div class="fact-label">Location</div>
-                <div class="fact-val">Kerala, India</div>
-              </div>
-              <div class="fact-pill">
-                <div class="fact-label">Software</div>
-                <div class="fact-val">AutoCAD, SketchUp, Enscape</div>
-              </div>
-              <div class="fact-pill">
-                <div class="fact-label">Focus Area</div>
-                <div class="fact-val">Climate Shading &amp; Massing</div>
-              </div>
-            </div>
-
-            <div class="intent-box">
-              <strong>Design Intent:</strong> Seamless transition between the public arrival approach and private residential retreat through tactile concrete, warm teakwood, and recessed lighting.
-            </div>
-          </div>
-        </div>
-
-        <!-- Right Visual Display (Hero + 4 Mini Perspectives from gallery/EXTERIOR) -->
-        <div style="display: flex; flex-direction: column; gap: 8px; height: 100%;">
-          <div class="img-frame" style="flex: 1.2;">
-            <img src="${extHero}" alt="Exterior Facade Hero" class="img-fill">
-            <div class="img-caption">Main Approach Elevation · Daylight Study</div>
-          </div>
-          <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 6px; height: 42mm;">
-            <div class="img-frame">
-              <img src="${ext1}" alt="Entry Porch" class="img-fill">
-              <div class="img-caption">Entry Porch</div>
-            </div>
-            <div class="img-frame">
-              <img src="${ext2}" alt="Cantilever Overhang" class="img-fill">
-              <div class="img-caption">Cantilever</div>
-            </div>
-            <div class="img-frame">
-              <img src="${ext3}" alt="Dusk Illumination" class="img-fill">
-              <div class="img-caption">Dusk Lighting</div>
-            </div>
-            <div class="img-frame">
-              <img src="${ext4}" alt="Balcony Planter" class="img-fill">
-              <div class="img-caption">Balcony Planter</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="page-footer">
-      <div>Exterior Architecture — Massing, Climate Modulation &amp; Thresholds</div>
-      <div>Page 07</div>
-    </div>
-  </div>
-
-  <!-- ================================= SHEET 8: PROJECT 03 · CULINARY ARCHITECTURE — DESIGN 01 ================================= -->
-  <div class="sheet">
-    <div class="page-header">
-      <div class="page-header-left">Project 03 · Culinary Architecture</div>
-      <div class="page-header-right">Design 01 · Minimalist White &amp; Warm Oak</div>
-    </div>
-
-    <div class="page-content">
-      <div class="split-layout">
-        <!-- Left Narrative & Specs -->
-        <div style="display: flex; flex-direction: column; justify-content: space-between;">
-          <div>
-            <div class="section-tag">Culinary Architecture · Design 01</div>
-            <h2 class="serif-title" style="font-size: 28px; line-height: 1.1; margin-bottom: 8px;">
-              Nordic Minimalism &amp; <span class="serif-italic">Streamlined Joinery</span>
-            </h2>
-            <p class="editorial-body">
-              Design 01 pairs clean Nordic minimalism with warm oak accents to create an airy, light-flooded culinary workspace. Designed with strict adherence to ergonomic circulation, the island configuration enables fluid multi-person cooking and entertaining.
-            </p>
-            <p class="editorial-body">
-              Concealed handle profiles, anti-fingerprint matte acrylic surfaces, and stain-resistant quartz countertops ensure timeless aesthetic purity paired with effortless day-to-day resilience.
-            </p>
-          </div>
-
-          <div>
-            <div class="fact-grid">
-              <div class="fact-pill">
-                <div class="fact-label">Typology</div>
-                <div class="fact-val">Island Modular Kitchen</div>
+                <div class="fact-label">Headboard</div>
+                <div class="fact-val">Custom Timber &amp; Woven Cane</div>
               </div>
               <div class="fact-pill">
                 <div class="fact-label">Palette</div>
-                <div class="fact-val">Matte White, Oak, Calacatta</div>
+                <div class="fact-val">Warm Greige, Teak, Bouclé</div>
               </div>
               <div class="fact-pill">
-                <div class="fact-label">Countertops</div>
-                <div class="fact-val">Engineered Quartz Slab</div>
-              </div>
-              <div class="fact-pill">
-                <div class="fact-label">Hardware</div>
-                <div class="fact-val">Blum Tandembox Soft-Close</div>
+                <div class="fact-label">Flooring</div>
+                <div class="fact-val">Polished Architectural Terrazzo</div>
               </div>
             </div>
 
             <div class="intent-box">
-              <strong>Spatial Strategy:</strong> Low-profile central island maintains clear sightlines into adjacent living zones while doubling as a casual breakfast bar.
+              <strong>Spatial Strategy:</strong> An open corridor naturally leads to the walk-in wardrobe dressing suite, preserving generous circulation and calm visual breathing room.
             </div>
           </div>
         </div>
@@ -1190,17 +902,17 @@ const htmlContent = `<!DOCTYPE html>
         <!-- Right 3-Image Composition for Design 01 -->
         <div style="display: flex; flex-direction: column; gap: 8px; height: 100%;">
           <div class="img-frame" style="flex: 1.3;">
-            <img src="${kitD1_1}" alt="Kitchen Design 01 Hero" class="img-fill">
-            <div class="img-caption">Kitchen Elevation &amp; Quartz Breakfast Island</div>
+            <img src="${bedD1_3}" alt="Master Suite Bed &amp; Cane Headboard Elevation" class="img-fill">
+            <div class="img-caption">Primary Suite Composition · Bespoke Cane Headboard &amp; Acoustic Wall Relief</div>
           </div>
           <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; height: 48mm;">
             <div class="img-frame">
-              <img src="${kitD1_2}" alt="Kitchen Design 01 Detail 1" class="img-fill">
-              <div class="img-caption">Pantry Storage &amp; Fluted Joinery Detail</div>
+              <img src="${bedD1_2}" alt="Private Window Lounge &amp; Daylighting" class="img-fill">
+              <div class="img-caption">Window Lounge · Daylighting &amp; Sheer Drapery</div>
             </div>
             <div class="img-frame">
-              <img src="${kitD1_3}" alt="Kitchen Design 01 Detail 2" class="img-fill">
-              <div class="img-caption">Hob Station &amp; Ambient LED Profile</div>
+              <img src="${bedD1_1}" alt="Spatial Angle &amp; Dressing Corridor Entry" class="img-fill">
+              <div class="img-caption">Room Perspective · Hospitality Bar &amp; Dressing Suite</div>
             </div>
           </div>
         </div>
@@ -1208,637 +920,15 @@ const htmlContent = `<!DOCTYPE html>
     </div>
 
     <div class="page-footer">
-      <div>Culinary Architecture — Design 01 · Minimalist Joinery &amp; Ergonomic Triangles</div>
-      <div>Page 08</div>
+      <div>Bedroom Suites — Design 01 · Contemporary Luxury Suite &amp; Window Lounge</div>
+      <div>Page 04</div>
     </div>
   </div>
 
-  <!-- ================================= SHEET 9: PROJECT 03 · CULINARY ARCHITECTURE — DESIGN 02 ================================= -->
+  <!-- ================================= SHEET 5: PROJECT 01 · BEDROOM — VIEW 01 ================================= -->
   <div class="sheet">
     <div class="page-header">
-      <div class="page-header-left">Project 03 · Culinary Architecture</div>
-      <div class="page-header-right">Design 02 · Monolithic Quartz Island &amp; Fluted Smoked Oak</div>
-    </div>
-
-    <div class="page-content">
-      <div class="split-layout">
-        <!-- Left Narrative & Specs -->
-        <div style="display: flex; flex-direction: column; justify-content: space-between;">
-          <div>
-            <div class="section-tag">Culinary Architecture · Design 02</div>
-            <h2 class="serif-title" style="font-size: 28px; line-height: 1.1; margin-bottom: 8px;">
-              Monolithic Quartz &amp; <span class="serif-italic">Textured Cabinetry</span>
-            </h2>
-            <p class="editorial-body">
-              Design 02 celebrates bold textural contrast, pairing dark fluted wood cabinetry with a dramatic monolithic waterfall quartz island. The composition anchors the home as an inviting social and culinary centerpiece.
-            </p>
-            <p class="editorial-body">
-              Flush-integrated high-end appliances remain hidden behind full-height smoked oak panels, preserving the pristine architectural massing while delivering uncompromising professional kitchen performance.
-            </p>
-          </div>
-
-          <div>
-            <div class="fact-grid">
-              <div class="fact-pill">
-                <div class="fact-label">Typology</div>
-                <div class="fact-val">Open-Plan Island Kitchen</div>
-              </div>
-              <div class="fact-pill">
-                <div class="fact-label">Island</div>
-                <div class="fact-val">Waterfall Quartz Countertop</div>
-              </div>
-              <div class="fact-pill">
-                <div class="fact-label">Cabinetry</div>
-                <div class="fact-val">Smoked Oak &amp; Fluted Panels</div>
-              </div>
-              <div class="fact-pill">
-                <div class="fact-label">Fittings</div>
-                <div class="fact-val">Matte Gunmetal &amp; 3000K LED</div>
-              </div>
-            </div>
-
-            <div class="intent-box">
-              <strong>Work Triangle:</strong> Prep sink, induction hob, and concealed refrigeration form an effortless golden triangle with zero wasted footsteps.
-            </div>
-          </div>
-        </div>
-
-        <!-- Right 4-Image Composition for Design 02 -->
-        <div style="display: flex; flex-direction: column; gap: 8px; height: 100%;">
-          <div class="img-frame" style="flex: 1.25;">
-            <img src="${kitD2_1}" alt="Kitchen Design 02 Hero" class="img-fill">
-            <div class="img-caption">Monolithic Waterfall Island &amp; Smoked Wood Accents</div>
-          </div>
-          <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 6px; height: 44mm;">
-            <div class="img-frame">
-              <img src="${kitD2_2}" alt="Kitchen Design 02 Detail 1" class="img-fill">
-              <div class="img-caption">Breakfast Bar Counter</div>
-            </div>
-            <div class="img-frame">
-              <img src="${kitD2_3}" alt="Kitchen Design 02 Detail 2" class="img-fill">
-              <div class="img-caption">Concealed Appliance Joinery</div>
-            </div>
-            <div class="img-frame">
-              <img src="${kitD2_4}" alt="Kitchen Design 02 Detail 3" class="img-fill">
-              <div class="img-caption">Task Lighting &amp; Prep Station</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="page-footer">
-      <div>Culinary Architecture — Design 02 · Monolithic Island &amp; Social Continuity</div>
-      <div>Page 09</div>
-    </div>
-  </div>
-
-  <!-- ================================= SHEET 10: PROJECT 03 · CULINARY ARCHITECTURE — DESIGN 03 ================================= -->
-  <div class="sheet">
-    <div class="page-header">
-      <div class="page-header-left">Project 03 · Culinary Architecture</div>
-      <div class="page-header-right">Design 03 · Contemporary Parallel Architecture</div>
-    </div>
-
-    <div class="page-content">
-      <div class="split-layout">
-        <!-- Left Narrative & Specs -->
-        <div style="display: flex; flex-direction: column; justify-content: space-between;">
-          <div>
-            <div class="section-tag">Culinary Architecture · Design 03</div>
-            <h2 class="serif-title" style="font-size: 28px; line-height: 1.1; margin-bottom: 8px;">
-              Parallel Efficiency &amp; <span class="serif-italic">Ambient Illumination</span>
-            </h2>
-            <p class="editorial-body">
-              Design 03 utilizes a high-efficiency parallel (galley) layout that maximizes functional counter run while accommodating dedicated wet and dry preparation zones.
-            </p>
-            <p class="editorial-body">
-              Warm contemporary timber laminates, anti-glare under-cabinet LED task profiles, and textured stone backsplashes create an intimate, tactile cooking atmosphere tailored for passionate home chefs.
-            </p>
-          </div>
-
-          <div>
-            <div class="fact-grid">
-              <div class="fact-pill">
-                <div class="fact-label">Typology</div>
-                <div class="fact-val">Parallel Modular Kitchen</div>
-              </div>
-              <div class="fact-pill">
-                <div class="fact-label">Zones</div>
-                <div class="fact-val">Dedicated Wet &amp; Dry Counters</div>
-              </div>
-              <div class="fact-pill">
-                <div class="fact-label">Backsplash</div>
-                <div class="fact-val">Seamless Large-Format Tile</div>
-              </div>
-              <div class="fact-pill">
-                <div class="fact-label">Lighting</div>
-                <div class="fact-val">Under-Cabinet 3000K Strip LED</div>
-              </div>
-            </div>
-
-            <div class="intent-box">
-              <strong>Storage Detailing:</strong> Full-height larder units and soft-close pull-out pantries organize kitchen essentials with high volumetric efficiency.
-            </div>
-          </div>
-        </div>
-
-        <!-- Right 3-Image Composition for Design 03 -->
-        <div style="display: flex; flex-direction: column; gap: 8px; height: 100%;">
-          <div class="img-frame" style="flex: 1.3;">
-            <img src="${kitD3_1}" alt="Kitchen Design 03 Hero" class="img-fill">
-            <div class="img-caption">Contemporary Parallel Kitchen &amp; Storage Efficiency</div>
-          </div>
-          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; height: 48mm;">
-            <div class="img-frame">
-              <img src="${kitD3_2}" alt="Kitchen Design 03 Detail 1" class="img-fill">
-              <div class="img-caption">Backsplash Tile &amp; Linear Task Light</div>
-            </div>
-            <div class="img-frame">
-              <img src="${kitD3_3}" alt="Kitchen Design 03 Detail 2" class="img-fill">
-              <div class="img-caption">Full Elevation &amp; Circulation Path</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="page-footer">
-      <div>Culinary Architecture — Design 03 · Parallel Configuration &amp; Storage Flow</div>
-      <div>Page 10</div>
-    </div>
-  </div>
-
-  <!-- ================================= SHEET 11: PROJECT 03 · CULINARY ARCHITECTURE — DESIGN 04 ================================= -->
-  <div class="sheet">
-    <div class="page-header">
-      <div class="page-header-left">Project 03 · Culinary Architecture</div>
-      <div class="page-header-right">Design 04 · Compact Modular Ergonomics</div>
-    </div>
-
-    <div class="page-content">
-      <div class="split-layout">
-        <!-- Left Narrative & Specs -->
-        <div style="display: flex; flex-direction: column; justify-content: space-between;">
-          <div>
-            <div class="section-tag">Culinary Architecture · Design 04</div>
-            <h2 class="serif-title" style="font-size: 28px; line-height: 1.1; margin-bottom: 8px;">
-              Compact Geometry &amp; <span class="serif-italic">Smart Storage Zoning</span>
-            </h2>
-            <p class="editorial-body">
-              Design 04 explores high-density modular joinery tailored for compact urban living, demonstrating that restricted square footage never requires aesthetic or functional compromise.
-            </p>
-            <p class="editorial-body">
-              Every millimeter is optimized with corner carousel pull-outs, integrated spice racks, overhead lift-up Blum Aventos bi-fold cabinets, and sleek undermount appliances.
-            </p>
-          </div>
-
-          <div>
-            <div class="fact-grid">
-              <div class="fact-pill">
-                <div class="fact-label">Typology</div>
-                <div class="fact-val">Compact L-Shaped Kitchen</div>
-              </div>
-              <div class="fact-pill">
-                <div class="fact-label">Hardware</div>
-                <div class="fact-val">Blum Aventos Bi-Fold Lift</div>
-              </div>
-              <div class="fact-pill">
-                <div class="fact-label">Storage</div>
-                <div class="fact-val">Corner Carousel &amp; Pull-Outs</div>
-              </div>
-              <div class="fact-pill">
-                <div class="fact-label">Surfaces</div>
-                <div class="fact-val">Satin Anti-Scratch Acrylic</div>
-              </div>
-            </div>
-
-            <div class="intent-box">
-              <strong>Ergonomic Detailing:</strong> Continuous work surfaces adjacent to both the hob and sink streamline single-cook meal preparation with total fluidity.
-            </div>
-          </div>
-        </div>
-
-        <!-- Right 4-Image Composition for Design 04 -->
-        <div style="display: flex; flex-direction: column; gap: 8px; height: 100%;">
-          <div class="img-frame" style="flex: 1.25;">
-            <img src="${kitD4_1}" alt="Kitchen Design 04 Hero" class="img-fill">
-            <div class="img-caption">Compact Modular Kitchen &amp; Clean Modern Geometry</div>
-          </div>
-          <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 6px; height: 44mm;">
-            <div class="img-frame">
-              <img src="${kitD4_2}" alt="Kitchen Design 04 Detail 1" class="img-fill">
-              <div class="img-caption">Tall Storage Unit &amp; Oven Tower</div>
-            </div>
-            <div class="img-frame">
-              <img src="${kitD4_3}" alt="Kitchen Design 04 Detail 2" class="img-fill">
-              <div class="img-caption">Undermount Sink &amp; Matte Cabinetry</div>
-            </div>
-            <div class="img-frame">
-              <img src="${kitD4_4}" alt="Kitchen Design 04 Detail 3" class="img-fill">
-              <div class="img-caption">Ergonomic Workflow Triangle</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="page-footer">
-      <div>Culinary Architecture — Design 04 · Compact Modular Geometry &amp; Smart Storage</div>
-      <div>Page 11</div>
-    </div>
-  </div>
-
-  <!-- ================================= SHEET 12: PROJECT 04 · LIVING ENVIRONMENTS — DESIGN 01 ================================= -->
-  <div class="sheet">
-    <div class="page-header">
-      <div class="page-header-left">Project 04 · Living Environments</div>
-      <div class="page-header-right">Design 01 · Double-Height Lounge &amp; Feature Media Paneling</div>
-    </div>
-
-    <div class="page-content">
-      <div class="split-layout">
-        <!-- Left Narrative & Specs -->
-        <div style="display: flex; flex-direction: column; justify-content: space-between;">
-          <div>
-            <div class="section-tag">Living Environments · Design 01</div>
-            <h2 class="serif-title" style="font-size: 28px; line-height: 1.1; margin-bottom: 8px;">
-              Sanctuary of <span class="serif-italic">Tactile Warmth</span>
-            </h2>
-            <p class="editorial-body">
-              Conceived as a grand restful heart for family life, Design 01 orchestrates natural light penetration, vertical volume, and acoustic balance within an expansive double-height lounge.
-            </p>
-            <p class="editorial-body">
-              Warm fluted oak paneling, integrated media joinery, tactile linen upholstery, and recessed cove lighting create a calming, grounded ambiance that effortlessly counters the fast pace of modern life.
-            </p>
-          </div>
-
-          <div>
-            <div class="fact-grid">
-              <div class="fact-pill">
-                <div class="fact-label">Typology</div>
-                <div class="fact-val">Double-Height Formal Lounge</div>
-              </div>
-              <div class="fact-pill">
-                <div class="fact-label">Millwork</div>
-                <div class="fact-val">Fluted Oak Feature Wall</div>
-              </div>
-              <div class="fact-pill">
-                <div class="fact-label">Materials</div>
-                <div class="fact-val">Oak, Bouclé, Travertine</div>
-              </div>
-              <div class="fact-pill">
-                <div class="fact-label">Lighting</div>
-                <div class="fact-val">Indirect 3000K Cove LED</div>
-              </div>
-            </div>
-
-            <div class="intent-box">
-              <strong>Spatial Strategy:</strong> Floor-to-ceiling slatted paneling visually connects the ground floor lounge with the upper gallery, unifying vertical sightlines.
-            </div>
-          </div>
-        </div>
-
-        <!-- Right 3-Image Composition for Living Design 01 -->
-        <div style="display: flex; flex-direction: column; gap: 8px; height: 100%;">
-          <div class="img-frame" style="flex: 1.3;">
-            <img src="${livD1_1}" alt="Living Design 01 Hero" class="img-fill">
-            <div class="img-caption">Double-Height Living Void &amp; Feature Media Paneling</div>
-          </div>
-          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; height: 48mm;">
-            <div class="img-frame">
-              <img src="${livD1_2}" alt="Living Design 01 Detail 1" class="img-fill">
-              <div class="img-caption">Lounge Seating &amp; Coffee Table Arrangement</div>
-            </div>
-            <div class="img-frame">
-              <img src="${livD1_3}" alt="Living Design 01 Detail 2" class="img-fill">
-              <div class="img-caption">Vertical Perspective &amp; Daylight Glazing</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="page-footer">
-      <div>Living Environments — Design 01 · Double-Height Lounge &amp; Spatial Flow</div>
-      <div>Page 12</div>
-    </div>
-  </div>
-
-  <!-- ================================= SHEET 13: PROJECT 04 · LIVING ENVIRONMENTS — DESIGN 02 ================================= -->
-  <div class="sheet">
-    <div class="page-header">
-      <div class="page-header-left">Project 04 · Living Environments</div>
-      <div class="page-header-right">Design 02 · Tactile Timber Paneling &amp; Family Retreat</div>
-    </div>
-
-    <div class="page-content">
-      <div class="split-layout">
-        <!-- Left Narrative & Specs -->
-        <div style="display: flex; flex-direction: column; justify-content: space-between; min-height: 0;">
-          <div>
-            <div class="section-tag">Living Environments · Design 02</div>
-            <h2 class="serif-title" style="font-size: 26px; line-height: 1.1; margin-bottom: 8px;">
-              Acoustic Paneling &amp; <span class="serif-italic">Intimate Flow</span>
-            </h2>
-            <p class="editorial-body">
-              Design 02 establishes an intimate, cozy family entertainment sanctuary centered on full-height acoustic timber battens and bespoke low-profile credenza joinery.
-            </p>
-            <p class="editorial-body">
-              Deep natural teak textures absorb sound reverberation while providing seamless concealed storage for audiovisual hardware, resulting in an uncluttered aesthetic of quiet elegance.
-            </p>
-          </div>
-
-          <div>
-            <div class="fact-grid">
-              <div class="fact-pill">
-                <div class="fact-label">Typology</div>
-                <div class="fact-val">Family Living Retreat</div>
-              </div>
-              <div class="fact-pill">
-                <div class="fact-label">Joinery</div>
-                <div class="fact-val">Concealed Low-Profile Credenza</div>
-              </div>
-              <div class="fact-pill">
-                <div class="fact-label">Finishes</div>
-                <div class="fact-val">Natural Teak &amp; Warm Linen</div>
-              </div>
-              <div class="fact-pill">
-                <div class="fact-label">Hardware</div>
-                <div class="fact-val">Push-to-Open Concealed Tracks</div>
-              </div>
-            </div>
-
-            <div class="intent-box">
-              <strong>Acoustic Focus:</strong> Wood battens and textured fabrics eliminate echo, creating an enveloping acoustic environment ideal for cinematic immersion.
-            </div>
-          </div>
-        </div>
-
-        <!-- Right 3-Image Composition for Living Design 02 -->
-        <div style="display: flex; flex-direction: column; gap: 8px; height: 100%; min-height: 0;">
-          <div class="img-frame" style="flex: 1.3; min-height: 0;">
-            <img src="${livD2_1}" alt="Living Design 02 Hero" class="img-fill">
-            <div class="img-caption">Tactile Wood Paneling &amp; Floating Media Console Hero</div>
-          </div>
-          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; height: 48mm; min-height: 0;">
-            <div class="img-frame" style="min-height: 0;">
-              <img src="${livD2_2}" alt="Living Design 02 Detail 1" class="img-fill">
-              <div class="img-caption">Textured Wall Paneling Detail &amp; Side Sconce</div>
-            </div>
-            <div class="img-frame" style="min-height: 0;">
-              <img src="${livD2_3}" alt="Living Design 02 Detail 2" class="img-fill">
-              <div class="img-caption">Circulation Flow &amp; Ceiling Linear Light</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="page-footer">
-      <div>Living Environments — Design 02 · Tactile Wood Paneling &amp; Intimate Retreat</div>
-      <div>Page 13</div>
-    </div>
-  </div>
-
-  <!-- ================================= SHEET 14: PROJECT 04 · LIVING ENVIRONMENTS — DESIGN 03 ================================= -->
-  <div class="sheet">
-    <div class="page-header">
-      <div class="page-header-left">Project 04 · Living Environments</div>
-      <div class="page-header-right">Design 03 · Contemporary Lounge &amp; Ambient Illumination</div>
-    </div>
-
-    <div class="page-content">
-      <div class="split-layout">
-        <!-- Left Narrative & Specs -->
-        <div style="display: flex; flex-direction: column; justify-content: space-between;">
-          <div>
-            <div class="section-tag">Living Environments · Design 03</div>
-            <h2 class="serif-title" style="font-size: 28px; line-height: 1.1; margin-bottom: 8px;">
-              Social Continuity &amp; <span class="serif-italic">Curated Vignettes</span>
-            </h2>
-            <p class="editorial-body">
-              Design 03 embraces an open-plan lifestyle, seamlessly connecting the informal living zone with adjacent dining spaces through low-profile modular furniture and unobstructed sightlines.
-            </p>
-            <p class="editorial-body">
-              A bespoke open bookcase unit defines spatial boundaries without solid walls, enriched by warm directional brass sconces and recessed ceiling channels for atmospheric evening hosting.
-            </p>
-          </div>
-
-          <div>
-            <div class="fact-grid">
-              <div class="fact-pill">
-                <div class="fact-label">Typology</div>
-                <div class="fact-val">Open-Plan Contemporary Lounge</div>
-              </div>
-              <div class="fact-pill">
-                <div class="fact-label">Seating</div>
-                <div class="fact-val">Modular Deep-Seat Sectional</div>
-              </div>
-              <div class="fact-pill">
-                <div class="fact-label">Storage</div>
-                <div class="fact-val">Integrated Open Bookcase Unit</div>
-              </div>
-              <div class="fact-pill">
-                <div class="fact-label">Lighting</div>
-                <div class="fact-val">Directional Sconces &amp; Profile LED</div>
-              </div>
-            </div>
-
-            <div class="intent-box">
-              <strong>Zoning Detailing:</strong> Low-profile furniture forms maintain natural breeze and visual continuity toward adjacent green light courts and entertaining areas.
-            </div>
-          </div>
-        </div>
-
-        <!-- Right 4-Image Composition for Living Design 03 -->
-        <div style="display: flex; flex-direction: column; gap: 8px; height: 100%;">
-          <div class="img-frame" style="flex: 1.25;">
-            <img src="${livD3_1}" alt="Living Design 03 Hero" class="img-fill">
-            <div class="img-caption">Contemporary Lounge Composition &amp; Open Spatial Flow</div>
-          </div>
-          <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 6px; height: 44mm;">
-            <div class="img-frame">
-              <img src="${livD3_2}" alt="Living Design 03 Detail 1" class="img-fill">
-              <div class="img-caption">Accent Sconce &amp; Bookcase</div>
-            </div>
-            <div class="img-frame">
-              <img src="${livD3_3}" alt="Living Design 03 Detail 2" class="img-fill">
-              <div class="img-caption">Conversation Seating</div>
-            </div>
-            <div class="img-frame">
-              <img src="${livD3_4}" alt="Living Design 03 Detail 3" class="img-fill">
-              <div class="img-caption">Dining Transition View</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="page-footer">
-      <div>Living Environments — Design 03 · Contemporary Form &amp; Ambient Illumination</div>
-      <div>Page 14</div>
-    </div>
-  </div>
-
-  <!-- ================================= SHEET 15: PROJECT 05 · DINING ARCHITECTURE ================================= -->
-  <div class="sheet">
-    <div class="page-header">
-      <div class="page-header-left">Project 05 · Dining Architecture</div>
-      <div class="page-header-right">Entertaining Hubs &amp; Millwork Transitions</div>
-    </div>
-
-    <div class="page-content">
-      <div class="split-layout">
-        <div style="display: flex; flex-direction: column; justify-content: space-between;">
-          <div>
-            <div class="section-tag">Dining &amp; Hospitality</div>
-            <h2 class="serif-title" style="font-size: 28px; line-height: 1.1; margin-bottom: 8px;">
-              Social Continuity &amp; <span class="serif-italic">Material Harmony</span>
-            </h2>
-            <p class="editorial-body">
-              The dining space serves as the central gathering fulcrum connecting the open kitchen with the internal courtyard. It is designed to foster leisurely family meals and gracious evening entertainment.
-            </p>
-            <p class="editorial-body">
-              A bespoke solid timber dining table is flanked by custom upholstered chairs, anchored overhead by a sculptural linear light fixture that emphasizes intimacy without cluttering vertical air space.
-            </p>
-          </div>
-
-          <div>
-            <div class="fact-grid">
-              <div class="fact-pill">
-                <div class="fact-label">Typology</div>
-                <div class="fact-val">Residential Dining Room</div>
-              </div>
-              <div class="fact-pill">
-                <div class="fact-label">Seating</div>
-                <div class="fact-val">8-Person Solid Wood Table</div>
-              </div>
-              <div class="fact-pill">
-                <div class="fact-label">Cabinetry</div>
-                <div class="fact-val">Bespoke Fluted Buffet Unit</div>
-              </div>
-              <div class="fact-pill">
-                <div class="fact-label">Finishes</div>
-                <div class="fact-val">Walnut, Brass, Textured Stone</div>
-              </div>
-            </div>
-
-            <div class="intent-box">
-              <strong>Spatial Strategy:</strong> Low-profile furniture forms ensure continuous sightlines toward the green courtyard, weaving nature into everyday dining rituals.
-            </div>
-          </div>
-        </div>
-
-        <!-- Right 3-Image Composition from gallery/DINING -->
-        <div style="display: flex; flex-direction: column; gap: 8px; height: 100%;">
-          <div class="img-frame" style="flex: 1.3;">
-            <img src="${din1}" alt="Dining Hero Setting" class="img-fill">
-            <div class="img-caption">Main Dining Perspective · Table, Chandelier &amp; Spatial Flow</div>
-          </div>
-          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; height: 50mm;">
-            <div class="img-frame">
-              <img src="${din2}" alt="Buffet & Wall Detailing" class="img-fill">
-              <div class="img-caption">Custom Buffet Joinery &amp; Fluted Wall Paneling</div>
-            </div>
-            <div class="img-frame">
-              <img src="${din3}" alt="Dining Chandelier Vignette" class="img-fill">
-              <div class="img-caption">Linear Chandelier &amp; Table Setting Vignette</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="page-footer">
-      <div>Dining Architecture — Gathering Hubs &amp; Custom Millwork Transitions</div>
-      <div>Page 15</div>
-    </div>
-  </div>
-
-  <!-- ================================= SHEET 16: PROJECT 06 · WELLNESS WASHROOMS ================================= -->
-  <div class="sheet">
-    <div class="page-header">
-      <div class="page-header-left">Project 06 · Wellness Washrooms</div>
-      <div class="page-header-right">Spa Sanctuaries &amp; Powder Rooms</div>
-    </div>
-
-    <div class="page-content">
-      <div class="split-layout">
-        <div style="display: flex; flex-direction: column; justify-content: space-between; min-height: 0;">
-          <div>
-            <div class="section-tag">Wellness &amp; Powder Rooms</div>
-            <h2 class="serif-title" style="font-size: 26px; line-height: 1.1; margin-bottom: 8px;">
-              Tactile Serenity &amp; <span class="serif-italic">Ritual Cleansing</span>
-            </h2>
-            <p class="editorial-body">
-              Bathrooms and powder rooms conceived as restorative home sanctuaries. Continuous large-format porcelain slabs minimize grout joints while cultivating seamless visual serenity.
-            </p>
-            <p class="editorial-body">
-              Floating stone vanities, ambient halo-lit mirrors, and matte gunmetal brassware evoke the effortless luxury of a boutique wellness retreat.
-            </p>
-          </div>
-
-          <div>
-            <div class="fact-grid">
-              <div class="fact-pill">
-                <div class="fact-label">Surfaces</div>
-                <div class="fact-val">Large Porcelain Slabs &amp; Fluted Tile</div>
-              </div>
-              <div class="fact-pill">
-                <div class="fact-label">Sanitaryware</div>
-                <div class="fact-val">Concealed Cisterns &amp; Wall-Hung Pans</div>
-              </div>
-              <div class="fact-pill">
-                <div class="fact-label">Fittings</div>
-                <div class="fact-val">Brushed Gunmetal &amp; Matte Black</div>
-              </div>
-              <div class="fact-pill">
-                <div class="fact-label">Lighting</div>
-                <div class="fact-val">IP65 Warm 3000K Backlit Vanity</div>
-              </div>
-            </div>
-
-            <div class="intent-box">
-              <strong>Detailing:</strong> Linear concealed tile-insert drain channels and frameless toughened glass screens keep visual lines razor-sharp.
-            </div>
-          </div>
-        </div>
-
-        <!-- Right Washroom Gallery Showcase from gallery/WASHROOM -->
-        <div style="display: grid; grid-template-columns: 1.15fr 1fr; gap: 8px; height: 100%; min-height: 0;">
-          <div class="img-frame" style="height: 100%; min-height: 0;">
-            <img src="${wash1}" alt="Main Vanity & Mirror" class="img-fill">
-            <div class="img-caption">En-Suite Vanity · Halo Mirror &amp; Floating Stone Basin</div>
-          </div>
-          <div style="display: grid; grid-template-rows: 1fr 1fr 1fr; gap: 6px; height: 100%; min-height: 0;">
-            <div class="img-frame" style="min-height: 0;">
-              <img src="${wash2}" alt="Walk-in Shower & Niche" class="img-fill">
-              <div class="img-caption">Walk-In Shower &amp; Niche Detail</div>
-            </div>
-            <div class="img-frame" style="min-height: 0;">
-              <img src="${wash3}" alt="Powder Room Concept" class="img-fill">
-              <div class="img-caption">Sculptural Powder Room</div>
-            </div>
-            <div class="img-frame" style="min-height: 0;">
-              <img src="${washB1}" alt="Contemporary Wellness Suite" class="img-fill">
-              <div class="img-caption">Contemporary Spa Suite Finishes</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="page-footer">
-      <div>Wellness Washrooms — Concealed Plumbing, Ambient Vanity Lighting &amp; Material Detailing</div>
-      <div>Page 16</div>
-    </div>
-  </div>
-
-  <!-- ================================= SHEET 17: PROJECT 07 · BEDROOM — VIEW 01 ================================= -->
-  <div class="sheet">
-    <div class="page-header">
-      <div class="page-header-left">Project 07 · Bedroom Suites</div>
+      <div class="page-header-left">Project 01 · Bedroom Suites</div>
       <div class="page-header-right">Design View 01 · Minimalist Symmetry</div>
     </div>
 
@@ -1907,14 +997,14 @@ const htmlContent = `<!DOCTYPE html>
 
     <div class="page-footer">
       <div>Bedroom Suites — View 01 · Minimalist Symmetry &amp; Restful Tones</div>
-      <div>Page 17</div>
+      <div>Page 05</div>
     </div>
   </div>
 
-  <!-- ================================= SHEET 18: PROJECT 07 · BEDROOM — VIEW 02 (MASTER SANCTUARY) ================================= -->
+  <!-- ================================= SHEET 6: PROJECT 01 · BEDROOM — VIEW 02 (MASTER SANCTUARY) ================================= -->
   <div class="sheet">
     <div class="page-header">
-      <div class="page-header-left">Project 07 · Bedroom Suites</div>
+      <div class="page-header-left">Project 01 · Bedroom Suites</div>
       <div class="page-header-right">Design View 02 · Master Sanctuary Suite</div>
     </div>
 
@@ -1991,14 +1081,14 @@ const htmlContent = `<!DOCTYPE html>
 
     <div class="page-footer">
       <div>Bedroom Suites — View 02 · Master Sanctuary &amp; Fluted Joinery</div>
-      <div>Page 18</div>
+      <div>Page 06</div>
     </div>
   </div>
 
-  <!-- ================================= SHEET 19: PROJECT 07 · BEDROOM — VIEW 03 (EARTH TONE SUITE) ================================= -->
+  <!-- ================================= SHEET 7: PROJECT 01 · BEDROOM — VIEW 03 (EARTH TONE SUITE) ================================= -->
   <div class="sheet">
     <div class="page-header">
-      <div class="page-header-left">Project 07 · Bedroom Suites</div>
+      <div class="page-header-left">Project 01 · Bedroom Suites</div>
       <div class="page-header-right">Design View 03 · Earth-Toned Retreat</div>
     </div>
 
@@ -2067,14 +1157,14 @@ const htmlContent = `<!DOCTYPE html>
 
     <div class="page-footer">
       <div>Bedroom Suites — View 03 · Earth Tones &amp; Acoustic Millwork</div>
-      <div>Page 19</div>
+      <div>Page 07</div>
     </div>
   </div>
 
-  <!-- ================================= SHEET 20: PROJECT 07 · BEDROOM — VIEW 04 (CONTEMPORARY SUITE) ================================= -->
+  <!-- ================================= SHEET 8: PROJECT 01 · BEDROOM — VIEW 04 (CONTEMPORARY SUITE) ================================= -->
   <div class="sheet">
     <div class="page-header">
-      <div class="page-header-left">Project 07 · Bedroom Suites</div>
+      <div class="page-header-left">Project 01 · Bedroom Suites</div>
       <div class="page-header-right">Design View 04 · Contemporary Neutral Suite</div>
     </div>
 
@@ -2137,14 +1227,14 @@ const htmlContent = `<!DOCTYPE html>
 
     <div class="page-footer">
       <div>Bedroom Suites — View 04 · Contemporary Form &amp; Linear Sconces</div>
-      <div>Page 20</div>
+      <div>Page 08</div>
     </div>
   </div>
 
-  <!-- ================================= SHEET 21: PROJECT 07 · BEDROOM — VIEW 05 (TAILORED WARDROBE & ALCOVE) ================================= -->
+  <!-- ================================= SHEET 9: PROJECT 01 · BEDROOM — VIEW 05 (TAILORED WARDROBE & ALCOVE) ================================= -->
   <div class="sheet">
     <div class="page-header">
-      <div class="page-header-left">Project 07 · Bedroom Suites</div>
+      <div class="page-header-left">Project 01 · Bedroom Suites</div>
       <div class="page-header-right">Design View 05 · Tailored Wardrobe &amp; Alcove</div>
     </div>
 
@@ -2207,14 +1297,1254 @@ const htmlContent = `<!DOCTYPE html>
 
     <div class="page-footer">
       <div>Bedroom Suites — View 05 · Tailored Wardrobe &amp; Spatial Efficiency</div>
+      <div>Page 09</div>
+    </div>
+  </div>
+
+  <!-- ================================= SHEET 10: PROJECT 02 · COURTYARD LIVING — DESIGN 01 ================================= -->
+  <div class="sheet">
+    <div class="page-header">
+      <div class="page-header-left">Project 02 · Courtyard Living</div>
+      <div class="page-header-right">Design 01 · Modern Zen Garden &amp; Light Wells</div>
+    </div>
+
+    <div class="page-content">
+      <div class="split-layout">
+        <!-- Left Narrative & Specs -->
+        <div style="display: flex; flex-direction: column; justify-content: space-between;">
+          <div>
+            <div class="section-tag">Biophilic Sanctuaries · Design 01</div>
+            <h2 class="serif-title" style="font-size: 28px; line-height: 1.1; margin-bottom: 8px;">
+              Modern Zen &amp; <span class="serif-italic">Contemplative Silence</span>
+            </h2>
+            <p class="editorial-body">
+              Conceived as a contemplative sanctuary within the residence, Design 01 translates classic Japanese zen garden principles into a contemporary architectural form.
+            </p>
+            <p class="editorial-body">
+              Raked white quartz gravel, organic granite stepping pavers, and a Japanese maple focal point are gently illuminated by overhead skylight louvers, inviting shifting sun patterns and serene stillness into daily living.
+            </p>
+          </div>
+
+          <div>
+            <div class="fact-grid">
+              <div class="fact-pill">
+                <div class="fact-label">Typology</div>
+                <div class="fact-val">Internal Zen Garden</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Materials</div>
+                <div class="fact-val">Granite Pavers, White Quartz</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Focal Elements</div>
+                <div class="fact-val">Japanese Maple &amp; Basin</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Daylight</div>
+                <div class="fact-val">Filtered North Skylight</div>
+              </div>
+            </div>
+
+            <div class="intent-box">
+              <strong>Spatial Strategy:</strong> Low-profile ground textures and frameless glass thresholds visually expand connecting corridors, transforming circulation into a restful pause.
+            </div>
+          </div>
+        </div>
+
+        <!-- Right 3-Image Composition for Courtyard Design 01 -->
+        <div style="display: flex; flex-direction: column; gap: 8px; height: 100%;">
+          <div class="img-frame" style="flex: 1.3;">
+            <img src="${courtD1_1}" alt="Courtyard Design 01 Hero" class="img-fill">
+            <div class="img-caption">Modern Zen Courtyard · Granite Pavers &amp; Skylit Light Atrium</div>
+          </div>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; height: 48mm;">
+            <div class="img-frame">
+              <img src="${courtD1_2}" alt="Courtyard Design 01 Detail 1" class="img-fill">
+              <div class="img-caption">Raked Gravel Bed &amp; Stepping Paver Detail</div>
+            </div>
+            <div class="img-frame">
+              <img src="${courtD1_3}" alt="Courtyard Design 01 Detail 2" class="img-fill">
+              <div class="img-caption">Skylight Perspective &amp; Ambient Daylight Flow</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-footer">
+      <div>Courtyards — Design 01 · Modern Zen Garden &amp; Contemplative Light</div>
+      <div>Page 10</div>
+    </div>
+  </div>
+
+  <!-- ================================= SHEET 11: PROJECT 02 · COURTYARD LIVING — DESIGN 02 ================================= -->
+  <div class="sheet">
+    <div class="page-header">
+      <div class="page-header-left">Project 02 · Courtyard Living</div>
+      <div class="page-header-right">Design 02 · Tropical Light Atrium &amp; Passive Cooling</div>
+    </div>
+
+    <div class="page-content">
+      <div class="split-layout">
+        <!-- Left Narrative & Specs -->
+        <div style="display: flex; flex-direction: column; justify-content: space-between;">
+          <div>
+            <div class="section-tag">Biophilic Sanctuaries · Design 02</div>
+            <h2 class="serif-title" style="font-size: 28px; line-height: 1.1; margin-bottom: 8px;">
+              Tropical Atrium &amp; <span class="serif-italic">Thermal Modulation</span>
+            </h2>
+            <p class="editorial-body">
+              Design 02 serves as both a lush green sanctuary and a high-performance thermal chimney, channeling fresh breezes and gentle filtered daylight into the home's core.
+            </p>
+            <p class="editorial-body">
+              A cantilevered timber pergola roof modulates harsh midday sun, casting dynamic geometric shadows while encouraging natural stack-effect convection that flushes warm interior air through upper clerestory vents.
+            </p>
+          </div>
+
+          <div>
+            <div class="fact-grid">
+              <div class="fact-pill">
+                <div class="fact-label">Typology</div>
+                <div class="fact-val">Tropical Light Atrium</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Flora</div>
+                <div class="fact-val">Monstera, Ficus, Tree Ferns</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Shading</div>
+                <div class="fact-val">Cantilevered Teak Pergola</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Climate</div>
+                <div class="fact-val">Passive Stack Ventilation</div>
+              </div>
+            </div>
+
+            <div class="intent-box">
+              <strong>Micro-Climate Benefit:</strong> High foliage transpiration and sheltered breeze corridors lower adjacent ambient temperatures naturally without artificial mechanical cooling.
+            </div>
+          </div>
+        </div>
+
+        <!-- Right 2-Image Composition for Courtyard Design 02 -->
+        <div style="display: flex; flex-direction: column; gap: 8px; height: 100%;">
+          <div class="img-frame" style="flex: 1.25;">
+            <img src="${courtD2_1}" alt="Courtyard Design 02 Hero" class="img-fill">
+            <div class="img-caption">Tropical Light Atrium · Lush Foliage &amp; Double-Height Well</div>
+          </div>
+          <div class="img-frame" style="height: 48mm;">
+            <img src="${courtD2_2}" alt="Courtyard Design 02 Pergola Detail" class="img-fill">
+            <div class="img-caption">Cantilevered Teak Pergola &amp; Sunlight Modulation</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-footer">
+      <div>Courtyards — Design 02 · Tropical Light Atrium &amp; Passive Stack Cooling</div>
+      <div>Page 11</div>
+    </div>
+  </div>
+
+  <!-- ================================= SHEET 12: PROJECT 02 · COURTYARD LIVING — DESIGN 03 ================================= -->
+  <div class="sheet">
+    <div class="page-header">
+      <div class="page-header-left">Project 02 · Courtyard Living</div>
+      <div class="page-header-right">Design 03 · Minimalist Concrete &amp; Monolithic Planters</div>
+    </div>
+
+    <div class="page-content">
+      <div class="split-layout">
+        <!-- Left Narrative & Specs -->
+        <div style="display: flex; flex-direction: column; justify-content: space-between;">
+          <div>
+            <div class="section-tag">Biophilic Sanctuaries · Design 03</div>
+            <h2 class="serif-title" style="font-size: 28px; line-height: 1.1; margin-bottom: 8px;">
+              Raw Concrete &amp; <span class="serif-italic">Architectural Honesty</span>
+            </h2>
+            <p class="editorial-body">
+              Design 03 embraces sculptural minimalism, combining board-formed cast concrete planter walls with custom teakwood bench seating and architectural pebble drainage channels.
+            </p>
+            <p class="editorial-body">
+              Crisp geometric lines frame tactile greenery against smooth cement surfaces, elevated at dusk by discreet recessed 3000K floor grazers that highlight the natural aggregate texture of the walls.
+            </p>
+          </div>
+
+          <div>
+            <div class="fact-grid">
+              <div class="fact-pill">
+                <div class="fact-label">Typology</div>
+                <div class="fact-val">Raw Concrete Courtyard</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Surfaces</div>
+                <div class="fact-val">Board-Formed Concrete</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Joinery</div>
+                <div class="fact-val">Integrated Teak Benches</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Lighting</div>
+                <div class="fact-val">Recessed 3000K Ground Grazers</div>
+              </div>
+            </div>
+
+            <div class="intent-box">
+              <strong>Material Detailing:</strong> The tactile contrast between solid board-formed concrete and warm wood grain achieves an enduring, dignified architectural balance.
+            </div>
+          </div>
+        </div>
+
+        <!-- Right 5-Image Composition for Courtyard Design 03 -->
+        <div style="display: flex; flex-direction: column; gap: 8px; height: 100%;">
+          <div class="img-frame" style="flex: 1.25;">
+            <img src="${courtD3_1}" alt="Courtyard Design 03 Hero" class="img-fill">
+            <div class="img-caption">Monolithic Concrete Planter &amp; Integrated Teak Seating Hero</div>
+          </div>
+          <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 6px; height: 44mm;">
+            <div class="img-frame">
+              <img src="${courtD3_2}" alt="Courtyard Design 03 Detail 1" class="img-fill">
+              <div class="img-caption">Planter Joinery</div>
+            </div>
+            <div class="img-frame">
+              <img src="${courtD3_3}" alt="Courtyard Design 03 Detail 2" class="img-fill">
+              <div class="img-caption">Pebble Drain Channel</div>
+            </div>
+            <div class="img-frame">
+              <img src="${courtD3_4}" alt="Courtyard Design 03 Detail 3" class="img-fill">
+              <div class="img-caption">Concrete Texture</div>
+            </div>
+            <div class="img-frame">
+              <img src="${courtD3_5}" alt="Courtyard Design 03 Detail 4" class="img-fill">
+              <div class="img-caption">Ground Illumination</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-footer">
+      <div>Courtyards — Design 03 · Raw Concrete, Monolithic Planters &amp; Timber</div>
+      <div>Page 12</div>
+    </div>
+  </div>
+
+  <!-- ================================= SHEET 13: PROJECT 03 · EXTERIOR ARCHITECTURE ================================= -->
+  <div class="sheet">
+    <div class="page-header">
+      <div class="page-header-left">Project 03 · Exterior Architecture</div>
+      <div class="page-header-right">Modern Villa Facade &amp; Thresholds · 2024</div>
+    </div>
+
+    <div class="page-content">
+      <div class="split-layout">
+        <div style="display: flex; flex-direction: column; justify-content: space-between;">
+          <div>
+            <div class="section-tag">Facades &amp; Entryways</div>
+            <h2 class="serif-title" style="font-size: 28px; line-height: 1.1; margin-bottom: 8px;">
+              Tropical Form &amp; <span class="serif-italic">Framed Thresholds</span>
+            </h2>
+            <p class="editorial-body">
+              The architectural exterior was conceived as a dynamic dialogue between contemporary geometric minimalism and tropical contextual responsiveness.
+            </p>
+            <p class="editorial-body">
+              Deep cantilevered overhangs, integrated green planters, and vertical rhythmic louvers modulate harsh tropical daylight while ensuring effortless cross-ventilation. Bold geometric volumes protect family privacy while crafting a dignified, enduring street presence.
+            </p>
+          </div>
+
+          <div>
+            <div class="fact-grid">
+              <div class="fact-pill">
+                <div class="fact-label">Typology</div>
+                <div class="fact-val">Modern Villa Facade</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Location</div>
+                <div class="fact-val">Kerala, India</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Software</div>
+                <div class="fact-val">AutoCAD, SketchUp, Enscape</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Focus Area</div>
+                <div class="fact-val">Climate Shading &amp; Massing</div>
+              </div>
+            </div>
+
+            <div class="intent-box">
+              <strong>Design Intent:</strong> Seamless transition between the public arrival approach and private residential retreat through tactile concrete, warm teakwood, and recessed lighting.
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Visual Display (Hero + 4 Mini Perspectives from gallery/EXTERIOR) -->
+        <div style="display: flex; flex-direction: column; gap: 8px; height: 100%;">
+          <div class="img-frame" style="flex: 1.2;">
+            <img src="${extHero}" alt="Exterior Facade Hero" class="img-fill">
+            <div class="img-caption">Main Approach Elevation · Daylight Study</div>
+          </div>
+          <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 6px; height: 42mm;">
+            <div class="img-frame">
+              <img src="${ext1}" alt="Entry Porch" class="img-fill">
+              <div class="img-caption">Entry Porch</div>
+            </div>
+            <div class="img-frame">
+              <img src="${ext2}" alt="Cantilever Overhang" class="img-fill">
+              <div class="img-caption">Cantilever</div>
+            </div>
+            <div class="img-frame">
+              <img src="${ext3}" alt="Dusk Illumination" class="img-fill">
+              <div class="img-caption">Dusk Lighting</div>
+            </div>
+            <div class="img-frame">
+              <img src="${ext4}" alt="Balcony Planter" class="img-fill">
+              <div class="img-caption">Balcony Planter</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-footer">
+      <div>Exterior Architecture — Massing, Climate Modulation &amp; Thresholds</div>
+      <div>Page 13</div>
+    </div>
+  </div>
+
+  <!-- ================================= SHEET 14: PROJECT 04 · CULINARY ARCHITECTURE — DESIGN 01 ================================= -->
+  <div class="sheet">
+    <div class="page-header">
+      <div class="page-header-left">Project 04 · Culinary Architecture</div>
+      <div class="page-header-right">Design 01 · Minimalist White &amp; Warm Oak</div>
+    </div>
+
+    <div class="page-content">
+      <div class="split-layout">
+        <!-- Left Narrative & Specs -->
+        <div style="display: flex; flex-direction: column; justify-content: space-between;">
+          <div>
+            <div class="section-tag">Culinary Architecture · Design 01</div>
+            <h2 class="serif-title" style="font-size: 28px; line-height: 1.1; margin-bottom: 8px;">
+              Nordic Minimalism &amp; <span class="serif-italic">Streamlined Joinery</span>
+            </h2>
+            <p class="editorial-body">
+              Design 01 pairs clean Nordic minimalism with warm oak accents to create an airy, light-flooded culinary workspace. Designed with strict adherence to ergonomic circulation, the island configuration enables fluid multi-person cooking and entertaining.
+            </p>
+            <p class="editorial-body">
+              Concealed handle profiles, anti-fingerprint matte acrylic surfaces, and stain-resistant quartz countertops ensure timeless aesthetic purity paired with effortless day-to-day resilience.
+            </p>
+          </div>
+
+          <div>
+            <div class="fact-grid">
+              <div class="fact-pill">
+                <div class="fact-label">Typology</div>
+                <div class="fact-val">Island Modular Kitchen</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Palette</div>
+                <div class="fact-val">Matte White, Oak, Calacatta</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Countertops</div>
+                <div class="fact-val">Engineered Quartz Slab</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Hardware</div>
+                <div class="fact-val">Blum Tandembox Soft-Close</div>
+              </div>
+            </div>
+
+            <div class="intent-box">
+              <strong>Spatial Strategy:</strong> Low-profile central island maintains clear sightlines into adjacent living zones while doubling as a casual breakfast bar.
+            </div>
+          </div>
+        </div>
+
+        <!-- Right 3-Image Composition for Design 01 -->
+        <div style="display: flex; flex-direction: column; gap: 8px; height: 100%;">
+          <div class="img-frame" style="flex: 1.3;">
+            <img src="${kitD1_1}" alt="Kitchen Design 01 Hero" class="img-fill">
+            <div class="img-caption">Kitchen Elevation &amp; Quartz Breakfast Island</div>
+          </div>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; height: 48mm;">
+            <div class="img-frame">
+              <img src="${kitD1_2}" alt="Kitchen Design 01 Detail 1" class="img-fill">
+              <div class="img-caption">Pantry Storage &amp; Fluted Joinery Detail</div>
+            </div>
+            <div class="img-frame">
+              <img src="${kitD1_3}" alt="Kitchen Design 01 Detail 2" class="img-fill">
+              <div class="img-caption">Hob Station &amp; Ambient LED Profile</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-footer">
+      <div>Culinary Architecture — Design 01 · Minimalist Joinery &amp; Ergonomic Triangles</div>
+      <div>Page 14</div>
+    </div>
+  </div>
+
+  <!-- ================================= SHEET 15: PROJECT 04 · CULINARY ARCHITECTURE — DESIGN 02 ================================= -->
+  <div class="sheet">
+    <div class="page-header">
+      <div class="page-header-left">Project 04 · Culinary Architecture</div>
+      <div class="page-header-right">Design 02 · Monolithic Quartz Island &amp; Fluted Smoked Oak</div>
+    </div>
+
+    <div class="page-content">
+      <div class="split-layout">
+        <!-- Left Narrative & Specs -->
+        <div style="display: flex; flex-direction: column; justify-content: space-between;">
+          <div>
+            <div class="section-tag">Culinary Architecture · Design 02</div>
+            <h2 class="serif-title" style="font-size: 28px; line-height: 1.1; margin-bottom: 8px;">
+              Monolithic Quartz &amp; <span class="serif-italic">Textured Cabinetry</span>
+            </h2>
+            <p class="editorial-body">
+              Design 02 celebrates bold textural contrast, pairing dark fluted wood cabinetry with a dramatic monolithic waterfall quartz island. The composition anchors the home as an inviting social and culinary centerpiece.
+            </p>
+            <p class="editorial-body">
+              Flush-integrated high-end appliances remain hidden behind full-height smoked oak panels, preserving the pristine architectural massing while delivering uncompromising professional kitchen performance.
+            </p>
+          </div>
+
+          <div>
+            <div class="fact-grid">
+              <div class="fact-pill">
+                <div class="fact-label">Typology</div>
+                <div class="fact-val">Open-Plan Island Kitchen</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Island</div>
+                <div class="fact-val">Waterfall Quartz Countertop</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Cabinetry</div>
+                <div class="fact-val">Smoked Oak &amp; Fluted Panels</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Fittings</div>
+                <div class="fact-val">Matte Gunmetal &amp; 3000K LED</div>
+              </div>
+            </div>
+
+            <div class="intent-box">
+              <strong>Work Triangle:</strong> Prep sink, induction hob, and concealed refrigeration form an effortless golden triangle with zero wasted footsteps.
+            </div>
+          </div>
+        </div>
+
+        <!-- Right 4-Image Composition for Design 02 -->
+        <div style="display: flex; flex-direction: column; gap: 8px; height: 100%;">
+          <div class="img-frame" style="flex: 1.25;">
+            <img src="${kitD2_1}" alt="Kitchen Design 02 Hero" class="img-fill">
+            <div class="img-caption">Monolithic Waterfall Island &amp; Smoked Wood Accents</div>
+          </div>
+          <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 6px; height: 44mm;">
+            <div class="img-frame">
+              <img src="${kitD2_2}" alt="Kitchen Design 02 Detail 1" class="img-fill">
+              <div class="img-caption">Breakfast Bar Counter</div>
+            </div>
+            <div class="img-frame">
+              <img src="${kitD2_3}" alt="Kitchen Design 02 Detail 2" class="img-fill">
+              <div class="img-caption">Concealed Appliance Joinery</div>
+            </div>
+            <div class="img-frame">
+              <img src="${kitD2_4}" alt="Kitchen Design 02 Detail 3" class="img-fill">
+              <div class="img-caption">Task Lighting &amp; Prep Station</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-footer">
+      <div>Culinary Architecture — Design 02 · Monolithic Island &amp; Social Continuity</div>
+      <div>Page 15</div>
+    </div>
+  </div>
+
+  <!-- ================================= SHEET 16: PROJECT 04 · CULINARY ARCHITECTURE — DESIGN 03 ================================= -->
+  <div class="sheet">
+    <div class="page-header">
+      <div class="page-header-left">Project 04 · Culinary Architecture</div>
+      <div class="page-header-right">Design 03 · Contemporary Parallel Architecture</div>
+    </div>
+
+    <div class="page-content">
+      <div class="split-layout">
+        <!-- Left Narrative & Specs -->
+        <div style="display: flex; flex-direction: column; justify-content: space-between;">
+          <div>
+            <div class="section-tag">Culinary Architecture · Design 03</div>
+            <h2 class="serif-title" style="font-size: 28px; line-height: 1.1; margin-bottom: 8px;">
+              Parallel Efficiency &amp; <span class="serif-italic">Ambient Illumination</span>
+            </h2>
+            <p class="editorial-body">
+              Design 03 utilizes a high-efficiency parallel (galley) layout that maximizes functional counter run while accommodating dedicated wet and dry preparation zones.
+            </p>
+            <p class="editorial-body">
+              Warm contemporary timber laminates, anti-glare under-cabinet LED task profiles, and textured stone backsplashes create an intimate, tactile cooking atmosphere tailored for passionate home chefs.
+            </p>
+          </div>
+
+          <div>
+            <div class="fact-grid">
+              <div class="fact-pill">
+                <div class="fact-label">Typology</div>
+                <div class="fact-val">Parallel Modular Kitchen</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Zones</div>
+                <div class="fact-val">Dedicated Wet &amp; Dry Counters</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Backsplash</div>
+                <div class="fact-val">Seamless Large-Format Tile</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Lighting</div>
+                <div class="fact-val">Under-Cabinet 3000K Strip LED</div>
+              </div>
+            </div>
+
+            <div class="intent-box">
+              <strong>Storage Detailing:</strong> Full-height larder units and soft-close pull-out pantries organize kitchen essentials with high volumetric efficiency.
+            </div>
+          </div>
+        </div>
+
+        <!-- Right 3-Image Composition for Design 03 -->
+        <div style="display: flex; flex-direction: column; gap: 8px; height: 100%;">
+          <div class="img-frame" style="flex: 1.3;">
+            <img src="${kitD3_1}" alt="Kitchen Design 03 Hero" class="img-fill">
+            <div class="img-caption">Contemporary Parallel Kitchen &amp; Storage Efficiency</div>
+          </div>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; height: 48mm;">
+            <div class="img-frame">
+              <img src="${kitD3_2}" alt="Kitchen Design 03 Detail 1" class="img-fill">
+              <div class="img-caption">Backsplash Tile &amp; Linear Task Light</div>
+            </div>
+            <div class="img-frame">
+              <img src="${kitD3_3}" alt="Kitchen Design 03 Detail 2" class="img-fill">
+              <div class="img-caption">Full Elevation &amp; Circulation Path</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-footer">
+      <div>Culinary Architecture — Design 03 · Parallel Configuration &amp; Storage Flow</div>
+      <div>Page 16</div>
+    </div>
+  </div>
+
+  <!-- ================================= SHEET 17: PROJECT 04 · CULINARY ARCHITECTURE — DESIGN 04 ================================= -->
+  <div class="sheet">
+    <div class="page-header">
+      <div class="page-header-left">Project 04 · Culinary Architecture</div>
+      <div class="page-header-right">Design 04 · Compact Modular Ergonomics</div>
+    </div>
+
+    <div class="page-content">
+      <div class="split-layout">
+        <!-- Left Narrative & Specs -->
+        <div style="display: flex; flex-direction: column; justify-content: space-between;">
+          <div>
+            <div class="section-tag">Culinary Architecture · Design 04</div>
+            <h2 class="serif-title" style="font-size: 28px; line-height: 1.1; margin-bottom: 8px;">
+              Compact Geometry &amp; <span class="serif-italic">Smart Storage Zoning</span>
+            </h2>
+            <p class="editorial-body">
+              Design 04 explores high-density modular joinery tailored for compact urban living, demonstrating that restricted square footage never requires aesthetic or functional compromise.
+            </p>
+            <p class="editorial-body">
+              Every millimeter is optimized with corner carousel pull-outs, integrated spice racks, overhead lift-up Blum Aventos bi-fold cabinets, and sleek undermount appliances.
+            </p>
+          </div>
+
+          <div>
+            <div class="fact-grid">
+              <div class="fact-pill">
+                <div class="fact-label">Typology</div>
+                <div class="fact-val">Compact L-Shaped Kitchen</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Hardware</div>
+                <div class="fact-val">Blum Aventos Bi-Fold Lift</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Storage</div>
+                <div class="fact-val">Corner Carousel &amp; Pull-Outs</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Surfaces</div>
+                <div class="fact-val">Satin Anti-Scratch Acrylic</div>
+              </div>
+            </div>
+
+            <div class="intent-box">
+              <strong>Ergonomic Detailing:</strong> Continuous work surfaces adjacent to both the hob and sink streamline single-cook meal preparation with total fluidity.
+            </div>
+          </div>
+        </div>
+
+        <!-- Right 4-Image Composition for Design 04 -->
+        <div style="display: flex; flex-direction: column; gap: 8px; height: 100%;">
+          <div class="img-frame" style="flex: 1.25;">
+            <img src="${kitD4_1}" alt="Kitchen Design 04 Hero" class="img-fill">
+            <div class="img-caption">Compact Modular Kitchen &amp; Clean Modern Geometry</div>
+          </div>
+          <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 6px; height: 44mm;">
+            <div class="img-frame">
+              <img src="${kitD4_2}" alt="Kitchen Design 04 Detail 1" class="img-fill">
+              <div class="img-caption">Tall Storage Unit &amp; Oven Tower</div>
+            </div>
+            <div class="img-frame">
+              <img src="${kitD4_3}" alt="Kitchen Design 04 Detail 2" class="img-fill">
+              <div class="img-caption">Undermount Sink &amp; Matte Cabinetry</div>
+            </div>
+            <div class="img-frame">
+              <img src="${kitD4_4}" alt="Kitchen Design 04 Detail 3" class="img-fill">
+              <div class="img-caption">Ergonomic Workflow Triangle</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-footer">
+      <div>Culinary Architecture — Design 04 · Compact Modular Geometry &amp; Smart Storage</div>
+      <div>Page 17</div>
+    </div>
+  </div>
+
+  <!-- ================================= SHEET 18: PROJECT 05 · LIVING ENVIRONMENTS — DESIGN 01 ================================= -->
+  <div class="sheet">
+    <div class="page-header">
+      <div class="page-header-left">Project 05 · Living Environments</div>
+      <div class="page-header-right">Design 01 · Double-Height Lounge &amp; Feature Media Paneling</div>
+    </div>
+
+    <div class="page-content">
+      <div class="split-layout">
+        <!-- Left Narrative & Specs -->
+        <div style="display: flex; flex-direction: column; justify-content: space-between;">
+          <div>
+            <div class="section-tag">Living Environments · Design 01</div>
+            <h2 class="serif-title" style="font-size: 28px; line-height: 1.1; margin-bottom: 8px;">
+              Sanctuary of <span class="serif-italic">Tactile Warmth</span>
+            </h2>
+            <p class="editorial-body">
+              Conceived as a grand restful heart for family life, Design 01 orchestrates natural light penetration, vertical volume, and acoustic balance within an expansive double-height lounge.
+            </p>
+            <p class="editorial-body">
+              Warm fluted oak paneling, integrated media joinery, tactile linen upholstery, and recessed cove lighting create a calming, grounded ambiance that effortlessly counters the fast pace of modern life.
+            </p>
+          </div>
+
+          <div>
+            <div class="fact-grid">
+              <div class="fact-pill">
+                <div class="fact-label">Typology</div>
+                <div class="fact-val">Double-Height Formal Lounge</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Millwork</div>
+                <div class="fact-val">Fluted Oak Feature Wall</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Materials</div>
+                <div class="fact-val">Oak, Bouclé, Travertine</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Lighting</div>
+                <div class="fact-val">Indirect 3000K Cove LED</div>
+              </div>
+            </div>
+
+            <div class="intent-box">
+              <strong>Spatial Strategy:</strong> Floor-to-ceiling slatted paneling visually connects the ground floor lounge with the upper gallery, unifying vertical sightlines.
+            </div>
+          </div>
+        </div>
+
+        <!-- Right 3-Image Composition for Living Design 01 -->
+        <div style="display: flex; flex-direction: column; gap: 8px; height: 100%;">
+          <div class="img-frame" style="flex: 1.3;">
+            <img src="${livD1_1}" alt="Living Design 01 Hero" class="img-fill">
+            <div class="img-caption">Double-Height Living Void &amp; Feature Media Paneling</div>
+          </div>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; height: 48mm;">
+            <div class="img-frame">
+              <img src="${livD1_2}" alt="Living Design 01 Detail 1" class="img-fill">
+              <div class="img-caption">Lounge Seating &amp; Coffee Table Arrangement</div>
+            </div>
+            <div class="img-frame">
+              <img src="${livD1_3}" alt="Living Design 01 Detail 2" class="img-fill">
+              <div class="img-caption">Vertical Perspective &amp; Daylight Glazing</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-footer">
+      <div>Living Environments — Design 01 · Double-Height Lounge &amp; Spatial Flow</div>
+      <div>Page 18</div>
+    </div>
+  </div>
+
+  <!-- ================================= SHEET 19: PROJECT 05 · LIVING ENVIRONMENTS — DESIGN 02 ================================= -->
+  <div class="sheet">
+    <div class="page-header">
+      <div class="page-header-left">Project 05 · Living Environments</div>
+      <div class="page-header-right">Design 02 · Tactile Timber Paneling &amp; Family Retreat</div>
+    </div>
+
+    <div class="page-content">
+      <div class="split-layout">
+        <!-- Left Narrative & Specs -->
+        <div style="display: flex; flex-direction: column; justify-content: space-between; min-height: 0;">
+          <div>
+            <div class="section-tag">Living Environments · Design 02</div>
+            <h2 class="serif-title" style="font-size: 26px; line-height: 1.1; margin-bottom: 8px;">
+              Acoustic Paneling &amp; <span class="serif-italic">Intimate Flow</span>
+            </h2>
+            <p class="editorial-body">
+              Design 02 establishes an intimate, cozy family entertainment sanctuary centered on full-height acoustic timber battens and bespoke low-profile credenza joinery.
+            </p>
+            <p class="editorial-body">
+              Deep natural teak textures absorb sound reverberation while providing seamless concealed storage for audiovisual hardware, resulting in an uncluttered aesthetic of quiet elegance.
+            </p>
+          </div>
+
+          <div>
+            <div class="fact-grid">
+              <div class="fact-pill">
+                <div class="fact-label">Typology</div>
+                <div class="fact-val">Family Living Retreat</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Joinery</div>
+                <div class="fact-val">Concealed Low-Profile Credenza</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Finishes</div>
+                <div class="fact-val">Natural Teak &amp; Warm Linen</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Hardware</div>
+                <div class="fact-val">Push-to-Open Concealed Tracks</div>
+              </div>
+            </div>
+
+            <div class="intent-box">
+              <strong>Acoustic Focus:</strong> Wood battens and textured fabrics eliminate echo, creating an enveloping acoustic environment ideal for cinematic immersion.
+            </div>
+          </div>
+        </div>
+
+        <!-- Right 3-Image Composition for Living Design 02 -->
+        <div style="display: flex; flex-direction: column; gap: 8px; height: 100%; min-height: 0;">
+          <div class="img-frame" style="flex: 1.3; min-height: 0;">
+            <img src="${livD2_1}" alt="Living Design 02 Hero" class="img-fill">
+            <div class="img-caption">Tactile Wood Paneling &amp; Floating Media Console Hero</div>
+          </div>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; height: 48mm; min-height: 0;">
+            <div class="img-frame" style="min-height: 0;">
+              <img src="${livD2_2}" alt="Living Design 02 Detail 1" class="img-fill">
+              <div class="img-caption">Textured Wall Paneling Detail &amp; Side Sconce</div>
+            </div>
+            <div class="img-frame" style="min-height: 0;">
+              <img src="${livD2_3}" alt="Living Design 02 Detail 2" class="img-fill">
+              <div class="img-caption">Circulation Flow &amp; Ceiling Linear Light</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-footer">
+      <div>Living Environments — Design 02 · Tactile Wood Paneling &amp; Intimate Retreat</div>
+      <div>Page 19</div>
+    </div>
+  </div>
+
+  <!-- ================================= SHEET 20: PROJECT 05 · LIVING ENVIRONMENTS — DESIGN 03 ================================= -->
+  <div class="sheet">
+    <div class="page-header">
+      <div class="page-header-left">Project 05 · Living Environments</div>
+      <div class="page-header-right">Design 03 · Contemporary Lounge &amp; Ambient Illumination</div>
+    </div>
+
+    <div class="page-content">
+      <div class="split-layout">
+        <!-- Left Narrative & Specs -->
+        <div style="display: flex; flex-direction: column; justify-content: space-between;">
+          <div>
+            <div class="section-tag">Living Environments · Design 03</div>
+            <h2 class="serif-title" style="font-size: 28px; line-height: 1.1; margin-bottom: 8px;">
+              Social Continuity &amp; <span class="serif-italic">Curated Vignettes</span>
+            </h2>
+            <p class="editorial-body">
+              Design 03 embraces an open-plan lifestyle, seamlessly connecting the informal living zone with adjacent dining spaces through low-profile modular furniture and unobstructed sightlines.
+            </p>
+            <p class="editorial-body">
+              A bespoke open bookcase unit defines spatial boundaries without solid walls, enriched by warm directional brass sconces and recessed ceiling channels for atmospheric evening hosting.
+            </p>
+          </div>
+
+          <div>
+            <div class="fact-grid">
+              <div class="fact-pill">
+                <div class="fact-label">Typology</div>
+                <div class="fact-val">Open-Plan Contemporary Lounge</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Seating</div>
+                <div class="fact-val">Modular Deep-Seat Sectional</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Storage</div>
+                <div class="fact-val">Integrated Open Bookcase Unit</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Lighting</div>
+                <div class="fact-val">Directional Sconces &amp; Profile LED</div>
+              </div>
+            </div>
+
+            <div class="intent-box">
+              <strong>Zoning Detailing:</strong> Low-profile furniture forms maintain natural breeze and visual continuity toward adjacent green light courts and entertaining areas.
+            </div>
+          </div>
+        </div>
+
+        <!-- Right 4-Image Composition for Living Design 03 -->
+        <div style="display: flex; flex-direction: column; gap: 8px; height: 100%;">
+          <div class="img-frame" style="flex: 1.25;">
+            <img src="${livD3_1}" alt="Living Design 03 Hero" class="img-fill">
+            <div class="img-caption">Contemporary Lounge Composition &amp; Open Spatial Flow</div>
+          </div>
+          <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 6px; height: 44mm;">
+            <div class="img-frame">
+              <img src="${livD3_2}" alt="Living Design 03 Detail 1" class="img-fill">
+              <div class="img-caption">Accent Sconce &amp; Bookcase</div>
+            </div>
+            <div class="img-frame">
+              <img src="${livD3_3}" alt="Living Design 03 Detail 2" class="img-fill">
+              <div class="img-caption">Conversation Seating</div>
+            </div>
+            <div class="img-frame">
+              <img src="${livD3_4}" alt="Living Design 03 Detail 3" class="img-fill">
+              <div class="img-caption">Dining Transition View</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-footer">
+      <div>Living Environments — Design 03 · Contemporary Form &amp; Ambient Illumination</div>
+      <div>Page 20</div>
+    </div>
+  </div>
+
+  <!-- ================================= SHEET 21: PROJECT 06 · DINING ARCHITECTURE ================================= -->
+  <div class="sheet">
+    <div class="page-header">
+      <div class="page-header-left">Project 06 · Dining Architecture</div>
+      <div class="page-header-right">Entertaining Hubs &amp; Millwork Transitions</div>
+    </div>
+
+    <div class="page-content">
+      <div class="split-layout">
+        <div style="display: flex; flex-direction: column; justify-content: space-between;">
+          <div>
+            <div class="section-tag">Dining &amp; Hospitality</div>
+            <h2 class="serif-title" style="font-size: 28px; line-height: 1.1; margin-bottom: 8px;">
+              Social Continuity &amp; <span class="serif-italic">Material Harmony</span>
+            </h2>
+            <p class="editorial-body">
+              The dining space serves as the central gathering fulcrum connecting the open kitchen with the internal courtyard. It is designed to foster leisurely family meals and gracious evening entertainment.
+            </p>
+            <p class="editorial-body">
+              A bespoke solid timber dining table is flanked by custom upholstered chairs, anchored overhead by a sculptural linear light fixture that emphasizes intimacy without cluttering vertical air space.
+            </p>
+          </div>
+
+          <div>
+            <div class="fact-grid">
+              <div class="fact-pill">
+                <div class="fact-label">Typology</div>
+                <div class="fact-val">Residential Dining Room</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Seating</div>
+                <div class="fact-val">8-Person Solid Wood Table</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Cabinetry</div>
+                <div class="fact-val">Bespoke Fluted Buffet Unit</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Finishes</div>
+                <div class="fact-val">Walnut, Brass, Textured Stone</div>
+              </div>
+            </div>
+
+            <div class="intent-box">
+              <strong>Spatial Strategy:</strong> Low-profile furniture forms ensure continuous sightlines toward the green courtyard, weaving nature into everyday dining rituals.
+            </div>
+          </div>
+        </div>
+
+        <!-- Right 3-Image Composition from gallery/DINING -->
+        <div style="display: flex; flex-direction: column; gap: 8px; height: 100%;">
+          <div class="img-frame" style="flex: 1.3;">
+            <img src="${din1}" alt="Dining Hero Setting" class="img-fill">
+            <div class="img-caption">Main Dining Perspective · Table, Chandelier &amp; Spatial Flow</div>
+          </div>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; height: 50mm;">
+            <div class="img-frame">
+              <img src="${din2}" alt="Buffet & Wall Detailing" class="img-fill">
+              <div class="img-caption">Custom Buffet Joinery &amp; Fluted Wall Paneling</div>
+            </div>
+            <div class="img-frame">
+              <img src="${din3}" alt="Dining Chandelier Vignette" class="img-fill">
+              <div class="img-caption">Linear Chandelier &amp; Table Setting Vignette</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-footer">
+      <div>Dining Architecture — Gathering Hubs &amp; Custom Millwork Transitions</div>
       <div>Page 21</div>
     </div>
   </div>
 
-  <!-- ================================= SHEET 22: PROJECT 08 · TECHNICAL WORKING DRAWINGS — SHEET 01 ================================= -->
+  <!-- ================================= SHEET 22: PROJECT 07 · WELLNESS WASHROOMS — MASTER SPA SANCTUARY ================================= -->
   <div class="sheet">
     <div class="page-header">
-      <div class="page-header-left">Project 08 · Technical Documentation</div>
+      <div class="page-header-left">Project 07 · Wellness Washrooms</div>
+      <div class="page-header-right">Master Spa Sanctuary · Soaking Tub &amp; Restorative Wellness</div>
+    </div>
+
+    <div class="page-content">
+      <div class="split-layout">
+        <!-- Left Narrative & Specs -->
+        <div style="display: flex; flex-direction: column; justify-content: space-between; min-height: 0;">
+          <div>
+            <div class="section-tag">Master En-Suite · Spa Sanctuary</div>
+            <h2 class="serif-title" style="font-size: 26px; line-height: 1.1; margin-bottom: 8px;">
+              Restorative Calm &amp; <span class="serif-italic">Monolithic Stone</span>
+            </h2>
+            <p class="editorial-body">
+              Conceived as an immersive private spa retreat within the master residence, the design prioritizes ritual relaxation, natural biophilic connections, and tactile warmth.
+            </p>
+            <p class="editorial-body">
+              A sculptural freestanding soaking bathtub is centered between twin panoramic picture windows framing lush exterior treetops. Bookmatched Calacatta marble wall paneling with an illuminated recessed niche anchors the space, harmonized with fluted white millwork, dark stone flooring, and warm concealed cove illumination.
+            </p>
+          </div>
+
+          <div>
+            <div class="fact-grid">
+              <div class="fact-pill">
+                <div class="fact-label">Typology</div>
+                <div class="fact-val">Master Wellness Spa Suite</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Bathtub</div>
+                <div class="fact-val">Sculptural Freestanding Tub</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Feature Wall</div>
+                <div class="fact-val">Bookmatched Calacatta Marble</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Fixtures</div>
+                <div class="fact-val">Concealed Brushed Brass &amp; Gunmetal</div>
+              </div>
+            </div>
+
+            <div class="intent-box">
+              <strong>Biophilic Harmony:</strong> Expansive landscape sightlines blend internal sanctuary with outdoor greenery, cultivating an atmosphere of deep restorative tranquility.
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Visual Showcase: Hero Tub + Vanity & Rain Shower -->
+        <div style="display: flex; flex-direction: column; gap: 8px; height: 100%; min-height: 0;">
+          <div class="img-frame" style="flex: 1.35; min-height: 0;">
+            <img src="${washB3}" alt="Master Spa Soaking Tub" class="img-fill">
+            <div class="img-caption">Master Spa Sanctuary · Freestanding Soaking Tub &amp; Panoramic Tree Canopy Windows</div>
+          </div>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; height: 50mm; min-height: 0;">
+            <div class="img-frame" style="min-height: 0;">
+              <img src="${washB1}" alt="Floating Vanity & Backlit Mirror" class="img-fill">
+              <div class="img-caption">Floating Vanity &amp; Halo Mirror</div>
+            </div>
+            <div class="img-frame" style="min-height: 0;">
+              <img src="${washB2}" alt="Walk-in Shower & Niche" class="img-fill">
+              <div class="img-caption">Rain Shower &amp; Niche Detailing</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-footer">
+      <div>Wellness Washrooms — Master Spa Sanctuary · Freestanding Soaking Tub &amp; Biophilic Daylighting</div>
+      <div>Page 22</div>
+    </div>
+  </div>
+
+  <!-- ================================= SHEET 23: PROJECT 07 · WELLNESS WASHROOMS — POWDER ROOMS & EN-SUITES ================================= -->
+  <div class="sheet">
+    <div class="page-header">
+      <div class="page-header-left">Project 07 · Wellness Washrooms</div>
+      <div class="page-header-right">Contemporary En-Suites &amp; Powder Rooms</div>
+    </div>
+
+    <div class="page-content">
+      <div class="split-layout">
+        <div style="display: flex; flex-direction: column; justify-content: space-between; min-height: 0;">
+          <div>
+            <div class="section-tag">Secondary Suites &amp; Powder Rooms</div>
+            <h2 class="serif-title" style="font-size: 26px; line-height: 1.1; margin-bottom: 8px;">
+              Tactile Serenity &amp; <span class="serif-italic">Precision Detailing</span>
+            </h2>
+            <p class="editorial-body">
+              Secondary guest washrooms and powder rooms detailed with uncompromised material discipline and visual calm. Large-format seamless tiles minimize grout joints, maximizing spatial continuity across compact footprints.
+            </p>
+            <p class="editorial-body">
+              Floating stone vanities, ambient halo-lit mirrors, and brushed gunmetal brassware create elegant architectural vignettes. Recessed LED lighting grazes stone textures, eliminating glare while enhancing sensory depth.
+            </p>
+          </div>
+
+          <div>
+            <div class="fact-grid">
+              <div class="fact-pill">
+                <div class="fact-label">Surfaces</div>
+                <div class="fact-val">Large Porcelain Slabs &amp; Fluted Tile</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Sanitaryware</div>
+                <div class="fact-val">Concealed Cisterns &amp; Wall-Hung Pans</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Fittings</div>
+                <div class="fact-val">Brushed Gunmetal &amp; Matte Black</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Lighting</div>
+                <div class="fact-val">IP65 Warm 3000K Backlit Vanity</div>
+              </div>
+            </div>
+
+            <div class="intent-box">
+              <strong>Detailing:</strong> Linear concealed tile-insert drain channels and frameless toughened glass screens keep visual sightlines razor-sharp.
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Washroom Gallery Showcase from gallery/WASHROOM -->
+        <div style="display: grid; grid-template-columns: 1.15fr 1fr; gap: 8px; height: 100%; min-height: 0;">
+          <div class="img-frame" style="height: 100%; min-height: 0;">
+            <img src="${wash1}" alt="Main Vanity & Mirror" class="img-fill">
+            <div class="img-caption">En-Suite Vanity · Halo Mirror &amp; Floating Stone Basin</div>
+          </div>
+          <div style="display: grid; grid-template-rows: 1fr 1fr; gap: 8px; height: 100%; min-height: 0;">
+            <div class="img-frame" style="min-height: 0;">
+              <img src="${wash2}" alt="Walk-in Shower & Niche" class="img-fill">
+              <div class="img-caption">Walk-In Shower &amp; Niche Detail</div>
+            </div>
+            <div class="img-frame" style="min-height: 0;">
+              <img src="${wash3}" alt="Powder Room Concept" class="img-fill">
+              <div class="img-caption">Sculptural Powder Room</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-footer">
+      <div>Wellness Washrooms — En-Suites &amp; Powder Rooms · Concealed Plumbing &amp; Ambient Detailing</div>
+      <div>Page 23</div>
+    </div>
+  </div>
+
+  <!-- ================================= SHEET 24: PROJECT 08 · COMMERCIAL INTERIORS — EXECUTIVE CONFERENCE HALL ================================= -->
+  <div class="sheet">
+    <div class="page-header">
+      <div class="page-header-left">Project 08 · Commercial Interiors</div>
+      <div class="page-header-right">Corporate Workplace · Executive Boardroom &amp; Conference Suite</div>
+    </div>
+
+    <div class="page-content">
+      <div class="split-layout">
+        <!-- Left Narrative & Specs -->
+        <div style="display: flex; flex-direction: column; justify-content: space-between; min-height: 0;">
+          <div>
+            <div class="section-tag">Commercial Workplace · Corporate Suite</div>
+            <h2 class="serif-title" style="font-size: 26px; line-height: 1.1; margin-bottom: 8px;">
+              Executive Presence &amp; <span class="serif-italic">Acoustic Precision</span>
+            </h2>
+            <p class="editorial-body">
+              Engineered for high-stakes corporate deliberations and seamless international video conferencing, this executive boardroom synthesizes commanding presence with acoustic comfort and ergonomic excellence.
+            </p>
+            <p class="editorial-body">
+              A bespoke 14-seat monolithic conference table featuring an Italian marble inset slab is equipped with flush-integrated gooseneck conference microphones and concealed cable raceways. Smoked walnut millwork with fluted acoustic paneling conceals AV infrastructure while framing an ultra-high-definition presentation screen and open curated display shelving. Warm cove perimeter lighting and herringbone parquet flooring cultivate an authoritative yet welcoming environment.
+            </p>
+          </div>
+
+          <div>
+            <div class="fact-grid">
+              <div class="fact-pill">
+                <div class="fact-label">Typology</div>
+                <div class="fact-val">Executive Conference Hall</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Capacity</div>
+                <div class="fact-val">14-Seat Boardroom Table</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Joinery</div>
+                <div class="fact-val">Fluted Smoked Walnut Millwork</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Technology</div>
+                <div class="fact-val">Integrated AV Screen &amp; Tabletop Mics</div>
+              </div>
+            </div>
+
+            <div class="intent-box">
+              <strong>Acoustic Engineering:</strong> Fluted wall battens, recessed acoustic ceiling coves, and flush acoustic doors balance reverberation time (RT60), guaranteeing exceptional speech intelligibility.
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Hero Visual -->
+        <div class="img-frame" style="height: 100%; min-height: 0;">
+          <img src="${confHero}" alt="Executive Conference Hall & Boardroom" class="img-fill">
+          <div class="img-caption">Executive Boardroom · 14-Seat Marble Conference Table, Acoustic Wall Joinery &amp; Integrated AV Display</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-footer">
+      <div>Commercial Interiors — Executive Conference Hall &amp; Boardroom · Acoustic Joinery &amp; AV Integration</div>
+      <div>Page 24</div>
+    </div>
+  </div>
+
+  <!-- ================================= SHEET 25: PROJECT 09 · TECHNICAL WORKING DRAWINGS — SCHEMATIC IDEATION ================================= -->
+  <div class="sheet">
+    <div class="page-header">
+      <div class="page-header-left">Project 09 · Technical Documentation</div>
+      <div class="page-header-right">Schematic Design · Freehand Architectural Ideation</div>
+    </div>
+
+    <div class="page-content">
+      <div class="split-layout">
+        <!-- Left Narrative & Specs -->
+        <div style="display: flex; flex-direction: column; justify-content: space-between; min-height: 0;">
+          <div>
+            <div class="section-tag">Schematic Phase · Freehand Ideation</div>
+            <h2 class="serif-title" style="font-size: 26px; line-height: 1.1; margin-bottom: 8px;">
+              From Conceptual Sketch to <span class="serif-italic">Constructed Reality</span>
+            </h2>
+            <p class="editorial-body">
+              Every rigorous architectural interior originates in the disciplined freedom of freehand sketching. Before transitioning to digital CAD drafting, volumetric massing, daylighting angles, and indoor-outdoor thresholds are explored through rapid perspective studies.
+            </p>
+            <p class="editorial-body">
+              This perspective sketch explores the architectural massing of a contemporary two-story villa: cantilevered upper suites, deep solar shading overhangs, expansive ground-level glazing, and integrated poolside terraces. This conceptual vision directly informs the dimensioned floor plans, structural sections, and bespoke joinery packages that follow.
+            </p>
+          </div>
+
+          <div>
+            <div class="fact-grid">
+              <div class="fact-pill">
+                <div class="fact-label">Medium</div>
+                <div class="fact-val">Freehand Perspective Sketch</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Typology</div>
+                <div class="fact-val">Modern Cantilevered Villa</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">Focus Area</div>
+                <div class="fact-val">Volumetric Balance &amp; Terraces</div>
+              </div>
+              <div class="fact-pill">
+                <div class="fact-label">CAD Translation</div>
+                <div class="fact-val">Ground Plans, Sections &amp; Details</div>
+              </div>
+            </div>
+
+            <div class="intent-box">
+              <strong>Methodological Continuity:</strong> Freehand ideation unlocks spatial proportion and massing clarity, which are subsequently codified into millimeter-precise AutoCAD construction documentation.
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Side-by-Side: Sketch + Floor Plan -->
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; height: 100%; min-height: 0;">
+          <div style="display: flex; flex-direction: column; height: 100%; min-height: 0; background: #FFFFFF; border: 1px solid rgba(44, 39, 35, 0.12); padding: 7px; border-radius: 2px;">
+            <div style="margin-bottom: 5px; display: flex; justify-content: space-between; align-items: baseline;">
+              <div>
+                <span class="fact-label" style="display: inline-block; margin-bottom: 1px;">Schematic Ideation · Freehand Study</span>
+                <div style="font-size: 11.2px; font-weight: 700; color: #25211E;">Architectural Perspective Massing</div>
+              </div>
+              <span style="font-size: 8.5px; font-weight: 600; color: #592727; letter-spacing: 0.08em; text-transform: uppercase;">Hand Sketch</span>
+            </div>
+            <div class="img-frame" style="flex: 1; min-height: 0; background: #FFFFFF; border: 1px solid #EAE5DE; display: flex; align-items: center; justify-content: center;">
+              <img src="${sketchVilla}" alt="Architectural Concept Hand Sketch" class="img-fill" style="object-fit: contain; background: #FFFFFF; width: 100%; height: 100%;">
+            </div>
+            <div style="font-size: 8.5px; color: #6E665D; margin-top: 4px; line-height: 1.35; font-style: italic;">
+              Freehand architectural perspective exploring cantilevered upper volumes, shaded poolside terrace, and glazing thresholds.
+            </div>
+          </div>
+
+          <div style="display: flex; flex-direction: column; height: 100%; min-height: 0; background: #FFFFFF; border: 1px solid rgba(44, 39, 35, 0.12); padding: 7px; border-radius: 2px;">
+            <div style="margin-bottom: 5px; display: flex; justify-content: space-between; align-items: baseline;">
+              <div>
+                <span class="fact-label" style="display: inline-block; margin-bottom: 1px;">CAD Translation · Floor Plan</span>
+                <div style="font-size: 11.2px; font-weight: 700; color: #25211E;">AutoCAD 1:50 Dimensioned Plan</div>
+              </div>
+              <span style="font-size: 8.5px; font-weight: 600; color: #592727; letter-spacing: 0.08em; text-transform: uppercase;">AutoCAD 1:50</span>
+            </div>
+            <div class="img-frame" style="flex: 1; min-height: 0; background: #FFFFFF; border: 1px solid #EAE5DE; display: flex; align-items: center; justify-content: center;">
+              <img src="${dwg1}" alt="Formal Living Room Layout Plan" class="img-fill" style="object-fit: contain; background: #FFFFFF; width: 100%; height: 100%;">
+            </div>
+            <div style="font-size: 8.5px; color: #6E665D; margin-top: 4px; line-height: 1.35; font-style: italic;">
+              Precise 2D translation documenting structural masonry, circulation corridors, and interior fitout boundaries.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-footer">
+      <div>Technical Documentation — Schematic Design · Freehand Architectural Perspective &amp; CAD Integration</div>
+      <div>Page 25</div>
+    </div>
+  </div>
+
+  <!-- ================================= SHEET 26: PROJECT 09 · TECHNICAL WORKING DRAWINGS — SHEET 01 ================================= -->
+  <div class="sheet">
+    <div class="page-header">
+      <div class="page-header-left">Project 09 · Technical Documentation</div>
       <div class="page-header-right">Formal Living Room · Layout &amp; Elevation Sections</div>
     </div>
 
@@ -2272,14 +2602,14 @@ const htmlContent = `<!DOCTYPE html>
 
     <div class="page-footer">
       <div>Technical Documentation — Formal Living Room AutoCAD Construction Set · Sheet A101 / A102</div>
-      <div>Page 22</div>
+      <div>Page 26</div>
     </div>
   </div>
 
-  <!-- ================================= SHEET 23: PROJECT 08 · TECHNICAL WORKING DRAWINGS — SHEET 02 ================================= -->
+  <!-- ================================= SHEET 27: PROJECT 09 · TECHNICAL WORKING DRAWINGS — SHEET 02 ================================= -->
   <div class="sheet">
     <div class="page-header">
-      <div class="page-header-left">Project 08 · Technical Documentation</div>
+      <div class="page-header-left">Project 09 · Technical Documentation</div>
       <div class="page-header-right">Formal Living Room · Longitudinal Sections &amp; Glazing Details</div>
     </div>
 
@@ -2337,14 +2667,14 @@ const htmlContent = `<!DOCTYPE html>
 
     <div class="page-footer">
       <div>Technical Documentation — Formal Living Room AutoCAD Construction Set · Sheet A103 / A104</div>
-      <div>Page 23</div>
+      <div>Page 27</div>
     </div>
   </div>
 
-  <!-- ================================= SHEET 24: PROJECT 08 · TECHNICAL WORKING DRAWINGS — SHEET 03 ================================= -->
+  <!-- ================================= SHEET 28: PROJECT 09 · TECHNICAL WORKING DRAWINGS — SHEET 03 ================================= -->
   <div class="sheet">
     <div class="page-header">
-      <div class="page-header-left">Project 08 · Technical Documentation</div>
+      <div class="page-header-left">Project 09 · Technical Documentation</div>
       <div class="page-header-right">Biophilic Courtyard · Plan Layout &amp; Sections AA/BB</div>
     </div>
 
@@ -2402,14 +2732,14 @@ const htmlContent = `<!DOCTYPE html>
 
     <div class="page-footer">
       <div>Technical Documentation — Biophilic Courtyard CAD Detailing Set · Sheet B101 / B102</div>
-      <div>Page 24</div>
+      <div>Page 28</div>
     </div>
   </div>
 
-  <!-- ================================= SHEET 25: PROJECT 08 · TECHNICAL WORKING DRAWINGS — SHEET 04 ================================= -->
+  <!-- ================================= SHEET 29: PROJECT 09 · TECHNICAL WORKING DRAWINGS — SHEET 04 ================================= -->
   <div class="sheet">
     <div class="page-header">
-      <div class="page-header-left">Project 08 · Technical Documentation</div>
+      <div class="page-header-left">Project 09 · Technical Documentation</div>
       <div class="page-header-right">Biophilic Courtyard · Longitudinal Sections &amp; Door Schedules</div>
     </div>
 
@@ -2467,14 +2797,14 @@ const htmlContent = `<!DOCTYPE html>
 
     <div class="page-footer">
       <div>Technical Documentation — Biophilic Courtyard CAD Detailing Set · Sheet B103 / B104</div>
-      <div>Page 25</div>
+      <div>Page 29</div>
     </div>
   </div>
 
-  <!-- ================================= SHEET 26: PROJECT 08 · TECHNICAL WORKING DRAWINGS — SHEET 05 ================================= -->
+  <!-- ================================= SHEET 30: PROJECT 09 · TECHNICAL WORKING DRAWINGS — SHEET 05 ================================= -->
   <div class="sheet">
     <div class="page-header">
-      <div class="page-header-left">Project 08 · Technical Documentation</div>
+      <div class="page-header-left">Project 09 · Technical Documentation</div>
       <div class="page-header-right">Master Suite · Wardrobe &amp; Headboard Millwork</div>
     </div>
 
@@ -2532,14 +2862,14 @@ const htmlContent = `<!DOCTYPE html>
 
     <div class="page-footer">
       <div>Technical Documentation — Master Suite Bespoke Joinery &amp; Finish Schedules · Sheet J201 / J202</div>
-      <div>Page 26</div>
+      <div>Page 30</div>
     </div>
   </div>
 
-  <!-- ================================= SHEET 27: PROJECT 08 · TECHNICAL WORKING DRAWINGS — SHEET 06 ================================= -->
+  <!-- ================================= SHEET 31: PROJECT 09 · TECHNICAL WORKING DRAWINGS — SHEET 06 ================================= -->
   <div class="sheet">
     <div class="page-header">
-      <div class="page-header-left">Project 08 · Technical Documentation</div>
+      <div class="page-header-left">Project 09 · Technical Documentation</div>
       <div class="page-header-right">Contemporary Suite · Wardrobe Millwork &amp; Bed Detailing</div>
     </div>
 
@@ -2597,14 +2927,14 @@ const htmlContent = `<!DOCTYPE html>
 
     <div class="page-footer">
       <div>Technical Documentation — Contemporary Suite Joinery &amp; Millwork Detailing · Sheet J203 / J204</div>
-      <div>Page 27</div>
+      <div>Page 31</div>
     </div>
   </div>
 
-  <!-- ================================= SHEET 28: 09 · CV, TOOLKIT & CONTACT ================================= -->
+  <!-- ================================= SHEET 32: 10 · CV, TOOLKIT & CONTACT ================================= -->
   <div class="sheet" style="background-color: #FAF8F5;">
     <div class="page-header">
-      <div class="page-header-left">09 · Curriculum Vitae &amp; Toolkit</div>
+      <div class="page-header-left">10 · Curriculum Vitae &amp; Toolkit</div>
       <div class="page-header-right">Faiha Faisal · Professional Record</div>
     </div>
 
@@ -2700,7 +3030,7 @@ const htmlContent = `<!DOCTYPE html>
 
     <div class="page-footer">
       <div>Faiha Faisal · Selected Works Portfolio 2024–2025</div>
-      <div>Page 28</div>
+      <div>Page 32</div>
     </div>
   </div>
 
@@ -2717,7 +3047,7 @@ if (!fs.existsSync(userDataDir)) {
   fs.mkdirSync(userDataDir, { recursive: true });
 }
 
-console.log('Compiling 28-page PDF with Microsoft Edge headless...');
+console.log('Compiling 32-page PDF with Microsoft Edge headless...');
 const edgeExe = 'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe';
 const fileUrl = 'file:///' + tempHtmlPath.replace(/\\/g, '/');
 

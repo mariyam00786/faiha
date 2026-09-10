@@ -184,6 +184,9 @@ export const siteData = {
       ],
       heroImage: "/contents/07.jpg.png",
       images: [
+        "/gallery/BEDROOM/design 1 (3).jpeg",
+        "/gallery/BEDROOM/design 1 (2).jpeg",
+        "/gallery/BEDROOM/design 1 (1).jpeg",
         "/contents/07.jpg.png",
         "/gallery/BEDROOM/view 1 (1).png",
         "/gallery/BEDROOM/view 1 (2).png",
@@ -222,6 +225,7 @@ export const siteData = {
       ],
       heroImage: "/images/projects/working-drawings/drawing-1.png",
       images: [
+        "/gallery/working-drawings/WhatsApp Image 2026-09-08 at 11.26.23 PM.jpeg",
         "/images/projects/working-drawings/drawing-1.png",
         "/images/projects/working-drawings/drawing-2.png",
         "/images/projects/working-drawings/drawing-3.png",
@@ -241,6 +245,29 @@ export const siteData = {
         "The focus on <strong>Joinery & Millwork Detailing</strong> resolves <strong>precise material dimensions, structural joinery, and ergonomic specifications</strong>. Every millimeter is drafted to eliminate ambiguities during fabrication, ensuring uncompromising buildability."
       ],
       software: ["AutoCAD", "Revit", "Photoshop"]
+    },
+    {
+      slug: "conference-hall",
+      title: "Conference Hall",
+      concept: "Acoustic Joinery & Integrated AV",
+      category: "Commercial / Corporate Workplace",
+      year: "2024",
+      facts: [
+        { label: "Typology", value: "Executive Boardroom & Conference Suite" },
+        { label: "Capacity", value: "14-Seat Monolithic Marble Table" },
+        { label: "Scope", value: "Acoustic Millwork, AV & Task Lighting" },
+        { label: "Date", value: "2024" }
+      ],
+      heroImage: "/gallery/conference hall/ChatGPT Image Aug 12, 2026, 11_47_06 AM (1).png",
+      images: [
+        "/gallery/conference hall/ChatGPT Image Aug 12, 2026, 11_47_06 AM (1).png"
+      ],
+      shortDescription: "Prestigious executive boardroom featuring bespoke acoustic timber joinery and smart AV technology.",
+      descriptionParagraphs: [
+        "<strong>The executive conference hall</strong> was designed to foster high-stakes business deliberation with superior acoustic performance and intuitive digital presentation integration. The space centers around an imposing monolithic marble conference table with flush-integrated conference microphones and concealed cable routing.",
+        "The concept <strong>Acoustic Precision</strong> introduces custom fluted smoked walnut wall joinery that frames a high-definition presentation display while concealing acoustic insulation and AV infrastructure. Circumferential cove lighting and herringbone parquet flooring create an authoritative yet welcoming corporate environment."
+      ],
+      software: ["AutoCAD", "SketchUp", "3ds Max", "Photoshop", "Enscape"]
     }
   ],
   moments: [
