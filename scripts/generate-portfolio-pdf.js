@@ -254,8 +254,8 @@ const htmlContent = `<!DOCTYPE html>
 
   /* Header & Footer Rules */
   .page-header {
-    height: 16mm;
-    padding: 5mm 18mm 0 18mm;
+    height: 11mm;
+    padding: 2.8mm 10mm 0 10mm;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -275,13 +275,13 @@ const htmlContent = `<!DOCTYPE html>
     color: #25211E;
   }
   .page-footer {
-    height: 12mm;
-    padding: 0 18mm 3mm 18mm;
+    height: 8mm;
+    padding: 0 10mm 2mm 10mm;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-top: 1px solid rgba(44, 39, 35, 0.1);
-    font-size: 9px;
+    font-size: 8.5px;
     color: #7D746A;
     letter-spacing: 0.14em;
     text-transform: uppercase;
@@ -289,7 +289,7 @@ const htmlContent = `<!DOCTYPE html>
   .page-content {
     flex: 1;
     min-height: 0;
-    padding: 7mm 18mm;
+    padding: 3mm 10mm;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -356,12 +356,12 @@ const htmlContent = `<!DOCTYPE html>
   .fact-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 5px;
-    margin-bottom: 6px;
+    gap: 4px;
+    margin-bottom: 4px;
   }
   .fact-pill {
     background: #EDE8DE;
-    padding: 5px 8px;
+    padding: 4px 7px;
     border: 1px solid rgba(44, 39, 35, 0.06);
   }
   .fact-label {
@@ -379,27 +379,27 @@ const htmlContent = `<!DOCTYPE html>
   }
   .intent-box {
     background: #EDE8DE;
-    padding: 7px 9px;
+    padding: 5px 8px;
     border-left: 2px solid #592727;
-    font-size: 9.8px;
+    font-size: 9.2px;
     color: #433D36;
-    line-height: 1.45;
+    line-height: 1.38;
   }
 
   /* Specific Grids */
   .split-layout {
     display: grid;
-    grid-template-columns: 88mm 1fr;
+    grid-template-columns: 78mm 1fr;
     grid-template-rows: minmax(0, 1fr);
-    gap: 12mm;
+    gap: 6mm;
     height: 100%;
     min-height: 0;
   }
   .split-layout-rev {
     display: grid;
-    grid-template-columns: 1fr 88mm;
+    grid-template-columns: 1fr 78mm;
     grid-template-rows: minmax(0, 1fr);
-    gap: 12mm;
+    gap: 6mm;
     height: 100%;
     min-height: 0;
   }
@@ -414,7 +414,7 @@ const htmlContent = `<!DOCTYPE html>
   }
   .cover-container {
     height: 100%;
-    padding: 18mm 20mm;
+    padding: 12mm 14mm;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -456,7 +456,7 @@ const htmlContent = `<!DOCTYPE html>
     max-width: 420px;
   }
   .cover-img-frame {
-    height: 122mm;
+    height: 136mm;
     position: relative;
     border: 1px solid rgba(250, 248, 245, 0.2);
     box-shadow: 0 16px 36px rgba(0, 0, 0, 0.4);
@@ -476,14 +476,14 @@ const htmlContent = `<!DOCTYPE html>
   /* Profile Styles */
   .profile-grid {
     display: grid;
-    grid-template-columns: 82mm 1fr;
-    gap: 12mm;
+    grid-template-columns: 88mm 1fr;
+    gap: 7mm;
     height: 100%;
   }
   .profile-photo {
-    height: 94mm;
+    height: 124mm;
     width: 100%;
-    margin-bottom: 4mm;
+    margin-bottom: 3mm;
   }
   .profile-quote {
     background: #EDE8DE;
@@ -578,6 +578,49 @@ const htmlContent = `<!DOCTYPE html>
     letter-spacing: 0.04em;
     border: 1px solid rgba(44, 39, 35, 0.08);
   }
+
+  /* Materiality & Highlights Utilities to eliminate blank voids */
+  .material-strip {
+    background: #EDE8DE;
+    padding: 5px 8px;
+    border: 1px solid rgba(44, 39, 35, 0.08);
+    margin-bottom: 5px;
+  }
+  .chip-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.5px;
+    margin-top: 3px;
+  }
+  .mat-chip {
+    background: #FAF8F5;
+    padding: 2.2px 6px;
+    font-size: 8px;
+    font-weight: 600;
+    color: #25211E;
+    letter-spacing: 0.02em;
+    border: 1px solid rgba(44, 39, 35, 0.08);
+    border-radius: 1px;
+  }
+  .highlights-box {
+    background: #FAF8F5;
+    border: 1px solid rgba(44, 39, 35, 0.08);
+    padding: 5px 8px;
+    margin-bottom: 5px;
+  }
+  .highlight-list {
+    list-style: none;
+    margin-top: 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .highlight-list li {
+    font-size: 8.5px;
+    color: #433D36;
+    line-height: 1.35;
+  }
+
 </style>
 </head>
 <body>
@@ -593,7 +636,7 @@ const htmlContent = `<!DOCTYPE html>
       <div class="cover-main-grid">
         <div>
           <div class="cover-subtitle">Interior Architecture &amp; Spatial Design</div>
-          <h1 class="cover-title">FAIHA <span class="serif-italic" style="color: #D3C9BC;">FAISAL</span></h1>
+          <h1 class="cover-title">FAIHA <span class="serif-italic">FAISAL</span></h1>
           <div class="cover-quote">
             "Translating human social dynamics, cultural context, and sensory rituals into enduring, warm architectural environments."
           </div>
@@ -657,10 +700,50 @@ const htmlContent = `<!DOCTYPE html>
             </p>
           </div>
 
-          <div style="background: #EDE8DE; padding: 10px 14px; border: 1px solid rgba(44, 39, 35, 0.08);">
-            <div class="fact-label">Core Specializations</div>
-            <div style="font-size: 10px; font-weight: 600; color: #25211E;">
-              Residential Interiors · Space Planning · Photorealistic 3D Visualization · Custom Joinery
+          
+          <!-- 3 Pillars of Spatial Practice -->
+          <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 6px; margin: 8px 0;">
+            <div style="background: #EDE8DE; padding: 7px 9px; border-left: 2px solid #592727;">
+              <div style="font-size: 8px; text-transform: uppercase; letter-spacing: 0.12em; color: #7D746A; font-weight: 700; margin-bottom: 2px;">01 · Socio-Spatial Analysis</div>
+              <div style="font-size: 9px; color: #433D36; line-height: 1.35;">Translating user routines and social rituals into organic floor flow and intuitive zoning.</div>
+            </div>
+            <div style="background: #EDE8DE; padding: 7px 9px; border-left: 2px solid #592727;">
+              <div style="font-size: 8px; text-transform: uppercase; letter-spacing: 0.12em; color: #7D746A; font-weight: 700; margin-bottom: 2px;">02 · Bespoke Joinery Craft</div>
+              <div style="font-size: 9px; color: #433D36; line-height: 1.35;">Millimeter-level millwork drafting with integrated LED coves and Blum mechanical hardware.</div>
+            </div>
+            <div style="background: #EDE8DE; padding: 7px 9px; border-left: 2px solid #592727;">
+              <div style="font-size: 8px; text-transform: uppercase; letter-spacing: 0.12em; color: #7D746A; font-weight: 700; margin-bottom: 2px;">03 · Photorealistic 3D Rendering</div>
+              <div style="font-size: 9px; color: #433D36; line-height: 1.35;">Light temperature simulation (2700K–4000K) and tactile material fidelity in Enscape &amp; 3ds Max.</div>
+            </div>
+          </div>
+
+          <!-- Academic & Practice Credentials Grid -->
+          <div style="display: grid; grid-template-columns: 1.2fr 1fr; gap: 6px; margin-bottom: 6px;">
+            <div style="background: #FAF8F5; border: 1px solid rgba(44, 39, 35, 0.08); padding: 7px 10px;">
+              <div class="fact-label">Professional Experience Snapshot</div>
+              <div style="font-size: 9.5px; font-weight: 700; color: #25211E;">Junior Interior Designer · AlHawaj Architect &amp; Builders</div>
+              <div style="font-size: 9px; color: #592727; font-weight: 600; margin-bottom: 3px;">Theyyampattil Homesoul Interior · Calicut, Kerala</div>
+              <div style="font-size: 8.8px; color: #5A5148; line-height: 1.35;">Space planning, residential villa conceptualization, client presentations, and site supervision.</div>
+            </div>
+
+            <div style="background: #FAF8F5; border: 1px solid rgba(44, 39, 35, 0.08); padding: 7px 10px;">
+              <div class="fact-label">Education &amp; Credentials</div>
+              <div style="font-size: 9.5px; font-weight: 700; color: #25211E;">Diploma in Interior Design</div>
+              <div style="font-size: 8.8px; color: #592727; font-weight: 600;">Alagappa University (2024–2025)</div>
+              <div style="font-size: 9.5px; font-weight: 700; color: #25211E; margin-top: 3px;">B.A. in Sociology</div>
+              <div style="font-size: 8.8px; color: #592727; font-weight: 600;">Calicut University (2017–2020)</div>
+            </div>
+          </div>
+
+          <div style="background: #EDE8DE; padding: 7px 10px; border: 1px solid rgba(44, 39, 35, 0.08); display: flex; justify-content: space-between; align-items: center;">
+            <div>
+              <div class="fact-label">Core Specializations</div>
+              <div style="font-size: 9.5px; font-weight: 700; color: #25211E;">
+                Residential Interiors · Space Planning · Photorealistic 3D Visualization · Custom Joinery · Biophilic Courtyards
+              </div>
+            </div>
+            <div style="font-size: 8.5px; font-weight: 600; color: #592727; letter-spacing: 0.1em; text-transform: uppercase;">
+              Calicut, Kerala
             </div>
           </div>
         </div>
@@ -873,7 +956,20 @@ const htmlContent = `<!DOCTYPE html>
             </p>
             <p class="editorial-body">
               A bespoke bed frame featuring an integrated slatted and woven cane headboard anchors the sleeping volume, while an artisanal carved arched mirror in the dressing foyer establishes deep visual perspective and connects the arrival threshold with rest quarters.
-            </p>
+            
+            <div class="material-strip">
+              <div class="fact-label">Materiality &amp; Architectural Finishes</div>
+              <div class="chip-row">
+                <span class="mat-chip">Woven Natural Cane</span><span class="mat-chip">Solid Plantation Teak</span><span class="mat-chip">Earthy Lime Wash</span><span class="mat-chip">Brushed Brass</span><span class="mat-chip">Sisal Weave Rug</span><span class="mat-chip">Fluted Timber</span>
+              </div>
+            </div>
+
+            <div class="highlights-box">
+              <div class="fact-label">Spatial &amp; Technical Highlights</div>
+              <ul class="highlight-list">
+                <li>• Hand-woven cane headboard modulating acoustic reverberation and tactile warmth</li><li>• Symmetrical bedside floating drawer units with concealed cable management</li><li>• Dressing corridor portal with arched artisanal vanity mirror and warm 2700K illumination</li>
+              </ul>
+            </div>
           </div>
 
           <div>
@@ -943,7 +1039,20 @@ const htmlContent = `<!DOCTYPE html>
             </p>
             <p class="editorial-body">
               A bespoke timber frame with curved woven cane headboard anchors the bedroom space, while floor-to-ceiling sheer drapery, sculptural hanging globe pendants, and acoustic 3D wall art cultivate an enveloping, resort-grade tranquility.
-            </p>
+            
+            <div class="material-strip">
+              <div class="fact-label">Materiality &amp; Architectural Finishes</div>
+              <div class="chip-row">
+                <span class="mat-chip">Smoked Oak Paneling</span><span class="mat-chip">Calacatta Marble Slabs</span><span class="mat-chip">Textured Bouclé</span><span class="mat-chip">Concealed Cove LED</span><span class="mat-chip">Brushed Nickel</span><span class="mat-chip">Polished Stone</span>
+              </div>
+            </div>
+
+            <div class="highlights-box">
+              <div class="fact-label">Spatial &amp; Technical Highlights</div>
+              <ul class="highlight-list">
+                <li>• Full-height architectural smoked oak paneling establishing deep visual calm</li><li>• Integrated cantilevered window daybed lounge framing tranquil external garden vistas</li><li>• Seamless flush door integration connecting the sleeping chamber to the luxury dressing suite</li>
+              </ul>
+            </div>
           </div>
 
           <div>
@@ -978,7 +1087,7 @@ const htmlContent = `<!DOCTYPE html>
             <img src="${bedD2_3}" alt="Master Suite Bed &amp; Cane Headboard Elevation" class="img-fill">
             <div class="img-caption">Primary Suite Composition · Bespoke Cane Headboard &amp; Acoustic Wall Relief</div>
           </div>
-          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; height: 48mm;">
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; height: 56mm;">
             <div class="img-frame">
               <img src="${bedD2_2}" alt="Private Window Lounge &amp; Daylighting" class="img-fill">
               <div class="img-caption">Window Lounge · Daylighting &amp; Sheer Drapery</div>
@@ -1019,7 +1128,20 @@ const htmlContent = `<!DOCTYPE html>
             </p>
             <p class="editorial-body">
               A low-profile upholstered bed is flanked by minimalist walnut nightstands and dual spherical brass wall sconces. Seamless full-height glazing welcomes abundant daylight and lush garden views, while the dedicated dressing nook integrates an arched vanity mirror and compact floating joinery.
-            </p>
+            
+            <div class="material-strip">
+              <div class="fact-label">Materiality &amp; Architectural Finishes</div>
+              <div class="chip-row">
+                <span class="mat-chip">Backlit Sage Stucco</span><span class="mat-chip">Perforated Plaster Frieze</span><span class="mat-chip">Natural Walnut Millwork</span><span class="mat-chip">Brushed Brass Sconces</span><span class="mat-chip">Classical Damask Fabric</span><span class="mat-chip">Honed Limestone</span>
+              </div>
+            </div>
+
+            <div class="highlights-box">
+              <div class="fact-label">Spatial &amp; Technical Highlights</div>
+              <ul class="highlight-list">
+                <li>• Symmetrical headboard wall with concealed 2700K perimeter LED radiance</li><li>• Dedicated vanity niche creating continuous architectural dialogue with sleeping quarters</li><li>• Acoustic perforation frieze mitigating flutter echoes and ensuring restful sanctuary</li>
+              </ul>
+            </div>
           </div>
 
           <div>
@@ -1054,7 +1176,7 @@ const htmlContent = `<!DOCTYPE html>
             <img src="${bedD3_1}" alt="Master Suite Bed &amp; Illuminated Arched Accent Niche" class="img-fill">
             <div class="img-caption">Primary Suite Perspective · Illuminated Arched Alcove &amp; Perforated Frieze</div>
           </div>
-          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; height: 48mm;">
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; height: 56mm;">
             <div class="img-frame">
               <img src="${bedD3_2}" alt="Axial Elevation View &amp; Garden Access" class="img-fill">
               <div class="img-caption">Axial Elevation · Symmetrical Bed Wall &amp; Balcony Access</div>
@@ -1095,7 +1217,20 @@ const htmlContent = `<!DOCTYPE html>
             </p>
             <p class="editorial-body">
               Low-profile platform bedding, integrated bedside ledges, and warm recessed LED illumination establish a calming, uncluttered retreat tailored for evening relaxation and peaceful morning daylight.
-            </p>
+            
+            <div class="material-strip">
+              <div class="fact-label">Materiality &amp; Architectural Finishes</div>
+              <div class="chip-row">
+                <span class="mat-chip">Warm Terracotta Stucco</span><span class="mat-chip">Ribbed Timber Paneling</span><span class="mat-chip">2700K Recessed Troffers</span><span class="mat-chip">Linen Drapery</span><span class="mat-chip">Terrazzo Inset</span><span class="mat-chip">Brushed Bronze</span>
+              </div>
+            </div>
+
+            <div class="highlights-box">
+              <div class="fact-label">Spatial &amp; Technical Highlights</div>
+              <ul class="highlight-list">
+                <li>• Double-aspect daylight modulation through sheer linen drapery and deep window returns</li><li>• Earthy terracotta accent wall grounding the low-profile upholstered platform bed</li><li>• Axial circulation pathway linking bedroom lounge effortlessly to outdoor balcony</li>
+              </ul>
+            </div>
           </div>
 
           <div>
@@ -1130,7 +1265,7 @@ const htmlContent = `<!DOCTYPE html>
             <img src="${bedV1_2}" alt="Bedroom View 01 Hero" class="img-fill">
             <div class="img-caption">Main Bedroom Composition · Symmetrical Elevation &amp; Lighting</div>
           </div>
-          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; height: 48mm;">
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; height: 56mm;">
             <div class="img-frame">
               <img src="${bedV1_1}" alt="Bedroom View 01 Detail 1" class="img-fill">
               <div class="img-caption">Bedside &amp; Reading Accent Detail</div>
@@ -1171,7 +1306,20 @@ const htmlContent = `<!DOCTYPE html>
             </p>
             <p class="editorial-body">
               Acoustic timber battens eliminate flutter echoes while seamlessly housing floating nightstands, touch-activated brass reading sconces, and indirect perimeter illumination.
-            </p>
+            
+            <div class="material-strip">
+              <div class="fact-label">Materiality &amp; Architectural Finishes</div>
+              <div class="chip-row">
+                <span class="mat-chip">Rift-cut White Oak</span><span class="mat-chip">Fluted Wall Battens</span><span class="mat-chip">Bronze Mirror Glass</span><span class="mat-chip">Microcement Flooring</span><span class="mat-chip">Blackened Steel Trims</span><span class="mat-chip">Wool Felt</span>
+              </div>
+            </div>
+
+            <div class="highlights-box">
+              <div class="fact-label">Spatial &amp; Technical Highlights</div>
+              <ul class="highlight-list">
+                <li>• Unobstructed threshold transition onto private landscaped terrace deck</li><li>• Custom floor-to-ceiling wardrobe millwork with flush integrated shadowline pulls</li><li>• Directional glare-free architectural reading sconces positioned at ergonomic headboard height</li>
+              </ul>
+            </div>
           </div>
 
           <div>
@@ -1206,7 +1354,7 @@ const htmlContent = `<!DOCTYPE html>
             <img src="${bedV2_2}" alt="Master Suite Hero View 02" class="img-fill">
             <div class="img-caption">Master Suite Bed Composition &amp; Integrated Fluted Wood Paneling</div>
           </div>
-          <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 6px; height: 44mm;">
+          <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 6px; height: 52mm;">
             <div class="img-frame">
               <img src="${bedV2_3}" alt="Wardrobe Suite View 02" class="img-fill">
               <div class="img-caption">Wardrobe Suite</div>
@@ -1255,7 +1403,20 @@ const htmlContent = `<!DOCTYPE html>
             </p>
             <p class="editorial-body">
               The spatial configuration balances private sleep zones with reading corners, highlighted by directional warm sconces and soft textured rugs that absorb reverberations.
-            </p>
+            
+            <div class="material-strip">
+              <div class="fact-label">Materiality &amp; Architectural Finishes</div>
+              <div class="chip-row">
+                <span class="mat-chip">Ochre Clay Plaster</span><span class="mat-chip">Muted Sandstone Slabs</span><span class="mat-chip">Solid Ash Wood</span><span class="mat-chip">Warm 3000K Cove Lighting</span><span class="mat-chip">Textured Wool Carpet</span><span class="mat-chip">Matte Brass</span>
+              </div>
+            </div>
+
+            <div class="highlights-box">
+              <div class="fact-label">Spatial &amp; Technical Highlights</div>
+              <ul class="highlight-list">
+                <li>• Tactile earth-toned plaster finish providing organic natural resonance across all wall faces</li><li>• Minimalist closet millwork with concealed reveals and integrated interior sensor lighting</li><li>• Axial sightline alignment from arrival threshold through to serene window garden view</li>
+              </ul>
+            </div>
           </div>
 
           <div>
@@ -1290,7 +1451,7 @@ const htmlContent = `<!DOCTYPE html>
             <img src="${bedV3_2}" alt="Bedroom View 03 Hero" class="img-fill">
             <div class="img-caption">Main Earth-Toned Suite Perspective · Slatting &amp; Soft Fabrics</div>
           </div>
-          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; height: 48mm;">
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; height: 56mm;">
             <div class="img-frame">
               <img src="${bedV3_1}" alt="Bedroom View 03 Detail 1" class="img-fill">
               <div class="img-caption">Acoustic Wall Slat Detail</div>
@@ -1331,7 +1492,20 @@ const htmlContent = `<!DOCTYPE html>
             </p>
             <p class="editorial-body">
               Flush handle profiles, integrated LED sensor strips, and compartmentalized organizers maximize functional capacity within a minimal footprint.
-            </p>
+            
+            <div class="material-strip">
+              <div class="fact-label">Materiality &amp; Architectural Finishes</div>
+              <div class="chip-row">
+                <span class="mat-chip">Fluted Glass Sliders</span><span class="mat-chip">Anodized Champagne Aluminum</span><span class="mat-chip">Italian Leather Pulls</span><span class="mat-chip">Velvet Dressing Bench</span><span class="mat-chip">Backlit Shelf Rails</span><span class="mat-chip">Smoked Oak</span>
+              </div>
+            </div>
+
+            <div class="highlights-box">
+              <div class="fact-label">Spatial &amp; Technical Highlights</div>
+              <ul class="highlight-list">
+                <li>• Modular wardrobe interior with dedicated jewelry drawers, hanging bays, and tie trays</li><li>• Curved corner vanity transition maximizing circulation clearance in dressing suite</li><li>• Full-height backlit dressing mirror providing true-color CRI>95 illumination</li>
+              </ul>
+            </div>
           </div>
 
           <div>
@@ -1401,7 +1575,20 @@ const htmlContent = `<!DOCTYPE html>
             </p>
             <p class="editorial-body">
               Raked white quartz gravel, organic granite stepping pavers, and a Japanese maple focal point are gently illuminated by overhead skylight louvers, inviting shifting sun patterns and serene stillness into daily living.
-            </p>
+            
+            <div class="material-strip">
+              <div class="fact-label">Materiality &amp; Architectural Finishes</div>
+              <div class="chip-row">
+                <span class="mat-chip">White Quartz Gravel</span><span class="mat-chip">Honed Granite Stepping Pavers</span><span class="mat-chip">Weathered Cedar Decking</span><span class="mat-chip">Perforated Breezeway Screen</span><span class="mat-chip">Japanese Maple Specimen</span><span class="mat-chip">Basalt</span>
+              </div>
+            </div>
+
+            <div class="highlights-box">
+              <div class="fact-label">Spatial &amp; Technical Highlights</div>
+              <ul class="highlight-list">
+                <li>• Geometric water reflection pool with recessed underwater spotlights and granite coping</li><li>• Perforated breeze wall modulating harsh afternoon sun while enabling cross-ventilation</li><li>• Seamless flush threshold connecting indoor living room directly into open-air courtyard</li>
+              </ul>
+            </div>
           </div>
 
           <div>
@@ -1436,7 +1623,7 @@ const htmlContent = `<!DOCTYPE html>
             <img src="${courtD1_1}" alt="Courtyard Design 01 Hero" class="img-fill">
             <div class="img-caption">Modern Zen Courtyard · Granite Pavers &amp; Skylit Light Atrium</div>
           </div>
-          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; height: 48mm;">
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; height: 56mm;">
             <div class="img-frame">
               <img src="${courtD1_2}" alt="Courtyard Design 01 Detail 1" class="img-fill">
               <div class="img-caption">Raked Gravel Bed &amp; Stepping Paver Detail</div>
@@ -1477,7 +1664,20 @@ const htmlContent = `<!DOCTYPE html>
             </p>
             <p class="editorial-body">
               A cantilevered timber pergola roof modulates harsh midday sun, casting dynamic geometric shadows while encouraging natural stack-effect convection that flushes warm interior air through upper clerestory vents.
-            </p>
+            
+            <div class="material-strip">
+              <div class="fact-label">Materiality &amp; Architectural Finishes</div>
+              <div class="chip-row">
+                <span class="mat-chip">Basalt Stone Cladding</span><span class="mat-chip">Teak Slat Trellis</span><span class="mat-chip">Living Fern Wall</span><span class="mat-chip">Black Pebble Border</span><span class="mat-chip">Frameless Skylight Glazing</span><span class="mat-chip">Cast Bronze</span>
+              </div>
+            </div>
+
+            <div class="highlights-box">
+              <div class="fact-label">Spatial &amp; Technical Highlights</div>
+              <ul class="highlight-list">
+                <li>• Double-height glass skylight atrium channeling abundant diffuse northern sunlight</li><li>• Integrated automated drip-irrigation vertical plant wall promoting indoor air purification</li><li>• Cantilevered natural timber bench seating integrated into the perimeter stone planter</li>
+              </ul>
+            </div>
           </div>
 
           <div>
@@ -1512,7 +1712,7 @@ const htmlContent = `<!DOCTYPE html>
             <img src="${courtD2_1}" alt="Courtyard Design 02 Hero" class="img-fill">
             <div class="img-caption">Tropical Light Atrium · Lush Foliage &amp; Double-Height Well</div>
           </div>
-          <div class="img-frame" style="height: 48mm;">
+          <div class="img-frame" style="height: 56mm;">
             <img src="${courtD2_2}" alt="Courtyard Design 02 Pergola Detail" class="img-fill">
             <div class="img-caption">Cantilevered Teak Pergola &amp; Sunlight Modulation</div>
           </div>
@@ -1547,7 +1747,20 @@ const htmlContent = `<!DOCTYPE html>
             </p>
             <p class="editorial-body">
               Crisp geometric lines frame tactile greenery against smooth cement surfaces, elevated at dusk by discreet recessed 3000K floor grazers that highlight the natural aggregate texture of the walls.
-            </p>
+            
+            <div class="material-strip">
+              <div class="fact-label">Materiality &amp; Architectural Finishes</div>
+              <div class="chip-row">
+                <span class="mat-chip">Board-Formed Concrete</span><span class="mat-chip">Reclaimed Ironwood</span><span class="mat-chip">River Rock Bed</span><span class="mat-chip">Polished Microcement</span><span class="mat-chip">Stainless Tension Cables</span><span class="mat-chip">Bamboo Shading</span>
+              </div>
+            </div>
+
+            <div class="highlights-box">
+              <div class="fact-label">Spatial &amp; Technical Highlights</div>
+              <ul class="highlight-list">
+                <li>• Monolithic architectural concrete wall featuring authentic timber board grain texture</li><li>• Floating raw-edge timber bench hovering above a recessed river pebble drain bed</li><li>• Sculptural specimen planting illuminated by low-voltage recessed ground uplights</li>
+              </ul>
+            </div>
           </div>
 
           <div>
@@ -1582,7 +1795,7 @@ const htmlContent = `<!DOCTYPE html>
             <img src="${courtD3_1}" alt="Courtyard Design 03 Hero" class="img-fill">
             <div class="img-caption">Monolithic Concrete Planter &amp; Integrated Teak Seating Hero</div>
           </div>
-          <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 6px; height: 44mm;">
+          <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 6px; height: 52mm;">
             <div class="img-frame">
               <img src="${courtD3_2}" alt="Courtyard Design 03 Detail 1" class="img-fill">
               <div class="img-caption">Planter Joinery</div>
@@ -1630,7 +1843,20 @@ const htmlContent = `<!DOCTYPE html>
             </p>
             <p class="editorial-body">
               Deep cantilevered overhangs, integrated green planters, and vertical rhythmic louvers modulate harsh tropical daylight while ensuring effortless cross-ventilation. Bold geometric volumes protect family privacy while crafting a dignified, enduring street presence.
-            </p>
+            
+            <div class="material-strip">
+              <div class="fact-label">Materiality &amp; Architectural Finishes</div>
+              <div class="chip-row">
+                <span class="mat-chip">Cast Concrete Portals</span><span class="mat-chip">Marine-Grade Teak Louvers</span><span class="mat-chip">Low-E Solar Glazing</span><span class="mat-chip">Textured Sand Wash</span><span class="mat-chip">Black Powdercoated Aluminum</span><span class="mat-chip">Granite</span>
+              </div>
+            </div>
+
+            <div class="highlights-box">
+              <div class="fact-label">Spatial &amp; Technical Highlights</div>
+              <ul class="highlight-list">
+                <li>• Deep structural cantilevered overhangs providing passive solar protection in tropical heat</li><li>• Rhythmic vertical timber louvers shielding upper floor bedroom terraces for privacy</li><li>• Layered architectural massing defining an impressive yet welcoming private arrival court</li>
+              </ul>
+            </div>
           </div>
 
           <div>
@@ -1665,7 +1891,7 @@ const htmlContent = `<!DOCTYPE html>
             <img src="${extHero}" alt="Exterior Facade Hero" class="img-fill">
             <div class="img-caption">Main Approach Elevation · Daylight Study</div>
           </div>
-          <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 6px; height: 42mm;">
+          <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 6px; height: 50mm;">
             <div class="img-frame">
               <img src="${ext1}" alt="Entry Porch" class="img-fill">
               <div class="img-caption">Entry Porch</div>
@@ -1714,7 +1940,20 @@ const htmlContent = `<!DOCTYPE html>
             </p>
             <p class="editorial-body">
               Concealed handle profiles, anti-fingerprint matte acrylic surfaces, and stain-resistant quartz countertops ensure timeless aesthetic purity paired with effortless day-to-day resilience.
-            </p>
+            
+            <div class="material-strip">
+              <div class="fact-label">Materiality &amp; Architectural Finishes</div>
+              <div class="chip-row">
+                <span class="mat-chip">Ultra-Matte Acrylic</span><span class="mat-chip">Natural Oak Veneer</span><span class="mat-chip">Calacatta Quartz Slabs</span><span class="mat-chip">Brushed Brass Mixer</span><span class="mat-chip">Blum Blumotion Slides</span><span class="mat-chip">Fluted Tile</span>
+              </div>
+            </div>
+
+            <div class="highlights-box">
+              <div class="fact-label">Spatial &amp; Technical Highlights</div>
+              <ul class="highlight-list">
+                <li>• Ergonomic kitchen working triangle optimizing distances between prep, cooking, and refrigeration</li><li>• Continuous quartz waterfall island with flush undermount sink and integrated breakfast seating</li><li>• Handleless push-to-open upper cabinets with integrated warm under-cabinet task LED strips</li>
+              </ul>
+            </div>
           </div>
 
           <div>
@@ -1749,7 +1988,7 @@ const htmlContent = `<!DOCTYPE html>
             <img src="${kitD1_1}" alt="Kitchen Design 01 Hero" class="img-fill">
             <div class="img-caption">Kitchen Elevation &amp; Quartz Breakfast Island</div>
           </div>
-          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; height: 48mm;">
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; height: 56mm;">
             <div class="img-frame">
               <img src="${kitD1_2}" alt="Kitchen Design 01 Detail 1" class="img-fill">
               <div class="img-caption">Pantry Storage &amp; Fluted Joinery Detail</div>
@@ -1790,7 +2029,20 @@ const htmlContent = `<!DOCTYPE html>
             </p>
             <p class="editorial-body">
               Flush-integrated high-end appliances remain hidden behind full-height smoked oak panels, preserving the pristine architectural massing while delivering uncompromising professional kitchen performance.
-            </p>
+            
+            <div class="material-strip">
+              <div class="fact-label">Materiality &amp; Architectural Finishes</div>
+              <div class="chip-row">
+                <span class="mat-chip">Charcoal Fluted Laminate</span><span class="mat-chip">Stainless Steel Backsplash</span><span class="mat-chip">Silestone Countertop</span><span class="mat-chip">Smoked Glass Cabinets</span><span class="mat-chip">Recessed Channel LED</span><span class="mat-chip">Matte Black</span>
+              </div>
+            </div>
+
+            <div class="highlights-box">
+              <div class="fact-label">Spatial &amp; Technical Highlights</div>
+              <ul class="highlight-list">
+                <li>• High-capacity full-height pantry towers with internal pull-out tandem storage baskets</li><li>• Under-cabinet 3000K warm task lighting completely eliminating worktop shadow zones</li><li>• Central prep island housing flush induction cooktop and downdraft ventilation unit</li>
+              </ul>
+            </div>
           </div>
 
           <div>
@@ -1825,7 +2077,7 @@ const htmlContent = `<!DOCTYPE html>
             <img src="${kitD2_1}" alt="Kitchen Design 02 Hero" class="img-fill">
             <div class="img-caption">Monolithic Waterfall Island &amp; Smoked Wood Accents</div>
           </div>
-          <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 6px; height: 44mm;">
+          <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 6px; height: 52mm;">
             <div class="img-frame">
               <img src="${kitD2_2}" alt="Kitchen Design 02 Detail 1" class="img-fill">
               <div class="img-caption">Breakfast Bar Counter</div>
@@ -1870,7 +2122,20 @@ const htmlContent = `<!DOCTYPE html>
             </p>
             <p class="editorial-body">
               Warm contemporary timber laminates, anti-glare under-cabinet LED task profiles, and textured stone backsplashes create an intimate, tactile cooking atmosphere tailored for passionate home chefs.
-            </p>
+            
+            <div class="material-strip">
+              <div class="fact-label">Materiality &amp; Architectural Finishes</div>
+              <div class="chip-row">
+                <span class="mat-chip">Bleached Birch Plywood</span><span class="mat-chip">Fluted Ceramic Subway Tiles</span><span class="mat-chip">Terrazzo Worktops</span><span class="mat-chip">Matte Black Fixtures</span><span class="mat-chip">Integrated Herb Planters</span><span class="mat-chip">Natural Rattan</span>
+              </div>
+            </div>
+
+            <div class="highlights-box">
+              <div class="fact-label">Spatial &amp; Technical Highlights</div>
+              <ul class="highlight-list">
+                <li>• Open timber floating shelves displaying curated tableware with concealed recessed groove lights</li><li>• Vertical stacked ceramic subway tile splashback sealed with waterproof epoxy grout</li><li>• Concealed countertop appliance garage equipped with bi-fold retracting pocket doors</li>
+              </ul>
+            </div>
           </div>
 
           <div>
@@ -1905,7 +2170,7 @@ const htmlContent = `<!DOCTYPE html>
             <img src="${kitD3_1}" alt="Kitchen Design 03 Hero" class="img-fill">
             <div class="img-caption">Contemporary Parallel Kitchen &amp; Storage Efficiency</div>
           </div>
-          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; height: 48mm;">
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; height: 56mm;">
             <div class="img-frame">
               <img src="${kitD3_2}" alt="Kitchen Design 03 Detail 1" class="img-fill">
               <div class="img-caption">Backsplash Tile &amp; Linear Task Light</div>
@@ -1946,7 +2211,20 @@ const htmlContent = `<!DOCTYPE html>
             </p>
             <p class="editorial-body">
               Every millimeter is optimized with corner carousel pull-outs, integrated spice racks, overhead lift-up Blum Aventos bi-fold cabinets, and sleek undermount appliances.
-            </p>
+            
+            <div class="material-strip">
+              <div class="fact-label">Materiality &amp; Architectural Finishes</div>
+              <div class="chip-row">
+                <span class="mat-chip">Blackened Steel Framing</span><span class="mat-chip">Distressed Brick Veneer</span><span class="mat-chip">Concrete Quartz Slab</span><span class="mat-chip">Reclaimed Elm Timber</span><span class="mat-chip">Edison Filament Pendants</span><span class="mat-chip">Brass Mesh</span>
+              </div>
+            </div>
+
+            <div class="highlights-box">
+              <div class="fact-label">Spatial &amp; Technical Highlights</div>
+              <ul class="highlight-list">
+                <li>• Ceiling-suspended architectural steel gantry storing stemware and bar accessories</li><li>• Heavy-duty prep island integrating under-counter beverage cooler and double pull-out waste bins</li><li>• Commercial-grade high-arc pull-down sprayer faucet over deep stainless steel basin</li>
+              </ul>
+            </div>
           </div>
 
           <div>
@@ -1981,7 +2259,7 @@ const htmlContent = `<!DOCTYPE html>
             <img src="${kitD4_1}" alt="Kitchen Design 04 Hero" class="img-fill">
             <div class="img-caption">Compact Modular Kitchen &amp; Clean Modern Geometry</div>
           </div>
-          <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 6px; height: 44mm;">
+          <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 6px; height: 52mm;">
             <div class="img-frame">
               <img src="${kitD4_2}" alt="Kitchen Design 04 Detail 1" class="img-fill">
               <div class="img-caption">Tall Storage Unit &amp; Oven Tower</div>
@@ -2026,7 +2304,20 @@ const htmlContent = `<!DOCTYPE html>
             </p>
             <p class="editorial-body">
               Warm fluted oak paneling, integrated media joinery, tactile linen upholstery, and recessed cove lighting create a calming, grounded ambiance that effortlessly counters the fast pace of modern life.
-            </p>
+            
+            <div class="material-strip">
+              <div class="fact-label">Materiality &amp; Architectural Finishes</div>
+              <div class="chip-row">
+                <span class="mat-chip">Bookmatched Statuario Marble</span><span class="mat-chip">Charcoal Acoustic Battens</span><span class="mat-chip">Top-Grain Italian Leather</span><span class="mat-chip">Brushed Brass Reveals</span><span class="mat-chip">Motorized Velvet Drapes</span>
+              </div>
+            </div>
+
+            <div class="highlights-box">
+              <div class="fact-label">Spatial &amp; Technical Highlights</div>
+              <ul class="highlight-list">
+                <li>• Monumental two-story bookmatched marble feature wall housing a flush linear ethanol fireplace</li><li>• Custom floating media console with acoustic fabric doors concealing AV components</li><li>• Spectacular multi-tier sculptural ring chandelier suspended through the double-height void</li>
+              </ul>
+            </div>
           </div>
 
           <div>
@@ -2061,7 +2352,7 @@ const htmlContent = `<!DOCTYPE html>
             <img src="${livD1_1}" alt="Living Design 01 Hero" class="img-fill">
             <div class="img-caption">Double-Height Living Void &amp; Feature Media Paneling</div>
           </div>
-          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; height: 48mm;">
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; height: 56mm;">
             <div class="img-frame">
               <img src="${livD1_2}" alt="Living Design 01 Detail 1" class="img-fill">
               <div class="img-caption">Lounge Seating &amp; Coffee Table Arrangement</div>
@@ -2102,7 +2393,20 @@ const htmlContent = `<!DOCTYPE html>
             </p>
             <p class="editorial-body">
               Deep natural teak textures absorb sound reverberation while providing seamless concealed storage for audiovisual hardware, resulting in an uncluttered aesthetic of quiet elegance.
-            </p>
+            
+            <div class="material-strip">
+              <div class="fact-label">Materiality &amp; Architectural Finishes</div>
+              <div class="chip-row">
+                <span class="mat-chip">Slatted American Walnut</span><span class="mat-chip">Textured Cream Bouclé</span><span class="mat-chip">Honed Travertine Coffee Tables</span><span class="mat-chip">Recessed Wall Sconces</span><span class="mat-chip">Wool-Silk Area Rug</span>
+              </div>
+            </div>
+
+            <div class="highlights-box">
+              <div class="fact-label">Spatial &amp; Technical Highlights</div>
+              <ul class="highlight-list">
+                <li>• Full-perimeter vertical walnut acoustic paneling cultivating sound dampening and intimacy</li><li>• Deep-seated modular sectional sofa layout configured for effortless conversational flow</li><li>• Integrated display niches finished in brushed bronze with dimmable perimeter warm wash</li>
+              </ul>
+            </div>
           </div>
 
           <div>
@@ -2137,7 +2441,7 @@ const htmlContent = `<!DOCTYPE html>
             <img src="${livD2_1}" alt="Living Design 02 Hero" class="img-fill">
             <div class="img-caption">Tactile Wood Paneling &amp; Floating Media Console Hero</div>
           </div>
-          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; height: 48mm; min-height: 0;">
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; height: 56mm; min-height: 0;">
             <div class="img-frame" style="min-height: 0;">
               <img src="${livD2_2}" alt="Living Design 02 Detail 1" class="img-fill">
               <div class="img-caption">Textured Wall Paneling Detail &amp; Side Sconce</div>
@@ -2178,7 +2482,20 @@ const htmlContent = `<!DOCTYPE html>
             </p>
             <p class="editorial-body">
               A bespoke open bookcase unit defines spatial boundaries without solid walls, enriched by warm directional brass sconces and recessed ceiling channels for atmospheric evening hosting.
-            </p>
+            
+            <div class="material-strip">
+              <div class="fact-label">Materiality &amp; Architectural Finishes</div>
+              <div class="chip-row">
+                <span class="mat-chip">Micro-Ribbed Wall Panels</span><span class="mat-chip">Polished Botticino Marble</span><span class="mat-chip">Brushed Bronze Accents</span><span class="mat-chip">Sheer Motorized Blinds</span><span class="mat-chip">Smoked Walnut Credenza</span>
+              </div>
+            </div>
+
+            <div class="highlights-box">
+              <div class="fact-label">Spatial &amp; Technical Highlights</div>
+              <ul class="highlight-list">
+                <li>• Curved architectural drop ceiling bulkhead with concealed 2700K perimeter LED ribbon</li><li>• Symmetrical twin spherical wall sconces framing the primary artwork and floating console</li><li>• Continuous visual and material alignment guiding movement from living lounge toward dining</li>
+              </ul>
+            </div>
           </div>
 
           <div>
@@ -2213,7 +2530,7 @@ const htmlContent = `<!DOCTYPE html>
             <img src="${livD3_1}" alt="Living Design 03 Hero" class="img-fill">
             <div class="img-caption">Contemporary Lounge Composition &amp; Open Spatial Flow</div>
           </div>
-          <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 6px; height: 44mm;">
+          <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 6px; height: 52mm;">
             <div class="img-frame">
               <img src="${livD3_2}" alt="Living Design 03 Detail 1" class="img-fill">
               <div class="img-caption">Accent Sconce &amp; Bookcase</div>
@@ -2257,7 +2574,20 @@ const htmlContent = `<!DOCTYPE html>
             </p>
             <p class="editorial-body">
               A bespoke solid timber dining table is flanked by custom upholstered chairs, anchored overhead by a sculptural linear light fixture that emphasizes intimacy without cluttering vertical air space.
-            </p>
+            
+            <div class="material-strip">
+              <div class="fact-label">Materiality &amp; Architectural Finishes</div>
+              <div class="chip-row">
+                <span class="mat-chip">Solid American Walnut</span><span class="mat-chip">Fluted Glass Buffet Doors</span><span class="mat-chip">Smoked Bronze Mirror</span><span class="mat-chip">Brushed Brass Chandelier</span><span class="mat-chip">Nubuck Leather Dining Chairs</span>
+              </div>
+            </div>
+
+            <div class="highlights-box">
+              <div class="fact-label">Spatial &amp; Technical Highlights</div>
+              <ul class="highlight-list">
+                <li>• 8-seater monolithic solid timber dining table crafted for grand family hospitality</li><li>• Bespoke sideboard buffet credenza featuring fluted glass doors and Calacatta marble counter</li><li>• Low-glare architectural pendant luminaire positioned at precise 75cm table datum</li>
+              </ul>
+            </div>
           </div>
 
           <div>
@@ -2333,7 +2663,20 @@ const htmlContent = `<!DOCTYPE html>
             </p>
             <p class="editorial-body">
               A sculptural freestanding soaking bathtub is centered between twin panoramic picture windows framing lush exterior treetops. Bookmatched Calacatta marble wall paneling with an illuminated recessed niche anchors the space, harmonized with fluted white millwork, dark stone flooring, and warm concealed cove illumination.
-            </p>
+            
+            <div class="material-strip">
+              <div class="fact-label">Materiality &amp; Architectural Finishes</div>
+              <div class="chip-row">
+                <span class="mat-chip">Honed Silver Travertine</span><span class="mat-chip">Cast Mineral Soaking Tub</span><span class="mat-chip">Matte Black In-Wall Taps</span><span class="mat-chip">Fluted Natural Oak Vanity</span><span class="mat-chip">Frameless Starphire Glass</span>
+              </div>
+            </div>
+
+            <div class="highlights-box">
+              <div class="fact-label">Spatial &amp; Technical Highlights</div>
+              <ul class="highlight-list">
+                <li>• Freestanding sculptural oval soaking tub positioned against full-height lush garden glazing</li><li>• Curbless walk-in shower suite featuring ceiling-recessed rainhead and linear slot drain</li><li>• Double vanity unit with undermount vitreous china basins and heated anti-fog LED mirror</li>
+              </ul>
+            </div>
           </div>
 
           <div>
@@ -2408,7 +2751,20 @@ const htmlContent = `<!DOCTYPE html>
             </p>
             <p class="editorial-body">
               Floating stone vanities, ambient halo-lit mirrors, and brushed gunmetal brassware create elegant architectural vignettes. Recessed LED lighting grazes stone textures, eliminating glare while enhancing sensory depth.
-            </p>
+            
+            <div class="material-strip">
+              <div class="fact-label">Materiality &amp; Architectural Finishes</div>
+              <div class="chip-row">
+                <span class="mat-chip">Verde Alpi Green Marble</span><span class="mat-chip">Wall-Hung Concealed WC</span><span class="mat-chip">Brushed Gold Monobloc Faucet</span><span class="mat-chip">Terrazzo Mosaic Floor</span><span class="mat-chip">Backlit Fluted Mirror</span>
+              </div>
+            </div>
+
+            <div class="highlights-box">
+              <div class="fact-label">Spatial &amp; Technical Highlights</div>
+              <ul class="highlight-list">
+                <li>• Monolithic custom washbasin carved from a single solid block of Verde Alpi marble</li><li>• Concealed in-wall plumbing cistern with brushed brass dual-flush architectural faceplate</li><li>• Vertical shadowline perimeter lighting washing textured wallpaper with dramatic accent graze</li>
+              </ul>
+            </div>
           </div>
 
           <div>
@@ -2484,7 +2840,20 @@ const htmlContent = `<!DOCTYPE html>
             </p>
             <p class="editorial-body">
               A bespoke 14-seat monolithic conference table featuring an Italian marble inset slab is equipped with flush-integrated gooseneck conference microphones and concealed cable raceways. Smoked walnut millwork with fluted acoustic paneling conceals AV infrastructure while framing an ultra-high-definition presentation screen and open curated display shelving. Warm cove perimeter lighting and herringbone parquet flooring cultivate an authoritative yet welcoming environment.
-            </p>
+            
+            <div class="material-strip">
+              <div class="fact-label">Materiality &amp; Architectural Finishes</div>
+              <div class="chip-row">
+                <span class="mat-chip">Bookmatched Marquina Marble</span><span class="mat-chip">Slatted Smoked Walnut Battens</span><span class="mat-chip">Top-Grain Conference Leather</span><span class="mat-chip">Herringbone Walnut Parquet</span><span class="mat-chip">Bronze AV Trims</span>
+              </div>
+            </div>
+
+            <div class="highlights-box">
+              <div class="fact-label">Spatial &amp; Technical Highlights</div>
+              <ul class="highlight-list">
+                <li>• 14-seat boardroom table with flush motorized connectivity boxes and integrated boundary mics</li><li>• Ultra-wide 4K presentation display seamlessly framed by acoustic walnut wall battens</li><li>• Multi-layer acoustic ceiling baffle assembly achieving optimal RT60 reverberation control</li>
+              </ul>
+            </div>
           </div>
 
           <div>
@@ -2548,7 +2917,20 @@ const htmlContent = `<!DOCTYPE html>
             </p>
             <p class="editorial-body">
               This perspective sketch explores the architectural massing of a contemporary two-story villa: cantilevered upper suites, deep solar shading overhangs, expansive ground-level glazing, and integrated poolside terraces. This conceptual vision directly informs the dimensioned floor plans, structural sections, and bespoke joinery packages that follow.
-            </p>
+            
+            <div class="material-strip">
+              <div class="fact-label">Materiality &amp; Architectural Finishes</div>
+              <div class="chip-row">
+                <span class="mat-chip">Hand-Drawn Perspective Drafting</span><span class="mat-chip">Prismacolor Architectural Markers</span><span class="mat-chip">Technical Fineliner Ink</span><span class="mat-chip">Isometric Volume Grids</span><span class="mat-chip">Drafting Vellum</span>
+              </div>
+            </div>
+
+            <div class="highlights-box">
+              <div class="fact-label">Spatial &amp; Technical Highlights</div>
+              <ul class="highlight-list">
+                <li>• Early volumetric concept sketch studying sun angles and overhang depths for tropical climate</li><li>• Exploration of cantilevered terraces, water reflection basins, and arrival threshold hierarchy</li><li>• Tactile material delineation tested freehand before advancing into parametric CAD & 3D</li>
+              </ul>
+            </div>
           </div>
 
           <div>
